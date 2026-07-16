@@ -1,0 +1,18 @@
+{
+  "schema": "periodic-cutter-history-provenance/v1",
+  "source_path": "source_ref:ouyang_mean_preserved_fluctuation_x1_60s.csv",
+  "source_sha256": "699db23ca54c5c726f5c645a726d9e52bf691b3c782536f43b77ddb9670f3621",
+  "output_path": "source_ref:cutter_x1_periodic_600s.csv",
+  "output_sha256": "ec0f7481bd637d5776344351ff92c7a41a23d5e37e3b92bf7bec1caf742a0cee",
+  "period_s": 4.0,
+  "dt_s": 0.009999999999999787,
+  "run_end_s": 600.0,
+  "sample_count": 60001,
+  "periodicity_max_abs_difference": {
+    "Fx_local": 0.0,
+    "Fy_local": 0.0,
+    "Fz_local": 0.0
+  },
+  "case_id": "run_x1",
+  "impact_multiplier": 1.0
+}

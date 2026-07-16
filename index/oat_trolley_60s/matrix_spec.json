@@ -1,0 +1,17 @@
+{
+  "records": [
+    {
+      "path": "raw/oat_trolley_60s/matrix_spec.json",
+      "role": "raw_input_json",
+      "source_id": "oat_trolley_60s_matrix_spec",
+      "source_bytes": 5155,
+      "source_sha256": "093872f4c7113dcfc4dcdbdff55376b460b660ad08df846bd8940c90e7443638",
+      "exported_bytes": 4886,
+      "exported_sha256": "10922f1d639a6a880506bd7f0a6321c00852ceb24eacb24a7b5d57fe1722db57",
+      "transport_changes": [
+        "absolute_paths_replaced_with_source_refs"
+      ],
+      "chunks": []
+    }
+  ]
+}

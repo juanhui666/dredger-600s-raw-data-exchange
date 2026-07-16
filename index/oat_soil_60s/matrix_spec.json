@@ -1,0 +1,17 @@
+{
+  "records": [
+    {
+      "path": "raw/oat_soil_60s/matrix_spec.json",
+      "role": "raw_input_json",
+      "source_id": "oat_soil_60s_matrix_spec",
+      "source_bytes": 3099,
+      "source_sha256": "8772ebc96fcddcb3f54bb998c42e5ac6950eda23ee7727885c4cddd466c18ba1",
+      "exported_bytes": 2910,
+      "exported_sha256": "d78b9eaf066c4cc87a015c386b3071825ea91040d79ec55e7b4b12861e592697",
+      "transport_changes": [
+        "absolute_paths_replaced_with_source_refs"
+      ],
+      "chunks": []
+    }
+  ]
+}

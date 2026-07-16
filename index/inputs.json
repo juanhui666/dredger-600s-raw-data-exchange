@@ -1,0 +1,713 @@
+{
+  "records": [
+    {
+      "path": "raw/inputs/aqwa/hull_cog_env_body_load.csv",
+      "role": "raw_external_load_input",
+      "source_id": "aqwa_hull_body_load_600s",
+      "source_bytes": 247872,
+      "source_sha256": "b62a8e9785b0715255b9b87bae0d9ecd9398d9964676e41c30a29abbc3ea3905",
+      "exported_bytes": 247872,
+      "exported_sha256": "b62a8e9785b0715255b9b87bae0d9ecd9398d9964676e41c30a29abbc3ea3905",
+      "bytes": 247872,
+      "sha256": "b62a8e9785b0715255b9b87bae0d9ecd9398d9964676e41c30a29abbc3ea3905",
+      "transport_changes": [],
+      "columns": [
+        "time",
+        "Fx",
+        "Fy",
+        "Fz",
+        "Mx",
+        "My",
+        "Mz"
+      ],
+      "row_count": 3001,
+      "chunks": [
+        {
+          "path": "chunks/inputs/aqwa/hull_cog_env_body_load/part_001.csv",
+          "data_row_start": 0,
+          "data_row_end_exclusive": 851,
+          "row_count": 851,
+          "first_column_start": "0.0",
+          "first_column_end": "170.0",
+          "bytes": 69963,
+          "sha256": "dd52dca60ad5b3da4224db57f75902dc6972bb2a8e27c33da0baa696a5de112e"
+        },
+        {
+          "path": "chunks/inputs/aqwa/hull_cog_env_body_load/part_002.csv",
+          "data_row_start": 851,
+          "data_row_end_exclusive": 1697,
+          "row_count": 846,
+          "first_column_start": "170.2",
+          "first_column_end": "339.2",
+          "bytes": 69959,
+          "sha256": "92722802fc0db931495d95631d05bf427c685ede2b5f5eae68e1b189e70387ca"
+        },
+        {
+          "path": "chunks/inputs/aqwa/hull_cog_env_body_load/part_003.csv",
+          "data_row_start": 1697,
+          "data_row_end_exclusive": 2543,
+          "row_count": 846,
+          "first_column_start": "339.4",
+          "first_column_end": "508.4",
+          "bytes": 69930,
+          "sha256": "70c4186f6b28840ee6ef0f7c0bfdfb42f2c00f1708f14f19652b1b9dce2091e5"
+        },
+        {
+          "path": "chunks/inputs/aqwa/hull_cog_env_body_load/part_004.csv",
+          "data_row_start": 2543,
+          "data_row_end_exclusive": 3001,
+          "row_count": 458,
+          "first_column_start": "508.6",
+          "first_column_end": "600.0",
+          "bytes": 38092,
+          "sha256": "2c5e302bac7434dd8ddd80ebbc046e509a63d8dd92357bf7738b8ee61d86d6c8"
+        }
+      ]
+    },
+    {
+      "path": "raw/inputs/aqwa/bridge_cog_env_body_load.csv",
+      "role": "raw_external_load_input",
+      "source_id": "aqwa_bridge_body_load_600s",
+      "source_bytes": 241054,
+      "source_sha256": "0664769ab579b44776f2826b28d11dadc71b0fd2811a8c9730c0d59a0baf2131",
+      "exported_bytes": 241054,
+      "exported_sha256": "0664769ab579b44776f2826b28d11dadc71b0fd2811a8c9730c0d59a0baf2131",
+      "bytes": 241054,
+      "sha256": "0664769ab579b44776f2826b28d11dadc71b0fd2811a8c9730c0d59a0baf2131",
+      "transport_changes": [],
+      "columns": [
+        "time",
+        "Fx",
+        "Fy",
+        "Fz",
+        "Mx",
+        "My",
+        "Mz"
+      ],
+      "row_count": 3001,
+      "chunks": [
+        {
+          "path": "chunks/inputs/aqwa/bridge_cog_env_body_load/part_001.csv",
+          "data_row_start": 0,
+          "data_row_end_exclusive": 863,
+          "row_count": 863,
+          "first_column_start": "0.0",
+          "first_column_end": "172.4",
+          "bytes": 69943,
+          "sha256": "3dd2c5de89dd31c525696ceb695bbc76ef6e13f25f1a153a095945435b061137"
+        },
+        {
+          "path": "chunks/inputs/aqwa/bridge_cog_env_body_load/part_002.csv",
+          "data_row_start": 863,
+          "data_row_end_exclusive": 1731,
+          "row_count": 868,
+          "first_column_start": "172.6",
+          "first_column_end": "346.0",
+          "bytes": 69928,
+          "sha256": "829bca7cd6c0dacd22128a34115edb6af7fa73745bcb0619fea7e9f63c859c11"
+        },
+        {
+          "path": "chunks/inputs/aqwa/bridge_cog_env_body_load/part_003.csv",
+          "data_row_start": 1731,
+          "data_row_end_exclusive": 2614,
+          "row_count": 883,
+          "first_column_start": "346.2",
+          "first_column_end": "522.6",
+          "bytes": 69987,
+          "sha256": "e95cea665ecee378046a0223efb06f8dd64a24c6d8ab589ca4822f8f5a78261d"
+        },
+        {
+          "path": "chunks/inputs/aqwa/bridge_cog_env_body_load/part_004.csv",
+          "data_row_start": 2614,
+          "data_row_end_exclusive": 3001,
+          "row_count": 387,
+          "first_column_start": "522.8",
+          "first_column_end": "600.0",
+          "bytes": 31268,
+          "sha256": "e5ab5250c7be8d4602129771b99e77a198c40c7a1ed750854c3bb5cdf10a3786"
+        }
+      ]
+    },
+    {
+      "path": "raw/inputs/aqwa/spud_cog_env_body_load.csv",
+      "role": "raw_external_load_input",
+      "source_id": "aqwa_spud_body_load_600s",
+      "source_bytes": 255382,
+      "source_sha256": "23350675b6fee901d69dd882534ec1fe2b3b4a5f7b2d2480952bce591b709f17",
+      "exported_bytes": 255382,
+      "exported_sha256": "23350675b6fee901d69dd882534ec1fe2b3b4a5f7b2d2480952bce591b709f17",
+      "bytes": 255382,
+      "sha256": "23350675b6fee901d69dd882534ec1fe2b3b4a5f7b2d2480952bce591b709f17",
+      "transport_changes": [],
+      "columns": [
+        "time",
+        "Fx",
+        "Fy",
+        "Fz",
+        "Mx",
+        "My",
+        "Mz"
+      ],
+      "row_count": 3001,
+      "chunks": [
+        {
+          "path": "chunks/inputs/aqwa/spud_cog_env_body_load/part_001.csv",
+          "data_row_start": 0,
+          "data_row_end_exclusive": 871,
+          "row_count": 871,
+          "first_column_start": "0.0",
+          "first_column_end": "174.0",
+          "bytes": 69992,
+          "sha256": "c1527b69e6d6849e35bb3a5c25db82aef338f81c4b438c9048d5616732adaea2"
+        },
+        {
+          "path": "chunks/inputs/aqwa/spud_cog_env_body_load/part_002.csv",
+          "data_row_start": 871,
+          "data_row_end_exclusive": 1688,
+          "row_count": 817,
+          "first_column_start": "174.2",
+          "first_column_end": "337.4",
+          "bytes": 69980,
+          "sha256": "748479fadc198fac7ae7f159b4080547858599ea049651c006dc877d91551dd5"
+        },
+        {
+          "path": "chunks/inputs/aqwa/spud_cog_env_body_load/part_003.csv",
+          "data_row_start": 1688,
+          "data_row_end_exclusive": 2485,
+          "row_count": 797,
+          "first_column_start": "337.6",
+          "first_column_end": "496.8",
+          "bytes": 69969,
+          "sha256": "6169d246c48e056ca8113f923e2925f3185f5ba06b265f923489792d54ecb624"
+        },
+        {
+          "path": "chunks/inputs/aqwa/spud_cog_env_body_load/part_004.csv",
+          "data_row_start": 2485,
+          "data_row_end_exclusive": 3001,
+          "row_count": 516,
+          "first_column_start": "497.0",
+          "first_column_end": "600.0",
+          "bytes": 45513,
+          "sha256": "90d4a6d183014a6397e8dfe8a771ea8cec21c9fcff20dca914c20746075306a5"
+        }
+      ]
+    },
+    {
+      "path": "raw/inputs/aqwa/body_load_profile.json",
+      "role": "raw_input_json",
+      "source_id": "aqwa_body_load_profile_600s",
+      "source_bytes": 6458,
+      "source_sha256": "eda84be83331f8a4bedbfbec5661ceeb3a9e8e898beac5515939a4757b891e15",
+      "exported_bytes": 5826,
+      "exported_sha256": "9d754b2a600ae61fb305f0cda1947ff17f17703f92bd0b508d42b17da22dfa14",
+      "transport_changes": [
+        "absolute_paths_replaced_with_source_refs"
+      ],
+      "chunks": []
+    },
+    {
+      "path": "raw/inputs/cutter/cutter_load_600s.csv",
+      "role": "raw_external_load_input",
+      "source_id": "cutter_load_input_600s",
+      "source_bytes": 3229087,
+      "source_sha256": "ec0f7481bd637d5776344351ff92c7a41a23d5e37e3b92bf7bec1caf742a0cee",
+      "exported_bytes": 3229087,
+      "exported_sha256": "ec0f7481bd637d5776344351ff92c7a41a23d5e37e3b92bf7bec1caf742a0cee",
+      "bytes": 3229087,
+      "sha256": "ec0f7481bd637d5776344351ff92c7a41a23d5e37e3b92bf7bec1caf742a0cee",
+      "transport_changes": [],
+      "columns": [
+        "time",
+        "Fx_local",
+        "Fy_local",
+        "Fz_local"
+      ],
+      "row_count": 60001,
+      "chunks": [
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_001.csv",
+          "data_row_start": 0,
+          "data_row_end_exclusive": 1339,
+          "row_count": 1339,
+          "first_column_start": "0.000000",
+          "first_column_end": "13.380000",
+          "bytes": 70000,
+          "sha256": "c22a28b604017ceec8fcb2b6b3f8dd314c6f66ac62633aeba29fbafb30c77074"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_002.csv",
+          "data_row_start": 1339,
+          "data_row_end_exclusive": 2659,
+          "row_count": 1320,
+          "first_column_start": "13.390000",
+          "first_column_end": "26.580000",
+          "bytes": 69993,
+          "sha256": "174d402fe94c0c107032092c9d18537955aad3fc871120d10b3f0bda5a92bc60"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_003.csv",
+          "data_row_start": 2659,
+          "data_row_end_exclusive": 3979,
+          "row_count": 1320,
+          "first_column_start": "26.590000",
+          "first_column_end": "39.780000",
+          "bytes": 69993,
+          "sha256": "47b227733c460584635a8210aef20e234d9ffda8d83a177f3bb3f9899765c268"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_004.csv",
+          "data_row_start": 3979,
+          "data_row_end_exclusive": 5299,
+          "row_count": 1320,
+          "first_column_start": "39.790000",
+          "first_column_end": "52.980000",
+          "bytes": 69993,
+          "sha256": "fad253fda7f6d4f7dbc7e6b7351440ae1437754429d59b09b079d5b272841698"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_005.csv",
+          "data_row_start": 5299,
+          "data_row_end_exclusive": 6619,
+          "row_count": 1320,
+          "first_column_start": "52.990000",
+          "first_column_end": "66.180000",
+          "bytes": 69993,
+          "sha256": "2f28df959778167d905629a3a58cbb4676b0b3abce7d49362d7b7e35935ac256"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_006.csv",
+          "data_row_start": 6619,
+          "data_row_end_exclusive": 7939,
+          "row_count": 1320,
+          "first_column_start": "66.190000",
+          "first_column_end": "79.380000",
+          "bytes": 69993,
+          "sha256": "acf35edb6e25bc64f14570072059352c0dc27f2166889b87ae813a48905f7969"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_007.csv",
+          "data_row_start": 7939,
+          "data_row_end_exclusive": 9259,
+          "row_count": 1320,
+          "first_column_start": "79.390000",
+          "first_column_end": "92.580000",
+          "bytes": 69993,
+          "sha256": "06ed3a1ffd084ff6b51e62f52c00ddc096d764977d42fd4fa03f79cfda1ff451"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_008.csv",
+          "data_row_start": 9259,
+          "data_row_end_exclusive": 10568,
+          "row_count": 1309,
+          "first_column_start": "92.590000",
+          "first_column_end": "105.670000",
+          "bytes": 69978,
+          "sha256": "1e3d82931d5eff2f05a8ef0fec7566e4e6458b74cbd2a503782140bea242b98a"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_009.csv",
+          "data_row_start": 10568,
+          "data_row_end_exclusive": 11863,
+          "row_count": 1295,
+          "first_column_start": "105.680000",
+          "first_column_end": "118.620000",
+          "bytes": 69963,
+          "sha256": "f35c9c1a6ba13994eeaf55f9b2cf5eed7e967508439659e6fea50314954f9127"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_010.csv",
+          "data_row_start": 11863,
+          "data_row_end_exclusive": 13158,
+          "row_count": 1295,
+          "first_column_start": "118.630000",
+          "first_column_end": "131.570000",
+          "bytes": 69963,
+          "sha256": "390bfb6f8a74c09f333eac8b453326babf9e118265aa9d6326c330b9523fa678"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_011.csv",
+          "data_row_start": 13158,
+          "data_row_end_exclusive": 14453,
+          "row_count": 1295,
+          "first_column_start": "131.580000",
+          "first_column_end": "144.520000",
+          "bytes": 69963,
+          "sha256": "d0562cb8f1b8a60dd151aaae411e59d9637e9bd33840922cdbbee84e4a55aea1"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_012.csv",
+          "data_row_start": 14453,
+          "data_row_end_exclusive": 15748,
+          "row_count": 1295,
+          "first_column_start": "144.530000",
+          "first_column_end": "157.470000",
+          "bytes": 69963,
+          "sha256": "2d0029233598699c83f96b58f072500f7b3115a86ec0abf5dc020696bd49501e"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_013.csv",
+          "data_row_start": 15748,
+          "data_row_end_exclusive": 17043,
+          "row_count": 1295,
+          "first_column_start": "157.480000",
+          "first_column_end": "170.420000",
+          "bytes": 69963,
+          "sha256": "daebdd3fc364a8aebb3bec752ae3b93f98c42e7e805b14d911aa07b37f31f3d9"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_014.csv",
+          "data_row_start": 17043,
+          "data_row_end_exclusive": 18338,
+          "row_count": 1295,
+          "first_column_start": "170.430000",
+          "first_column_end": "183.370000",
+          "bytes": 69963,
+          "sha256": "2350571e1e3908f5ffaa64217d4599c1c3401787df9ab7bb8fbc345c505a2a1a"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_015.csv",
+          "data_row_start": 18338,
+          "data_row_end_exclusive": 19633,
+          "row_count": 1295,
+          "first_column_start": "183.380000",
+          "first_column_end": "196.320000",
+          "bytes": 69963,
+          "sha256": "4b72808bb24e20cc5ead41044ad3651ad23fa5bb7109e79a9a2c0a9009cb3a42"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_016.csv",
+          "data_row_start": 19633,
+          "data_row_end_exclusive": 20928,
+          "row_count": 1295,
+          "first_column_start": "196.330000",
+          "first_column_end": "209.270000",
+          "bytes": 69963,
+          "sha256": "ae8672bec2727d80c9d51c19789703f6113c84f4bc2166460e346671a793f90c"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_017.csv",
+          "data_row_start": 20928,
+          "data_row_end_exclusive": 22223,
+          "row_count": 1295,
+          "first_column_start": "209.280000",
+          "first_column_end": "222.220000",
+          "bytes": 69963,
+          "sha256": "e918dcbae4089d7f21e967fad16ed6a92b4da5430a11f6ccc4980bf986590b49"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_018.csv",
+          "data_row_start": 22223,
+          "data_row_end_exclusive": 23518,
+          "row_count": 1295,
+          "first_column_start": "222.230000",
+          "first_column_end": "235.170000",
+          "bytes": 69963,
+          "sha256": "a7590dfc122e5174780b7b9a0925b609300af64d334b65711aa8de5a4c80b282"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_019.csv",
+          "data_row_start": 23518,
+          "data_row_end_exclusive": 24813,
+          "row_count": 1295,
+          "first_column_start": "235.180000",
+          "first_column_end": "248.120000",
+          "bytes": 69963,
+          "sha256": "30d6e7cbc35e9845bdc343e8c672caac65fae72fb7c3cf52dccc9d8ada45a7ca"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_020.csv",
+          "data_row_start": 24813,
+          "data_row_end_exclusive": 26108,
+          "row_count": 1295,
+          "first_column_start": "248.130000",
+          "first_column_end": "261.070000",
+          "bytes": 69963,
+          "sha256": "c9b9e3f2365e00da4faec83b6ae80ab28baa80eeb1579c3820284838e3ce4dce"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_021.csv",
+          "data_row_start": 26108,
+          "data_row_end_exclusive": 27403,
+          "row_count": 1295,
+          "first_column_start": "261.080000",
+          "first_column_end": "274.020000",
+          "bytes": 69963,
+          "sha256": "fe8250e34d701fb18df66b58c6ac2da7371729d80006dbd55503a4504fea7d6e"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_022.csv",
+          "data_row_start": 27403,
+          "data_row_end_exclusive": 28698,
+          "row_count": 1295,
+          "first_column_start": "274.030000",
+          "first_column_end": "286.970000",
+          "bytes": 69963,
+          "sha256": "514670bbaaf9373b248c3789ff19f11b0963bd157ce933368ecc13e99310e31d"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_023.csv",
+          "data_row_start": 28698,
+          "data_row_end_exclusive": 29993,
+          "row_count": 1295,
+          "first_column_start": "286.980000",
+          "first_column_end": "299.920000",
+          "bytes": 69963,
+          "sha256": "8b9b624842c6d687dc92cd476b7dfd1a60a6e2c6450d2524fd8fae1dc09a4ed4"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_024.csv",
+          "data_row_start": 29993,
+          "data_row_end_exclusive": 31288,
+          "row_count": 1295,
+          "first_column_start": "299.930000",
+          "first_column_end": "312.870000",
+          "bytes": 69963,
+          "sha256": "6e5f87927e6e9539f6e6c3c7550fc359bfd1cf2bc79e32b28797520655b76ad3"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_025.csv",
+          "data_row_start": 31288,
+          "data_row_end_exclusive": 32583,
+          "row_count": 1295,
+          "first_column_start": "312.880000",
+          "first_column_end": "325.820000",
+          "bytes": 69963,
+          "sha256": "8210480d1f57d01f3ec5838647d055e6eba86845d42650cc4c2eefac00e6ddeb"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_026.csv",
+          "data_row_start": 32583,
+          "data_row_end_exclusive": 33878,
+          "row_count": 1295,
+          "first_column_start": "325.830000",
+          "first_column_end": "338.770000",
+          "bytes": 69963,
+          "sha256": "58fd06d0bd44d6e8adc17a7eb0300040c25c233a70e3d217ab7dc93cc423ff17"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_027.csv",
+          "data_row_start": 33878,
+          "data_row_end_exclusive": 35173,
+          "row_count": 1295,
+          "first_column_start": "338.780000",
+          "first_column_end": "351.720000",
+          "bytes": 69963,
+          "sha256": "6f26f83e1ba70a43dd01a8f6c4984e6397c453cc7744c59ede107fd7892f685d"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_028.csv",
+          "data_row_start": 35173,
+          "data_row_end_exclusive": 36468,
+          "row_count": 1295,
+          "first_column_start": "351.730000",
+          "first_column_end": "364.670000",
+          "bytes": 69963,
+          "sha256": "82b591f407978f56d969f16f3303c3485ba215037e1f37d3ad6353a588e4bea9"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_029.csv",
+          "data_row_start": 36468,
+          "data_row_end_exclusive": 37763,
+          "row_count": 1295,
+          "first_column_start": "364.680000",
+          "first_column_end": "377.620000",
+          "bytes": 69963,
+          "sha256": "a07864a5ed1b0f6e2776357906e157964093b25edd6e9136b6806a108bc5b85f"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_030.csv",
+          "data_row_start": 37763,
+          "data_row_end_exclusive": 39058,
+          "row_count": 1295,
+          "first_column_start": "377.630000",
+          "first_column_end": "390.570000",
+          "bytes": 69963,
+          "sha256": "873e7b82537243236dccb25366213c58493169c6eabce8446625ed950fc1add6"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_031.csv",
+          "data_row_start": 39058,
+          "data_row_end_exclusive": 40353,
+          "row_count": 1295,
+          "first_column_start": "390.580000",
+          "first_column_end": "403.520000",
+          "bytes": 69963,
+          "sha256": "591565ec09a700fc4e7752a99a0e59750e328a0ff0da7491eb0915c8ef6f3010"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_032.csv",
+          "data_row_start": 40353,
+          "data_row_end_exclusive": 41648,
+          "row_count": 1295,
+          "first_column_start": "403.530000",
+          "first_column_end": "416.470000",
+          "bytes": 69963,
+          "sha256": "a57e6562fd4589690d992b7e79b7d1a2f2c997814ea34d687732d32a2e52574b"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_033.csv",
+          "data_row_start": 41648,
+          "data_row_end_exclusive": 42943,
+          "row_count": 1295,
+          "first_column_start": "416.480000",
+          "first_column_end": "429.420000",
+          "bytes": 69963,
+          "sha256": "f45169f703a8594fdb7fd54b971f3174a2e188c910b8372af7bf3062ec71a5ac"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_034.csv",
+          "data_row_start": 42943,
+          "data_row_end_exclusive": 44238,
+          "row_count": 1295,
+          "first_column_start": "429.430000",
+          "first_column_end": "442.370000",
+          "bytes": 69963,
+          "sha256": "d5ef12e14e9cb94ce32912aedfacdc5824301f30ec7aceea8736177185a259bd"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_035.csv",
+          "data_row_start": 44238,
+          "data_row_end_exclusive": 45533,
+          "row_count": 1295,
+          "first_column_start": "442.380000",
+          "first_column_end": "455.320000",
+          "bytes": 69963,
+          "sha256": "85a265857029d05ce67852b6e71558952df5050162eb43fbca2cb3590db2e7c4"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_036.csv",
+          "data_row_start": 45533,
+          "data_row_end_exclusive": 46828,
+          "row_count": 1295,
+          "first_column_start": "455.330000",
+          "first_column_end": "468.270000",
+          "bytes": 69963,
+          "sha256": "ada7eab9fbdf2e772dfcf973900470eead3ac6939867d7960554e06c8d6919c1"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_037.csv",
+          "data_row_start": 46828,
+          "data_row_end_exclusive": 48123,
+          "row_count": 1295,
+          "first_column_start": "468.280000",
+          "first_column_end": "481.220000",
+          "bytes": 69963,
+          "sha256": "edee45a444891bfcc5955982b34471776534b1c5cb411b1c569dbb90e83b8a41"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_038.csv",
+          "data_row_start": 48123,
+          "data_row_end_exclusive": 49418,
+          "row_count": 1295,
+          "first_column_start": "481.230000",
+          "first_column_end": "494.170000",
+          "bytes": 69963,
+          "sha256": "765361150affc32f33f7f13514fc2eb2eb19fe926b32c6214626468d349a278c"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_039.csv",
+          "data_row_start": 49418,
+          "data_row_end_exclusive": 50713,
+          "row_count": 1295,
+          "first_column_start": "494.180000",
+          "first_column_end": "507.120000",
+          "bytes": 69963,
+          "sha256": "d2c13deb122e1e64abcadf3b1ae7dafbae25bd78a29b3aa77a65017ec73082c0"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_040.csv",
+          "data_row_start": 50713,
+          "data_row_end_exclusive": 52008,
+          "row_count": 1295,
+          "first_column_start": "507.130000",
+          "first_column_end": "520.070000",
+          "bytes": 69963,
+          "sha256": "3136c916167db1d2ea02e0f78a5e1ecc08f7fad7926a1877bff9620603d6d612"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_041.csv",
+          "data_row_start": 52008,
+          "data_row_end_exclusive": 53303,
+          "row_count": 1295,
+          "first_column_start": "520.080000",
+          "first_column_end": "533.020000",
+          "bytes": 69963,
+          "sha256": "e06880a6915094968df2b7525f062253581ba4521c96092d9445dee71e8965b9"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_042.csv",
+          "data_row_start": 53303,
+          "data_row_end_exclusive": 54598,
+          "row_count": 1295,
+          "first_column_start": "533.030000",
+          "first_column_end": "545.970000",
+          "bytes": 69963,
+          "sha256": "56266d8b22af8d2d3ee6baf6594710274b55fb8165c315c940a2a538c4d0cb4d"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_043.csv",
+          "data_row_start": 54598,
+          "data_row_end_exclusive": 55893,
+          "row_count": 1295,
+          "first_column_start": "545.980000",
+          "first_column_end": "558.920000",
+          "bytes": 69963,
+          "sha256": "40df1ac03202bbd2370c6a2857eb1eb0cc0b36268b5da81f8fa67393bd4a0664"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_044.csv",
+          "data_row_start": 55893,
+          "data_row_end_exclusive": 57188,
+          "row_count": 1295,
+          "first_column_start": "558.930000",
+          "first_column_end": "571.870000",
+          "bytes": 69963,
+          "sha256": "26702f078024591678eb25a0619f8f3fa9f390d60ad0cd69583d211cb43e342c"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_045.csv",
+          "data_row_start": 57188,
+          "data_row_end_exclusive": 58483,
+          "row_count": 1295,
+          "first_column_start": "571.880000",
+          "first_column_end": "584.820000",
+          "bytes": 69963,
+          "sha256": "195fecb6314bb294feb73e42cf24132581fa3103eeee930764f8a153b93e62e6"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_046.csv",
+          "data_row_start": 58483,
+          "data_row_end_exclusive": 59778,
+          "row_count": 1295,
+          "first_column_start": "584.830000",
+          "first_column_end": "597.770000",
+          "bytes": 69963,
+          "sha256": "90d0549c2b1254142c0019296e9f974271f0f778511a58ad9ed7617df1283d83"
+        },
+        {
+          "path": "chunks/inputs/cutter/cutter_load_600s/part_047.csv",
+          "data_row_start": 59778,
+          "data_row_end_exclusive": 60001,
+          "row_count": 223,
+          "first_column_start": "597.780000",
+          "first_column_end": "600.000000",
+          "bytes": 12075,
+          "sha256": "591fa2189e0f063b6258404484d3430cc7e7ac3873a84e598b7c1a17f0aab111"
+        }
+      ]
+    },
+    {
+      "path": "raw/inputs/cutter/provenance.json",
+      "role": "raw_input_json",
+      "source_id": "cutter_load_provenance_600s",
+      "source_bytes": 822,
+      "source_sha256": "5efdf133cd97022285fac3410d192610ece4553e773aa93a9de44b8f9ce06ab0",
+      "exported_bytes": 619,
+      "exported_sha256": "a2300375c445e558af74094cc811a8ee9628f3d7d979e8d7be7bc9b2bae18a6f",
+      "transport_changes": [
+        "absolute_paths_replaced_with_source_refs"
+      ],
+      "chunks": []
+    }
+  ]
+}

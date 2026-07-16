@@ -1,0 +1,114 @@
+{
+  "schema": "current-spud-soil-oat/v1",
+  "design": "two axes, five levels each, shared center; 9 unique payloads",
+  "phase": "run",
+  "case_count": 9,
+  "source_payload": "source_ref:payload_60s_actual_algorithm_input.json",
+  "source_payload_sha256": "685fed3773c899395f5e241de2714411626a30e93525932f4dcb7ee1023cac45",
+  "run_envelope": {
+    "duration_s": 60.0,
+    "output_dt_s": 0.1,
+    "max_internal_dt_s": 0.1
+  },
+  "axes": {
+    "soil_stiffness_scale": [
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5
+    ],
+    "penetration_depth_m": [
+      4.0,
+      4.25,
+      4.5,
+      4.75,
+      5.0
+    ]
+  },
+  "fixed_controls": {
+    "aqwa_and_cutter": "unchanged from source payload",
+    "buffer_trolley": "all fields locked to the passed trolley baseline",
+    "depth_axis_semantics": "total lateral stiffness input held fixed; depth isolates distributed geometry and moment-arm effects",
+    "stiffness_axis_semantics": "penetration depth held at 4.5 m; only soil_py_stiffness_scale changes",
+    "output_dt_s": 0.1,
+    "max_internal_dt_s": 0.1
+  },
+  "retention": "complete input, compact 0.1 s history, metrics, and convergence only",
+  "cases": [
+    {
+      "case_id": "baseline",
+      "axis": "baseline",
+      "value": null,
+      "allowed_paths": []
+    },
+    {
+      "case_id": "soil_k_0p50",
+      "axis": "soil_stiffness_scale",
+      "value": 0.5,
+      "allowed_paths": [
+        "ladder.spud.soil_py_stiffness_scale"
+      ]
+    },
+    {
+      "case_id": "soil_k_0p75",
+      "axis": "soil_stiffness_scale",
+      "value": 0.75,
+      "allowed_paths": [
+        "ladder.spud.soil_py_stiffness_scale"
+      ]
+    },
+    {
+      "case_id": "soil_k_1p25",
+      "axis": "soil_stiffness_scale",
+      "value": 1.25,
+      "allowed_paths": [
+        "ladder.spud.soil_py_stiffness_scale"
+      ]
+    },
+    {
+      "case_id": "soil_k_1p50",
+      "axis": "soil_stiffness_scale",
+      "value": 1.5,
+      "allowed_paths": [
+        "ladder.spud.soil_py_stiffness_scale"
+      ]
+    },
+    {
+      "case_id": "depth_4p00",
+      "axis": "penetration_depth_m",
+      "value": 4.0,
+      "allowed_paths": [
+        "ladder.spud.penetration_depth",
+        "ladder.spud.soil_layers[0].bottom_m"
+      ]
+    },
+    {
+      "case_id": "depth_4p25",
+      "axis": "penetration_depth_m",
+      "value": 4.25,
+      "allowed_paths": [
+        "ladder.spud.penetration_depth",
+        "ladder.spud.soil_layers[0].bottom_m"
+      ]
+    },
+    {
+      "case_id": "depth_4p75",
+      "axis": "penetration_depth_m",
+      "value": 4.75,
+      "allowed_paths": [
+        "ladder.spud.penetration_depth",
+        "ladder.spud.soil_layers[0].bottom_m"
+      ]
+    },
+    {
+      "case_id": "depth_5p00",
+      "axis": "penetration_depth_m",
+      "value": 5.0,
+      "allowed_paths": [
+        "ladder.spud.penetration_depth",
+        "ladder.spud.soil_layers[0].bottom_m"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "schema": "current-flexible-trolley-oat/v1",
+  "design": "four axes, five levels each, shared center; 17 unique payloads",
+  "phase": "run",
+  "case_count": 17,
+  "source_payload": "source_ref:payload_60s_actual_algorithm_input.json",
+  "source_payload_sha256": "685fed3773c899395f5e241de2714411626a30e93525932f4dcb7ee1023cac45",
+  "run_envelope": {
+    "duration_s": 60.0,
+    "output_dt_s": 0.1,
+    "max_internal_dt_s": 0.1
+  },
+  "axes": {
+    "stiffness_scale": [
+      0.5,
+      0.75,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "damping_scale": [
+      0.0,
+      0.5,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "pretension_N": [
+      100000.0,
+      125000.0,
+      150000.0,
+      200000.0,
+      300000.0
+    ],
+    "end_stop_travel_m": [
+      0.08,
+      0.1,
+      0.15,
+      0.2,
+      0.3
+    ]
+  },
+  "fixed_controls": {
+    "aqwa_and_cutter": "unchanged from source payload",
+    "spud_soil": "all fields locked",
+    "output_dt_s": 0.1,
+    "max_internal_dt_s": 0.1
+  },
+  "retention": "complete input, compact 0.1 s history, metrics, and convergence only",
+  "cases": [
+    {
+      "case_id": "baseline",
+      "axis": "baseline",
+      "value": null,
+      "allowed_paths": []
+    },
+    {
+      "case_id": "k_0p50",
+      "axis": "stiffness_scale",
+      "value": 0.5,
+      "allowed_paths": [
+        "ladder.buffer_trolley.equivalent_support.stiffness_N_per_m"
+      ]
+    },
+    {
+      "case_id": "k_0p75",
+      "axis": "stiffness_scale",
+      "value": 0.75,
+      "allowed_paths": [
+        "ladder.buffer_trolley.equivalent_support.stiffness_N_per_m"
+      ]
+    },
+    {
+      "case_id": "k_1p50",
+      "axis": "stiffness_scale",
+      "value": 1.5,
+      "allowed_paths": [
+        "ladder.buffer_trolley.equivalent_support.stiffness_N_per_m"
+      ]
+    },
+    {
+      "case_id": "k_2p00",
+      "axis": "stiffness_scale",
+      "value": 2.0,
+      "allowed_paths": [
+        "ladder.buffer_trolley.equivalent_support.stiffness_N_per_m"
+      ]
+    },
+    {
+      "case_id": "c_0p00",
+      "axis": "damping_scale",
+      "value": 0.0,
+      "allowed_paths": [
+        "ladder.buffer_trolley.equivalent_support.damping_Ns_per_m"
+      ]
+    },
+    {
+      "case_id": "c_0p50",
+      "axis": "damping_scale",
+      "value": 0.5,
+      "allowed_paths": [
+        "ladder.buffer_trolley.equivalent_support.damping_Ns_per_m"
+      ]
+    },
+    {
+      "case_id": "c_2p00",
+      "axis": "damping_scale",
+      "value": 2.0,
+      "allowed_paths": [
+        "ladder.buffer_trolley.equivalent_support.damping_Ns_per_m"
+      ]
+    },
+    {
+      "case_id": "c_4p00",
+      "axis": "damping_scale",
+      "value": 4.0,
+      "allowed_paths": [
+        "ladder.buffer_trolley.equivalent_support.damping_Ns_per_m"
+      ]
+    },
+    {
+      "case_id": "p_100k",
+      "axis": "pretension_N",
+      "value": 100000.0,
+      "allowed_paths": [
+        "ladder.buffer_trolley.equivalent_support.pretension_N"
+      ]
+    },
+    {
+      "case_id": "p_125k",
+      "axis": "pretension_N",
+      "value": 125000.0,
+      "allowed_paths": [
+        "ladder.buffer_trolley.equivalent_support.pretension_N"
+      ]
+    },
+    {
+      "case_id": "p_200k",
+      "axis": "pretension_N",
+      "value": 200000.0,
+      "allowed_paths": [
+        "ladder.buffer_trolley.equivalent_support.pretension_N"
+      ]
+    },
+    {
+      "case_id": "p_300k",
+      "axis": "pretension_N",
+      "value": 300000.0,
+      "allowed_paths": [
+        "ladder.buffer_trolley.equivalent_support.pretension_N"
+      ]
+    },
+    {
+      "case_id": "travel_0p08",
+      "axis": "end_stop_travel_m",
+      "value": 0.08,
+      "allowed_paths": [
+        "ladder.buffer_trolley.equivalent_support.travel_warning_m",
+        "ladder.buffer_trolley.equivalent_support.travel_limit_m",
+        "ladder.buffer_trolley.equivalent_support.end_stop_travel_m"
+      ]
+    },
+    {
+      "case_id": "travel_0p10",
+      "axis": "end_stop_travel_m",
+      "value": 0.1,
+      "allowed_paths": [
+        "ladder.buffer_trolley.equivalent_support.travel_warning_m",
+        "ladder.buffer_trolley.equivalent_support.travel_limit_m",
+        "ladder.buffer_trolley.equivalent_support.end_stop_travel_m"
+      ]
+    },
+    {
+      "case_id": "travel_0p15",
+      "axis": "end_stop_travel_m",
+      "value": 0.15,
+      "allowed_paths": [
+        "ladder.buffer_trolley.equivalent_support.travel_warning_m",
+        "ladder.buffer_trolley.equivalent_support.travel_limit_m",
+        "ladder.buffer_trolley.equivalent_support.end_stop_travel_m"
+      ]
+    },
+    {
+      "case_id": "travel_0p20",
+      "axis": "end_stop_travel_m",
+      "value": 0.2,
+      "allowed_paths": [
+        "ladder.buffer_trolley.equivalent_support.travel_warning_m",
+        "ladder.buffer_trolley.equivalent_support.travel_limit_m",
+        "ladder.buffer_trolley.equivalent_support.end_stop_travel_m"
+      ]
+    }
+  ]
+}
