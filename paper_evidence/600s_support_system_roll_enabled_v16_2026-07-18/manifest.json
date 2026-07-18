@@ -1,0 +1,23 @@
+{
+  "derivation_only_no_simulation": true,
+  "github_push_allowed": false,
+  "outputs": {
+    "case_csv": "case_summary.csv",
+    "concise_evidence": "evidence.md",
+    "machine_readable": "matrix_summary.json",
+    "relative_csv": "relative_to_RAC.csv",
+    "soil_descriptive_csv": "soil_3x3_descriptive.csv",
+    "source_integrity": "source_results_integrity.json"
+  },
+  "paper_agent_handoff": true,
+  "report_use": {
+    "allowed": true,
+    "scope": "descriptive_computational_claims_within_14_cases_and_source_only_domain"
+  },
+  "schema": "support-constraint-14case-roll-enabled-pattern-manifest/v16",
+  "source_case_count": 14,
+  "source_results_modified": false,
+  "source_results_root": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_v15_2026-07-18T115653\\results",
+  "source_status_gate_six_hashes_all_pass": true,
+  "status": "derived_sealed_limited_paper_use"
+}

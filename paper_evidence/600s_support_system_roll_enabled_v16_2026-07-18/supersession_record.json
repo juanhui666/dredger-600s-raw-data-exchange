@@ -1,0 +1,48 @@
+{
+  "claim_boundary": {
+    "allowed": "descriptive computational claims within the 14 cases and source_only domain",
+    "forbidden": [
+      "causal",
+      "statistical_significance",
+      "optimal",
+      "safety",
+      "design_grade",
+      "field_validated"
+    ],
+    "proxy_only": "ideal low-frequency continuation after stroke boundary; not impact or safety evidence"
+  },
+  "current_evidence": {
+    "v15_results": {
+      "all_600s_gate_pass": true,
+      "case_count": 14,
+      "path": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_v15_2026-07-18T115653",
+      "ready_seal_sha256": "f93991d68b43dfe44029ba0f0c42c47f3c083db386eac036977ca8ffbbec1e4b",
+      "roll_provenance": "free_dynamic_all_cases_all_frames"
+    },
+    "v16_patterns": {
+      "paper_agent_handoff": true,
+      "path": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_pattern_evidence_v16_2026-07-18T125558",
+      "ready_seal_sha256": "cd85a472efda3f4158ccb13bbabfe2c121f306d33309608ab507defe4bcd0425",
+      "report_use": {
+        "allowed": true,
+        "scope": "descriptive_computational_claims_within_14_cases_and_source_only_domain"
+      }
+    }
+  },
+  "decision_date": "2026-07-18",
+  "preservation_policy": "parent artifacts are immutable and retained",
+  "reason": "parent inputs disabled the hull roll DOF despite nonzero AQWA hull Mx forcing",
+  "schema": "support-constraint-roll-dof-supersession/v1",
+  "superseded_for_current_manuscript": {
+    "v13_results": {
+      "path": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_reference_consistent_main_only_v13_2026-07-17T194458",
+      "ready_seal_sha256": "502419ae59338ab78aca37a61bf6f59a6c4044306394fee89b258eeca65d472c",
+      "status": "roll_locked_model_evidence_only"
+    },
+    "v14_patterns": {
+      "path": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_matrix_pattern_evidence_v14_2026-07-17T212951",
+      "ready_seal_sha256": "f93e92e77e20055b50be3316208bd4b8cb96181bb11c957b692fb0cda26e1a50",
+      "status": "roll_locked_pattern_evidence_only"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "case_count": 14,
+  "chapter_1_N9_semantics": "current computational baseline",
+  "chapter_1_accumulators_per_branch": 9,
+  "chapter_1_buffer_average_initial_pressure_bar_at_centered_preload_working_point": [
+    "B_P85_N9",
+    "RAC",
+    "B_P185_N9"
+  ],
+  "chapter_2_soil_embedment_m_x_m_MN_per_m4": [
+    "S_L35_M200",
+    "S_L35_M325",
+    "S_L35_M450",
+    "S_L40_M200",
+    "RAC",
+    "S_L40_M450",
+    "S_L45_M200",
+    "S_L45_M325",
+    "S_L45_M450"
+  ],
+  "count_identity": "4 load decomposition + 2 additional buffer pressure cases + 8 additional soil cases; RAC is shared by both chapters",
+  "formal_order": [
+    "RAC",
+    "R0",
+    "RA",
+    "RC",
+    "B_P85_N9",
+    "B_P185_N9",
+    "S_L35_M200",
+    "S_L35_M325",
+    "S_L35_M450",
+    "S_L40_M200",
+    "S_L40_M450",
+    "S_L45_M200",
+    "S_L45_M325",
+    "S_L45_M450"
+  ],
+  "load_decomposition": [
+    "RAC",
+    "R0",
+    "RA",
+    "RC"
+  ],
+  "parallelism_owner": "main_agent_external_to_runner",
+  "parent_matrix": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_reference_consistent_main_only_v13_2026-07-17T194458\\matrix.json",
+  "parent_matrix_sha256": "fd78bbcd28c8c777ad4e41a0403a375689d2bdc07e2c4aea9ac457158739b6c3",
+  "roll_dof": {
+    "change_from_parent": "dynamics.enable_roll false -> true in every case",
+    "enabled": true,
+    "user_gate": "2026-07-18 request to resolve the disabled roll DOF"
+  },
+  "runner_internal_parallelism": false,
+  "schema": "support-constraint-14case-roll-enabled-matrix/v15",
+  "shared_RAC_roles": [
+    "load-decomposition fully coupled reference",
+    "buffer average initial pressure 135 bar / N9 current computational baseline",
+    "soil embedment 4.0 m / m=3.25 MN/m4 baseline"
+  ],
+  "steady_window_s": [
+    60.0,
+    600.0
+  ],
+  "v9_two_chapter_grouping_copied_directly": true
+}

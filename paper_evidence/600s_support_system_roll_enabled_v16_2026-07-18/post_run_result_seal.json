@@ -1,0 +1,34 @@
+{
+  "all_main_corrector_only": true,
+  "all_status_gate_and_hashes_pass": true,
+  "case_count": 14,
+  "duration_s_each": 600.0,
+  "frame_count_each": 6001,
+  "newmark_step_count_each": 6000,
+  "pattern_evidence_v16_ready_seal": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_pattern_evidence_v16_2026-07-18T125558\\ready_seal.json",
+  "pattern_evidence_v16_ready_seal_sha256": "cd85a472efda3f4158ccb13bbabfe2c121f306d33309608ab507defe4bcd0425",
+  "report_use": {
+    "allowed": true,
+    "scope": "descriptive_computational_claims_within_14_cases_and_source_only_domain"
+  },
+  "rescue_reject_nonconvergence_count": 0,
+  "result_manifest_sha256": {
+    "B_P185_N9": "347aef204cf54795013dfc5d9d6d532c59491abc0c753a90058da719ff58d631",
+    "B_P85_N9": "a75d5e00fb8f641659551aaff5216bc2748c66ac3354ee149f0f6434141c84cc",
+    "R0": "f8ca14c5687ee63f6cbf524ab024b47f9670b2e1328b762dee719b66d6fefbd7",
+    "RA": "06efdabfc3a3375ac755bc393ab522b6b8badfc4f3e431ee67cb12c997342697",
+    "RAC": "674184892614faa78247bc7105f01b42e12cb40cc6e86e121e7169bb787b044e",
+    "RC": "a5420e36ccbb363fc94afecf7f3d27060f050a144a4686969ff38a60869f6474",
+    "S_L35_M200": "d8d06ac40d69400b5a19e421d9f067c1a47e04f2d71f218caa1a3c560def668d",
+    "S_L35_M325": "a533762389889dab6fd60d8b3b3648f81b54bb17ebaa44803893bd55ddac6b0a",
+    "S_L35_M450": "a6771d9f9b41bf60b33e8a74aead66dd7d1a749a66007ea4d42f7d5c5a8c5b32",
+    "S_L40_M200": "edbba966fd085de5f3587231f5565e3f97962e830f7f90a6ac9207d5f253eee2",
+    "S_L40_M450": "530faae30de054fc6ac3cd1f33f8bf0420bf7c112f7d54898e884d33bd3805b4",
+    "S_L45_M200": "62c456387cbe9469a5a276cdf171187327555418c4bf00202b33e85eb593dea8",
+    "S_L45_M325": "fa3c7c7e155faf5751ce911a29a05105d7d169039d0cde372df79ccbadb9fc40",
+    "S_L45_M450": "35fdc20f06f179dc6b8fbd65cf8bcd44ed34010f79448650d3e8a51b45d86116"
+  },
+  "roll_provenance": "free_dynamic_all_cases_all_frames",
+  "schema": "support-constraint-14case-roll-enabled-post-run-seal/v15",
+  "state": "complete"
+}

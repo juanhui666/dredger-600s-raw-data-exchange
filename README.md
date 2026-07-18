@@ -1,6 +1,16 @@
 # Dredger Raw Simulation Data Exchange
 
-This repository contains raw retained simulation inputs and time histories only. It does not contain derived statistics, spectral results, sensitivity conclusions, paper text or an analysis prompt.
+This repository contains retained simulation inputs, time histories, and a separately identified paper-evidence package.
+
+## Current Paper Evidence
+
+The current paper-facing result is:
+
+- [`paper_evidence/600s_support_system_roll_enabled_v16_2026-07-18/`](paper_evidence/600s_support_system_roll_enabled_v16_2026-07-18/)
+
+It covers the roll-enabled 14-case support-system study. All 14 cases completed 600 s, with 6001 frames and 6000 fixed Newmark steps per case. Use the package `README.md` and `evidence.md` before reading the CSV or JSON summaries. Its findings are descriptive within the stated 14-case, 600 s calculation scope.
+
+The older `raw/` and `chunks/` trees below are retained for traceability. They include a different baseline and 60 s one-at-a-time studies and must not be substituted for the current roll-enabled paper evidence.
 
 ## Contents
 
@@ -20,4 +30,4 @@ CSV files under `raw/` are byte-for-byte copies of the retained source files. In
 
 ## Excluded
 
-No paper, literature file, frozen 1.5 h result, 445 MB full binary result, source code, Agent file or local credential is included.
+No paper manuscript, literature file, frozen 1.5 h result, 445 MB full binary result, source code, Agent file or local credential is included.

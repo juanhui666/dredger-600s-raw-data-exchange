@@ -1,0 +1,14 @@
+{
+  "all_14_600s_gate_pass": true,
+  "old_roll_locked_evidence_superseded_not_deleted": true,
+  "paper_agent_handoff": true,
+  "ready_seal_sha256": "cd85a472efda3f4158ccb13bbabfe2c121f306d33309608ab507defe4bcd0425",
+  "report_use": {
+    "allowed": true,
+    "scope": "descriptive_computational_claims_within_14_cases_and_source_only_domain"
+  },
+  "roll_evidence_repaired": true,
+  "schema": "support-constraint-roll-enabled-post-review-seal/v16",
+  "supersession_record_sha256": "15439e53ce088cbbc8d1456a41acc2fb392cdc7e6a8556c2eee30300400e4c60",
+  "v15_post_run_result_seal_sha256": "a2b5c7ede4a5f94399132df62684b9582d1e4ce80d890ed6e43d70ee17fb9978"
+}

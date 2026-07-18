@@ -1,0 +1,26 @@
+{
+  "code_commit": "9488236f6896d8eb8b38fec9e6fee87b8852f594",
+  "code_workspace": "C:\\Users\\Administrator\\.codex\\worktrees\\3a97\\dredger_project",
+  "created_date": "2026-07-18",
+  "evidence_policy": {
+    "old_v13_v14": "retained but downgraded to roll-locked model evidence",
+    "report_use_allowed": false,
+    "this_package": "not paper-ready until all cases complete and pattern evidence is rebuilt"
+  },
+  "execution_policy": "RAC complete gate first; remaining 13 cases only after RAC pass",
+  "formal_baseline": {
+    "dt_s": 0.1,
+    "experimental_solver_variant": "full_working_support_baseline",
+    "integration_step_policy": "fixed_newmark",
+    "mode": "rigid_multibody",
+    "roll_enabled": true,
+    "total_time_s": 600.0
+  },
+  "parent_v13": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_reference_consistent_main_only_v13_2026-07-17T194458",
+  "parent_v13_ready_seal_sha256": "502419ae59338ab78aca37a61bf6f59a6c4044306394fee89b258eeca65d472c",
+  "purpose": "new 600 s evidence with hull roll free and dynamically coupled",
+  "schema": "support-constraint-14case-roll-enabled-manifest/v15",
+  "status": "prepared_roll_enabled_rac_first_gate",
+  "workspace_evidence": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_reference_consistent_main_only_v13_2026-07-17T194458\\workspace_evidence.json",
+  "workspace_evidence_sha256": "eb290e47118a04cb1abd3868c3d02207b04b819cfe4101bcb9bf5ca41db252b8"
+}
