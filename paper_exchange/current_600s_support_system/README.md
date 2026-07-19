@@ -1,5 +1,7 @@
 # 绞吸挖泥船支撑系统 600 s 工况数据
 
+> **历史数据提示：**本目录的 18 个工况使用修复前不完整的桩土 X 运动映射，只保留作运行记录，不再作为桩土接触点响应的物理证据。修复后的单一 RAC 工况见 [`paper_evidence/600s_support_system_contact_kinematics_repair_rac_v19_2026-07-19/`](../../paper_evidence/600s_support_system_contact_kinematics_repair_rac_v19_2026-07-19/)。
+
 本目录是供论文导师和写作者直接使用的简化入口，只包含工况设置、工程响应和运行状态，不包含论文观点、趋势判定或参数推荐。
 
 ## 建议阅读顺序

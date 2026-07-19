@@ -1,0 +1,15 @@
+{
+  "code_commit": "1965eabd7cd38a0d441f98c1503491ff8e3465fe",
+  "gate_pass": true,
+  "paper_evidence_promoted": false,
+  "pass": true,
+  "ready_seal_sha256": "58e17ea2fde2de33e180b8f859280b29240d5a9e3e2a8893c3faabc864e6808c",
+  "result_files": {
+    "accepted_corrector_trace.ndjson": "e11a6193d2fb62f44bb3b6e7bb9f470be56743d2cc6a348a095c014dcefe9cf8",
+    "gate.json": "1ebe8c41ae7b7607fb2168a2bc2208e9d9296279c5fbd6756060cbb65646e317",
+    "metrics.json": "01f98aacc3704ac7f878c829f06756530b411c5f20f0a940a730e0da6a0e562c",
+    "raw_result.json.gz": "0d2577b488a7fc74faf806105748429a323c845449bffae6a2e70364cc630ed1",
+    "status.json": "ece4e250fe018783e72a47e026396c38b86a8a6ff3f1e4d2afd1cd4b6a3ec13f"
+  },
+  "schema": "support-system-contact-kinematics-rac-600s-result-seal/v19"
+}

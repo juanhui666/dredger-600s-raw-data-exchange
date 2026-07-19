@@ -1,0 +1,9 @@
+{
+  "case_id": "RAC",
+  "elapsed_s": 598.9211654663086,
+  "finished_unix": 1784457186.581192,
+  "gate_pass": true,
+  "no_retry": true,
+  "started_unix": 1784456587.6600268,
+  "state": "complete"
+}

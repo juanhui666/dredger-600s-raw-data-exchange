@@ -1,0 +1,88 @@
+{
+    "schema":  "github-neutral-single-rac-contact-kinematics-evidence/v19",
+    "created_date":  "2026-07-19",
+    "case_id":  "RAC",
+    "case_count":  1,
+    "simulation_duration_s":  600,
+    "fixed_step_s":  0.1,
+    "code_commit":  "1965eabd7cd38a0d441f98c1503491ff8e3465fe",
+    "original_input_sha256":  "9ca6d87738663dae8f06d8677364cd944a0b8c70b0adefef2d9c6acdd51f589d",
+    "original_raw_result_sha256":  "0d2577b488a7fc74faf806105748429a323c845449bffae6a2e70364cc630ed1",
+    "source_engineering_review_seal_match":  false,
+    "shared_copy_transport_changes":  [
+                                          "Absolute local filesystem paths were replaced by stable source_ref identifiers.",
+                                          "Text copies use UTF-8 with LF line endings for GitHub transport.",
+                                          "The raw_result.json.gz byte stream was split losslessly into ordered parts below the GitHub per-file limit.",
+                                          "No simulation parameter or numerical result was changed during packaging."
+                                      ],
+    "files":  {
+                  "input_RAC_shared.json":  {
+                                                "bytes":  203679,
+                                                "sha256":  "bd1b952ed196e00246913968ca6d7191e0b502bcc0476c75ee8c90e97190cfca"
+                                            },
+                  "PACKAGE_VERIFICATION.json":  {
+                                                    "bytes":  1144,
+                                                    "sha256":  "e473e3efb14f962d959695a2d54689d14e149998637b93dca3d5ef083e4c22fa"
+                                                },
+                  "post_run_engineering_review_seal.json":  {
+                                                                "bytes":  357,
+                                                                "sha256":  "9a015e333b890809db8af33ec3027b0f4d0b3f178b05f2b3704eda9f085b583c"
+                                                            },
+                  "post_run_engineering_review_shared.json":  {
+                                                                  "bytes":  3657,
+                                                                  "sha256":  "62ff0742d699a443bb935a2ab168de605ba88ba333e8c4791f5f1b6d85b39260"
+                                                              },
+                  "post_run_result_seal.json":  {
+                                                    "bytes":  787,
+                                                    "sha256":  "e82614a4cf6a3f7085f29e04d8f6e1480f35d47b0f24f0b850d37581c62ba635"
+                                                },
+                  "RAW_RESULT_CHUNKS.json":  {
+                                                 "bytes":  880,
+                                                 "sha256":  "9b77d6c22316daf5dfa610c5e6c239e7f005d1abed664b9adab5b0bf2fbd3856"
+                                             },
+                  "raw_result_chunks/raw_result.json.gz.part001":  {
+                                                                       "bytes":  83886080,
+                                                                       "sha256":  "7147f969cbea5dd98cb97605845b046be4a2fcd2639fa0d6ed9ac2c1b2b419f7"
+                                                                   },
+                  "raw_result_chunks/raw_result.json.gz.part002":  {
+                                                                       "bytes":  83886080,
+                                                                       "sha256":  "71798edc6c29c13a7d9a38de82217f99ff6c45cd2265065ce374216c3b3f87c2"
+                                                                   },
+                  "raw_result_chunks/raw_result.json.gz.part003":  {
+                                                                       "bytes":  81581838,
+                                                                       "sha256":  "c7b001aea748727d0bf1090ac3c19c7c9fdca71bb3de71b3863c19fe86a15245"
+                                                                   },
+                  "README.md":  {
+                                    "bytes":  4738,
+                                    "sha256":  "9c2df8a8b595bc6ab019656b3f3f4205ab73d7f8679b539e2e673aa84437f15e"
+                                },
+                  "ready_seal.json":  {
+                                          "bytes":  525,
+                                          "sha256":  "e8dfbe5905116f5f46e4f37607f2d27713d10cd933f870407ab7919d9a8c7e6f"
+                                      },
+                  "result_RAC/accepted_corrector_trace.ndjson":  {
+                                                                     "bytes":  8622857,
+                                                                     "sha256":  "e11a6193d2fb62f44bb3b6e7bb9f470be56743d2cc6a348a095c014dcefe9cf8"
+                                                                 },
+                  "result_RAC/gate.json":  {
+                                               "bytes":  686,
+                                               "sha256":  "50f86c363028f765523e92045f2eca9a3672c98f7dd15e52a08ddb19f4eb0632"
+                                           },
+                  "result_RAC/metrics.json":  {
+                                                  "bytes":  1861,
+                                                  "sha256":  "d85adb0c66d59a86e3eb47b72522a346242e27457344bf70f76f4c52d5a59865"
+                                              },
+                  "result_RAC/status.json":  {
+                                                 "bytes":  197,
+                                                 "sha256":  "7df77fff52c6832c5a8fb965d6d94ccdbd846ab2148540532dab064d92d50c28"
+                                             },
+                  "run_manifest_shared.json":  {
+                                                   "bytes":  1690,
+                                                   "sha256":  "08029c2c57d66b3069f0273b36b7e92dd1b0d8e324471796a4feed2a89182cb3"
+                                               }
+              },
+    "interpretation_neutral":  true,
+    "paper_evidence_promoted":  false,
+    "fourteen_case_matrix_authorized":  false,
+    "simulation_rerun_performed_for_packaging":  false
+}

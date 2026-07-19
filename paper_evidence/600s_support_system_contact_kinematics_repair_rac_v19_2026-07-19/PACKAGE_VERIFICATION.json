@@ -1,0 +1,18 @@
+{
+  "schema": "github-single-rac-package-verification/v1",
+  "source_packet": "x1_600s_support_system_contact_kinematics_repair_rac_v19_2026-07-19T182010",
+  "ready_seal_files_match": true,
+  "ready_seal_link_from_result_seal_matches": true,
+  "post_run_result_seal_files_match": true,
+  "post_run_engineering_review_seal_matches": false,
+  "post_run_engineering_review_sealed_sha256": "5c2ff99f0c5b46c79e75adf4e53cbddcba9451078259f97a7c354acd0c5c08f2",
+  "post_run_engineering_review_actual_source_sha256": "5c2ff99f0c5b46c79e75adf4e53cbbdcba9451078259f97a7c354acd0c5c08f2",
+  "review_seal_disposition": "Original seal retained unchanged. Do not use its review_file_sha256 as integrity authority; verify the shared review copy with PACKAGE_MANIFEST.json.",
+  "raw_result_reassembled_sha256": "0d2577b488a7fc74faf806105748429a323c845449bffae6a2e70364cc630ed1",
+  "raw_result_reassembly_matches_source_seal": true,
+  "accepted_corrector_trace_line_count": 6000,
+  "shared_absolute_local_path_hits": 0,
+  "shared_files_at_or_above_100000000_bytes": 0,
+  "pass_for_shared_result_data": true,
+  "pass_for_original_engineering_review_seal": false
+}

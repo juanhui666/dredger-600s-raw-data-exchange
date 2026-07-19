@@ -2,19 +2,20 @@
 
 This repository contains retained simulation inputs, time histories, and a separately identified 600 s case-data package.
 
-## Current 600 s Paper Exchange
+## Current Repaired 600 s RAC Evidence
 
-For direct review by a paper mentor or writer, start with the five-file exchange directory:
+For the repaired spud-soil contact-point kinematics, start here:
+
+- [`paper_evidence/600s_support_system_contact_kinematics_repair_rac_v19_2026-07-19/`](paper_evidence/600s_support_system_contact_kinematics_repair_rac_v19_2026-07-19/)
+
+This package contains the shared input, run status, neutral metrics, accepted-corrector trace, seals, engineering-review record, and lossless chunks of the complete raw result. It covers one RAC case only and is not a 14-case parameter study.
+
+The earlier 18-case package and its compact exchange remain available as historical records of the incomplete soil-X mapping:
 
 - [`paper_exchange/current_600s_support_system/`](paper_exchange/current_600s_support_system/)
-
-It contains one README, three neutral CSV tables, and one run-status record. It contains no manuscript outline, trend classification, normalized comparison index, or recommended interpretation.
-
-The full audit archive remains available separately:
-
 - [`paper_evidence/600s_support_system_soil_x_midpoints_v19_2026-07-19/`](paper_evidence/600s_support_system_soil_x_midpoints_v19_2026-07-19/)
 
-The older `raw/` and `chunks/` trees below are retained for traceability. They include a different baseline and 60 s one-at-a-time studies and must not be substituted for the current roll-enabled 14-case dataset.
+They must not be used as physical evidence for the repaired contact-point model. The older `raw/` and `chunks/` trees are also retained only for traceability.
 
 ## Contents
 
@@ -34,4 +35,4 @@ CSV files under `raw/` are byte-for-byte copies of the retained source files. In
 
 ## Excluded
 
-No paper manuscript, literature file, writing prompt, frozen 1.5 h result, 445 MB full binary result, source code, Agent file or local credential is included.
+No paper manuscript, literature file, writing prompt, source code, Agent file or local credential is included. The invalidated 1.5 h result is not included.

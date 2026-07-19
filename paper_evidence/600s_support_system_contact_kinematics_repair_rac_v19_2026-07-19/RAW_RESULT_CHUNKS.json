@@ -1,0 +1,24 @@
+{
+  "schema": "github-lossless-raw-result-chunks/v1",
+  "source_file": "result_RAC/raw_result.json.gz",
+  "source_bytes": 249353998,
+  "source_sha256": "0d2577b488a7fc74faf806105748429a323c845449bffae6a2e70364cc630ed1",
+  "ordered_parts": [
+    {
+      "file": "raw_result_chunks/raw_result.json.gz.part001",
+      "bytes": 83886080,
+      "sha256": "7147f969cbea5dd98cb97605845b046be4a2fcd2639fa0d6ed9ac2c1b2b419f7"
+    },
+    {
+      "file": "raw_result_chunks/raw_result.json.gz.part002",
+      "bytes": 83886080,
+      "sha256": "71798edc6c29c13a7d9a38de82217f99ff6c45cd2265065ce374216c3b3f87c2"
+    },
+    {
+      "file": "raw_result_chunks/raw_result.json.gz.part003",
+      "bytes": 81581838,
+      "sha256": "c7b001aea748727d0bf1090ac3c19c7c9fdca71bb3de71b3863c19fe86a15245"
+    }
+  ],
+  "reassembly": "Concatenate ordered_parts in listed order without changing bytes."
+}

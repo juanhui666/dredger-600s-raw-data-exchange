@@ -1,0 +1,31 @@
+{
+  "candidate_diff_sha256": "e848d8ed87c55b0f8c690eff866f9bc6cdeb5c995857a9fb6bb2f37f545b57ae",
+  "code_commit": "1965eabd7cd38a0d441f98c1503491ff8e3465fe",
+  "code_workspace": "source_ref:code/spud-soil-contact-kinematics-2026-07-19",
+  "evidence_scope": "diagnostic_only_not_paper_promotable_without_post_run_review",
+  "input_contract_checks": {
+    "buffer_enabled": true,
+    "distributed_soil": true,
+    "dt_0p1_s": true,
+    "fixed_newmark": true,
+    "formal_variant": true,
+    "geometry_reference": true,
+    "ladder_theta_zero": true,
+    "mode_rigid_multibody": true,
+    "pinned_longitudinal_buffer": true,
+    "roll_enabled": true,
+    "sim_total_600_s": true,
+    "solve_total_600_s": true
+  },
+  "known_p2": "state-dependent point Jacobian geometric tangent omitted; affine point closure is exact, so this is a quasi-Newton convergence-margin risk",
+  "old_v18_boundary": "v18 remains a numerical record of the incomplete soil-X mapping; its soil_x==surge amplitudes and physical conclusions are invalid for the repaired model",
+  "run_scope": "RAC only; no 14-case authorization",
+  "schema": "support-system-contact-kinematics-rac-600s-manifest/v19",
+  "short_gate_5s": "source_ref:short_gate/5s_final2/summary.json",
+  "short_gate_5s_sha256": "31dcd2069aa1a081e5a232809184afc80433997264aa6755535d2d8552f642e2",
+  "short_gate_60s": "source_ref:short_gate/60s_final2/summary.json",
+  "short_gate_60s_sha256": "b0c73e6132ab4851134ea8f1134e9597375306de913cd0b07cae9cc3336b4532",
+  "source_input": "source_ref:formal_input/RAC.json",
+  "source_input_sha256": "9ca6d87738663dae8f06d8677364cd944a0b8c70b0adefef2d9c6acdd51f589d",
+  "status": "prepared_single_rac_diagnostic"
+}

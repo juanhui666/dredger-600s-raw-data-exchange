@@ -1,0 +1,65 @@
+{
+  "schema": "support-system-contact-kinematics-rac-600s-engineering-review/v19",
+  "review_status": "diagnostic_pass",
+  "paper_evidence_promoted": false,
+  "fourteen_case_matrix_authorized": false,
+  "instruction_basis_review": {
+    "pass": true,
+    "finding": "The repair corrects the existing spud-soil contact-point kinematics and virtual-work force mapping; it does not add an unsupported trolley X spring or change buffer input parameters."
+  },
+  "process_review": {
+    "pass": true,
+    "code_commit": "1965eabd7cd38a0d441f98c1503491ff8e3465fe",
+    "candidate_diff_sha256": "e848d8ed87c55b0f8c690eff866f9bc6cdeb5c995857a9fb6bb2f37f545b57ae",
+    "input_sha256": "9ca6d87738663dae8f06d8677364cd944a0b8c70b0adefef2d9c6acdd51f589d",
+    "tests": "169 passed",
+    "accepted_steps": 6000,
+    "main_corrector_steps": 6000,
+    "rescued_steps": 0,
+    "max_corrector_residual": 9.999281054082904e-07,
+    "soil_x_alias_residual_m": 0.0,
+    "soil_x_decomposition_residual_m": 0.0
+  },
+  "result_reasonableness_review": {
+    "pass_for_single_rac_diagnostic": true,
+    "soil_contact_x_abs_peak_m": 0.03010725150046767,
+    "soil_rotation_abs_peak_deg": 0.8419275079843443,
+    "buffer_relative_pitch_abs_peak_deg": 2.0754880130362294,
+    "buffer_branch_1_abs_peak_stroke_m": 0.5960393465706586,
+    "buffer_branch_2_abs_peak_stroke_m": 0.6078819949716321,
+    "buffer_centered_half_stroke_limit_m": 0.75,
+    "buffer_hard_gate_pass": true,
+    "buffer_end_stop_frame_count": 0,
+    "soil_force_x_abs_peak_N": 545559.843228972,
+    "spud_pin_O_reaction_x_abs_peak_N": 524471.7754527582,
+    "finding": "For this RAC 600 s run, soil X is no longer identical to hull surge and the previous buffer end-stop event does not recur."
+  },
+  "scope_limits": {
+    "soil_displacement_engineering_applicability_gate": "not_evaluated_no_authoritative_project_limit",
+    "soil_force_engineering_applicability_gate": "not_evaluated_no_authoritative_project_limit",
+    "site_calibration_available": false,
+    "design_or_safety_conclusion_allowed": false,
+    "universal_or_causal_conclusion_allowed": false,
+    "paper_quantitative_conclusion_allowed": false,
+    "matrix_extension_allowed": false
+  },
+  "known_nonblocking_numerical_risk": "The state-dependent point-Jacobian geometric tangent is omitted; the exact affine point closure preserves the converged fixed point, but convergence margin remains quasi-Newton and reached the configured five corrector iterations in some steps.",
+  "gate_script_note": "result_RAC/gate.json records within_buffer_design_stroke_all_frames=true but does not include that field in its pass Boolean. This supplemental engineering review applies the missing buffer hard gate and confirms it passed for the sealed v19 result; future matrix runners must include the buffer gate directly.",
+  "superseded_physical_evidence": [
+    {
+      "path": "source_ref:historical/v18_14case_incomplete_soil_x_mapping",
+      "status": "retain_as_formal_historical_record_nonpromotable",
+      "reason": "soil_x was constrained by the incomplete mapping to equal hull surge"
+    },
+    {
+      "path": "source_ref:historical/v3_5400s_incomplete_soil_x_mapping",
+      "status": "retain_as_formal_historical_record_nonpromotable",
+      "reason": "the 1.5 h result used the same incomplete soil-X mapping"
+    }
+  ],
+  "source_hashes": {
+    "result_metrics_sha256": "01f98aacc3704ac7f878c829f06756530b411c5f20f0a940a730e0da6a0e562c",
+    "result_gate_sha256": "1ebe8c41ae7b7607fb2168a2bc2208e9d9296279c5fbd6756060cbb65646e317",
+    "post_run_result_seal_sha256": "790490c3b4a6971005a6cf06ff7412172a91b8c6311f51f47c749a4723252507"
+  }
+}

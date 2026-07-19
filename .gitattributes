@@ -1,4 +1,6 @@
 *.csv -text -diff
 *.json text eol=lf
 *.md text eol=lf
+*.ndjson text eol=lf
+*.part* binary
 .gitattributes text eol=lf

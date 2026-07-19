@@ -1,0 +1,24 @@
+{
+  "case_id": "RAC",
+  "convergence_pass": true,
+  "fourteen_case_matrix_authorized": false,
+  "input_contract_checks": {
+    "buffer_enabled": true,
+    "distributed_soil": true,
+    "dt_0p1_s": true,
+    "fixed_newmark": true,
+    "formal_variant": true,
+    "geometry_reference": true,
+    "ladder_theta_zero": true,
+    "mode_rigid_multibody": true,
+    "pinned_longitudinal_buffer": true,
+    "roll_enabled": true,
+    "sim_total_600_s": true,
+    "solve_total_600_s": true
+  },
+  "output_closure_pass": true,
+  "paper_evidence_promoted": false,
+  "pass": true,
+  "schema": "support-system-contact-kinematics-rac-600s-gate/v19",
+  "within_buffer_design_stroke_all_frames": true
+}

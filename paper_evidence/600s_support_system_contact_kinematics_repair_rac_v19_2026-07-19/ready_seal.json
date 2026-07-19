@@ -1,0 +1,11 @@
+{
+  "candidate_diff_sha256": "e848d8ed87c55b0f8c690eff866f9bc6cdeb5c995857a9fb6bb2f37f545b57ae",
+  "code_commit": "1965eabd7cd38a0d441f98c1503491ff8e3465fe",
+  "files": {
+    "input_RAC.json": "9ca6d87738663dae8f06d8677364cd944a0b8c70b0adefef2d9c6acdd51f589d",
+    "manifest.json": "c8680c4735f2f9e2c04d6d04ec8758c124ad4eb4832a32fdab7971e895e88278",
+    "run_rac.py": "88dc32fd25b09d64b0dc511e172f8466912bac9e905da9e024a2538dcdb93bbd"
+  },
+  "pass": true,
+  "schema": "support-system-contact-kinematics-rac-600s-ready/v19"
+}

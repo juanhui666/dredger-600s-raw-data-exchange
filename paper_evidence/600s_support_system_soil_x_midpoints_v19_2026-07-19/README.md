@@ -1,5 +1,7 @@
 # 600 s 支撑系统工况数据（桩土 X 位移审计与中点补充）
 
+> **历史数据提示：**本目录使用修复前不完整的桩土 X 运动映射，只保留作运行记录，不再作为桩土接触点响应的物理证据。修复后的单一 RAC 工况见 [`paper_evidence/600s_support_system_contact_kinematics_repair_rac_v19_2026-07-19/`](../600s_support_system_contact_kinematics_repair_rac_v19_2026-07-19/)。
+
 本目录只整理工况、计算状态、响应字段和证据边界，不提供论文结论、参数推荐或章节观点。
 
 ## 数据范围

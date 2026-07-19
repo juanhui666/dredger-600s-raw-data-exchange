@@ -1,0 +1,68 @@
+{
+  "accepted_step_count": 6000,
+  "all_selected_values_finite": true,
+  "buffer_branch_1_stroke_m": {
+    "abs_peak": 0.5960393465706586,
+    "max": 0.5960393465706586,
+    "min": 0.10497929401749184
+  },
+  "buffer_branch_2_stroke_m": {
+    "abs_peak": 0.6078819949716321,
+    "max": -0.10663846700761215,
+    "min": -0.6078819949716321
+  },
+  "buffer_end_stop_frame_count": 0,
+  "buffer_first_end_stop_time_s": null,
+  "buffer_relative_pitch_deg": {
+    "abs_peak": 2.0754880130362294,
+    "max": 2.0754880130362294,
+    "min": 0.3647044106701046
+  },
+  "frame_count": 6001,
+  "main_corrector_converged_count": 6000,
+  "max_corrector_residual": 9.999281054082904e-07,
+  "max_iterations_used": 5,
+  "max_soil_x_alias_residual_m": 0.0,
+  "max_soil_x_decomposition_residual_m": 0.0,
+  "rescued_step_count": 0,
+  "schema": "support-system-contact-kinematics-rac-600s-metrics/v19",
+  "soil_contact_x_m": {
+    "abs_peak": 0.03010725150046767,
+    "max": 0.03010725150046767,
+    "min": -0.012679593151709412
+  },
+  "soil_force_x_N": {
+    "abs_peak": 545559.843228972,
+    "max": -17697.40593521425,
+    "min": -545559.843228972
+  },
+  "soil_longitudinal_generalized_dof": [
+    "surge"
+  ],
+  "soil_longitudinal_state_semantics": [
+    "coupled_spud_contact_point_x"
+  ],
+  "soil_rotation_deg": {
+    "abs_peak": 0.8419275079843443,
+    "max": 0.06509894242005045,
+    "min": -0.8419275079843443
+  },
+  "soil_state_semantics": [
+    "composed_spud_contact_world_reference"
+  ],
+  "soil_x_minus_surge_m": {
+    "abs_peak": 0.4375962766107383,
+    "max": 0.4375962766107383,
+    "min": -0.20274468437218948
+  },
+  "spud_pin_O_reaction_x_N": {
+    "abs_peak": 524471.7754527582,
+    "max": 524471.7754527582,
+    "min": -344818.7175531832
+  },
+  "surge_x_m": {
+    "abs_peak": 0.4078544269128036,
+    "max": 0.19587042080590797,
+    "min": -0.4078544269128036
+  }
+}

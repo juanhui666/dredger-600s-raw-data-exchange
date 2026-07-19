@@ -1,0 +1,9 @@
+{
+  "schema": "support-system-contact-kinematics-rac-600s-engineering-review-seal/v19",
+  "review_file": "post_run_engineering_review.json",
+  "review_file_sha256": "5c2ff99f0c5b46c79e75adf4e53cbddcba9451078259f97a7c354acd0c5c08f2",
+  "diagnostic_pass": true,
+  "paper_evidence_promoted": false,
+  "fourteen_case_matrix_authorized": false,
+  "pass": true
+}
