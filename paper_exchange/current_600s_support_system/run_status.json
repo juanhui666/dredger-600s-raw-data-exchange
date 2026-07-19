@@ -1,0 +1,31 @@
+{
+  "schema": "paper-exchange-current-run-status/v1",
+  "dataset": "600 s support-system case data",
+  "published_date": "2026-07-19",
+  "code_commit": "167075a6a37c739b8c9c6113a0eed88720ec1c95",
+  "simulation": {
+    "total_case_count": 18,
+    "main_case_count": 14,
+    "midpoint_case_count": 4,
+    "duration_s_each": 600.0,
+    "time_step_s": 0.1,
+    "frame_count_each": 6001,
+    "fixed_newmark_step_count_each": 6000,
+    "roll_DOF_enabled": true,
+    "all_main_corrector_only": true,
+    "rescue_reject_nonconvergence_count": 0,
+    "all_case_state": "complete"
+  },
+  "response_statistics_scope": "within buffer stroke and t=60-600 s",
+  "paper_use": {
+    "allowed": false,
+    "reason": "independent stage review is still required before manuscript conclusion promotion"
+  },
+  "model_boundaries": [
+    "post-stroke rigid-stop continuation is not hydraulic impact, structural strength, or safety evidence",
+    "spud-soil X displacement is relative to the fixed soil reference, not relative to the buffer trolley",
+    "bridge hinge pure reaction moment is model-imposed zero",
+    "support increment fields exclude preload; physical support totals include preload"
+  ],
+  "audit_archive": "../../paper_evidence/600s_support_system_soil_x_midpoints_v19_2026-07-19/"
+}
