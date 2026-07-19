@@ -1,0 +1,10 @@
+{
+  "attempt_number": 1,
+  "case_id": "S_L45_M200",
+  "finished_unix": 1784429999.9445846,
+  "gate_pass": true,
+  "no_retry_performed": true,
+  "production_rescue_exercised": false,
+  "started_unix": 1784429511.816679,
+  "state": "complete"
+}

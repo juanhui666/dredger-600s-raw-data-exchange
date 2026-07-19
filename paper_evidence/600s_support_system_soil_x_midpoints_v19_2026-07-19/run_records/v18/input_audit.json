@@ -1,0 +1,260 @@
+{
+  "cases": {
+    "B_P185_N9": {
+      "contract_checks": {
+        "buffer_enabled": true,
+        "distributed_soil": true,
+        "dt_0_1_s": true,
+        "fixed_newmark": true,
+        "geometry_reference": true,
+        "ladder_theta_zero": true,
+        "mode": true,
+        "pinned_longitudinal_buffer": true,
+        "roll_enabled": true,
+        "total_time_600_s": true,
+        "variant": true
+      },
+      "pass": true,
+      "path": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_v15_2026-07-18T115653\\inputs\\B_P185_N9.json",
+      "sha256": "fff0928a1c864d5f79d506ced54f0c9d6b17db5ee39f1d7060155edf04cfe617"
+    },
+    "B_P85_N9": {
+      "contract_checks": {
+        "buffer_enabled": true,
+        "distributed_soil": true,
+        "dt_0_1_s": true,
+        "fixed_newmark": true,
+        "geometry_reference": true,
+        "ladder_theta_zero": true,
+        "mode": true,
+        "pinned_longitudinal_buffer": true,
+        "roll_enabled": true,
+        "total_time_600_s": true,
+        "variant": true
+      },
+      "pass": true,
+      "path": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_v15_2026-07-18T115653\\inputs\\B_P85_N9.json",
+      "sha256": "55cc253b338161bc0dfa86294f631397bf003be110da33f678732c95cd7ae693"
+    },
+    "R0": {
+      "contract_checks": {
+        "buffer_enabled": true,
+        "distributed_soil": true,
+        "dt_0_1_s": true,
+        "fixed_newmark": true,
+        "geometry_reference": true,
+        "ladder_theta_zero": true,
+        "mode": true,
+        "pinned_longitudinal_buffer": true,
+        "roll_enabled": true,
+        "total_time_600_s": true,
+        "variant": true
+      },
+      "pass": true,
+      "path": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_v15_2026-07-18T115653\\inputs\\R0.json",
+      "sha256": "153fadc99fc28613edf9037b6866a77ac1d66bd86104d182809821f386590f9a"
+    },
+    "RA": {
+      "contract_checks": {
+        "buffer_enabled": true,
+        "distributed_soil": true,
+        "dt_0_1_s": true,
+        "fixed_newmark": true,
+        "geometry_reference": true,
+        "ladder_theta_zero": true,
+        "mode": true,
+        "pinned_longitudinal_buffer": true,
+        "roll_enabled": true,
+        "total_time_600_s": true,
+        "variant": true
+      },
+      "pass": true,
+      "path": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_v15_2026-07-18T115653\\inputs\\RA.json",
+      "sha256": "a6e7046e9ed8a8516003a4f9ecd7a7916bf7e6848f943335712edd8ee97c651a"
+    },
+    "RAC": {
+      "contract_checks": {
+        "buffer_enabled": true,
+        "distributed_soil": true,
+        "dt_0_1_s": true,
+        "fixed_newmark": true,
+        "geometry_reference": true,
+        "ladder_theta_zero": true,
+        "mode": true,
+        "pinned_longitudinal_buffer": true,
+        "roll_enabled": true,
+        "total_time_600_s": true,
+        "variant": true
+      },
+      "pass": true,
+      "path": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_v15_2026-07-18T115653\\inputs\\RAC.json",
+      "sha256": "9ca6d87738663dae8f06d8677364cd944a0b8c70b0adefef2d9c6acdd51f589d"
+    },
+    "RC": {
+      "contract_checks": {
+        "buffer_enabled": true,
+        "distributed_soil": true,
+        "dt_0_1_s": true,
+        "fixed_newmark": true,
+        "geometry_reference": true,
+        "ladder_theta_zero": true,
+        "mode": true,
+        "pinned_longitudinal_buffer": true,
+        "roll_enabled": true,
+        "total_time_600_s": true,
+        "variant": true
+      },
+      "pass": true,
+      "path": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_v15_2026-07-18T115653\\inputs\\RC.json",
+      "sha256": "48775e1a1d9c3afdf7a3c0416ee4ff78f408b35a35c94c0b9b7cf03ae4af1d52"
+    },
+    "S_L35_M200": {
+      "contract_checks": {
+        "buffer_enabled": true,
+        "distributed_soil": true,
+        "dt_0_1_s": true,
+        "fixed_newmark": true,
+        "geometry_reference": true,
+        "ladder_theta_zero": true,
+        "mode": true,
+        "pinned_longitudinal_buffer": true,
+        "roll_enabled": true,
+        "total_time_600_s": true,
+        "variant": true
+      },
+      "pass": true,
+      "path": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_v15_2026-07-18T115653\\inputs\\S_L35_M200.json",
+      "sha256": "46d1b19b1a318118dc59fdbd7a77f3c472e2db707464256b724b04541808b19c"
+    },
+    "S_L35_M325": {
+      "contract_checks": {
+        "buffer_enabled": true,
+        "distributed_soil": true,
+        "dt_0_1_s": true,
+        "fixed_newmark": true,
+        "geometry_reference": true,
+        "ladder_theta_zero": true,
+        "mode": true,
+        "pinned_longitudinal_buffer": true,
+        "roll_enabled": true,
+        "total_time_600_s": true,
+        "variant": true
+      },
+      "pass": true,
+      "path": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_v15_2026-07-18T115653\\inputs\\S_L35_M325.json",
+      "sha256": "6bd6a39821d110eaa38acc7cd6f7348ecf742d5d6d27c28f95092653078b7954"
+    },
+    "S_L35_M450": {
+      "contract_checks": {
+        "buffer_enabled": true,
+        "distributed_soil": true,
+        "dt_0_1_s": true,
+        "fixed_newmark": true,
+        "geometry_reference": true,
+        "ladder_theta_zero": true,
+        "mode": true,
+        "pinned_longitudinal_buffer": true,
+        "roll_enabled": true,
+        "total_time_600_s": true,
+        "variant": true
+      },
+      "pass": true,
+      "path": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_v15_2026-07-18T115653\\inputs\\S_L35_M450.json",
+      "sha256": "d411f098f9b14f5e35f9dc63ba084666b088ff70c490389c3603fb541869a936"
+    },
+    "S_L40_M200": {
+      "contract_checks": {
+        "buffer_enabled": true,
+        "distributed_soil": true,
+        "dt_0_1_s": true,
+        "fixed_newmark": true,
+        "geometry_reference": true,
+        "ladder_theta_zero": true,
+        "mode": true,
+        "pinned_longitudinal_buffer": true,
+        "roll_enabled": true,
+        "total_time_600_s": true,
+        "variant": true
+      },
+      "pass": true,
+      "path": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_v15_2026-07-18T115653\\inputs\\S_L40_M200.json",
+      "sha256": "0ab8500e946d7f23722724172e58a33de285c0266db92884ae4fb579ccfbd204"
+    },
+    "S_L40_M450": {
+      "contract_checks": {
+        "buffer_enabled": true,
+        "distributed_soil": true,
+        "dt_0_1_s": true,
+        "fixed_newmark": true,
+        "geometry_reference": true,
+        "ladder_theta_zero": true,
+        "mode": true,
+        "pinned_longitudinal_buffer": true,
+        "roll_enabled": true,
+        "total_time_600_s": true,
+        "variant": true
+      },
+      "pass": true,
+      "path": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_v15_2026-07-18T115653\\inputs\\S_L40_M450.json",
+      "sha256": "1dc0b67d1331b26f1aba11d8f1186765db18d32c6a5aa5236c0aacde9ceb370b"
+    },
+    "S_L45_M200": {
+      "contract_checks": {
+        "buffer_enabled": true,
+        "distributed_soil": true,
+        "dt_0_1_s": true,
+        "fixed_newmark": true,
+        "geometry_reference": true,
+        "ladder_theta_zero": true,
+        "mode": true,
+        "pinned_longitudinal_buffer": true,
+        "roll_enabled": true,
+        "total_time_600_s": true,
+        "variant": true
+      },
+      "pass": true,
+      "path": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_v15_2026-07-18T115653\\inputs\\S_L45_M200.json",
+      "sha256": "16c5821868f89b5c622d56b562b53de4029fc2bb5ac07e85c777badde26dfa3e"
+    },
+    "S_L45_M325": {
+      "contract_checks": {
+        "buffer_enabled": true,
+        "distributed_soil": true,
+        "dt_0_1_s": true,
+        "fixed_newmark": true,
+        "geometry_reference": true,
+        "ladder_theta_zero": true,
+        "mode": true,
+        "pinned_longitudinal_buffer": true,
+        "roll_enabled": true,
+        "total_time_600_s": true,
+        "variant": true
+      },
+      "pass": true,
+      "path": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_v15_2026-07-18T115653\\inputs\\S_L45_M325.json",
+      "sha256": "408f9256584e258e5ddf07e00f339958f935c0622590e6aa11afc13dcb49fec8"
+    },
+    "S_L45_M450": {
+      "contract_checks": {
+        "buffer_enabled": true,
+        "distributed_soil": true,
+        "dt_0_1_s": true,
+        "fixed_newmark": true,
+        "geometry_reference": true,
+        "ladder_theta_zero": true,
+        "mode": true,
+        "pinned_longitudinal_buffer": true,
+        "roll_enabled": true,
+        "total_time_600_s": true,
+        "variant": true
+      },
+      "pass": true,
+      "path": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_v15_2026-07-18T115653\\inputs\\S_L45_M450.json",
+      "sha256": "9f4f9eb1579255453663ccf9aaaa19321de977ec2a1c66d3efbedac4cdb6b4fa"
+    }
+  },
+  "pass": true,
+  "schema": "support-constraint-soil-x-input-audit/v18",
+  "source_v15_ready_seal": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_v15_2026-07-18T115653\\ready_seal.json",
+  "source_v15_ready_seal_sha256": "f93991d68b43dfe44029ba0f0c42c47f3c083db386eac036977ca8ffbbec1e4b"
+}

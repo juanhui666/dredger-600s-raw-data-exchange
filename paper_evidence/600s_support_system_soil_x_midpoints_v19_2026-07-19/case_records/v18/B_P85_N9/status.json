@@ -1,0 +1,10 @@
+{
+  "attempt_number": 1,
+  "case_id": "B_P85_N9",
+  "finished_unix": 1784425288.5115607,
+  "gate_pass": true,
+  "no_retry_performed": true,
+  "production_rescue_exercised": false,
+  "started_unix": 1784424759.3840473,
+  "state": "complete"
+}

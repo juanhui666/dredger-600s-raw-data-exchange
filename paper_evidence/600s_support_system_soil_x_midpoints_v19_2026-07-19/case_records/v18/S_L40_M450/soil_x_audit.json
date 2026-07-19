@@ -1,0 +1,19 @@
+{
+  "abs_peak_m": 0.18197828539795097,
+  "excluded_quantity": "positioning-spud displacement relative to buffer trolley",
+  "expected_frame_count": 6001,
+  "field": "motion[].spud.soil_x_displacement_m",
+  "finite": true,
+  "frame_count": 6001,
+  "magnitude_acceptance_threshold_defined": false,
+  "magnitude_requires_engineering_review": true,
+  "max_pinned_kinematic_residual_m": 0.0,
+  "max_soil_alias_residual_m": 0.0,
+  "max_step_m": 0.021136998032324796,
+  "pass": true,
+  "peak_time_s": 123.80000000000001,
+  "quantity": "positioning-spud displacement relative to fixed soil reference at the model reference section",
+  "rms_m": 0.06656413299397355,
+  "schema": "pile-soil-x-runtime-audit/v18",
+  "signed_peak_m": -0.18197828539795097
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "S_L45_M325",
+  "input_contract_checks": {
+    "buffer_enabled": true,
+    "distributed_soil": true,
+    "dt_0_1_s": true,
+    "fixed_newmark": true,
+    "geometry_reference": true,
+    "ladder_theta_zero": true,
+    "mode": true,
+    "pinned_longitudinal_buffer": true,
+    "roll_enabled": true,
+    "total_time_600_s": true,
+    "variant": true
+  },
+  "pass": true,
+  "production_rescue_exercised": false,
+  "schema": "support-constraint-case-gate/v18",
+  "soil_x_audit_pass": true,
+  "solver_gate_pass": true
+}

@@ -1,0 +1,51 @@
+{
+  "all_main_corrector_only": true,
+  "all_status_gate_hashes_and_soil_x_audits_pass": true,
+  "case_count": 14,
+  "code_commit": "167075a6a37c739b8c9c6113a0eed88720ec1c95",
+  "duration_s_each": 600.0,
+  "evidence_status": "diagnostic_complete_non_promotable_without_independent_stage_review",
+  "finalizer_sha256": "648a262c1c22239971b285d2a0ac6288760dcbe6258bc0bd7715cf3eaeb660c3",
+  "frame_count_each": 6001,
+  "newmark_step_count_each": 6000,
+  "post_stroke_proxy_frame_count": {
+    "B_P185_N9": 20,
+    "B_P85_N9": 400,
+    "R0": 0,
+    "RA": 165,
+    "RAC": 171,
+    "RC": 0,
+    "S_L35_M200": 219,
+    "S_L35_M325": 117,
+    "S_L35_M450": 98,
+    "S_L40_M200": 271,
+    "S_L40_M450": 122,
+    "S_L45_M200": 318,
+    "S_L45_M325": 215,
+    "S_L45_M450": 166
+  },
+  "ready_seal_sha256": "5303687c4fe4a5dc08ad7daaff2457835688cee2f2462aa33d40db6c4091b5ed",
+  "report_use": {
+    "allowed": false,
+    "reason": "requires independent stage review; source-only and proxy-only domains must remain separated"
+  },
+  "rescue_reject_nonconvergence_count": 0,
+  "result_manifest_sha256": {
+    "B_P185_N9": "c3a221f9e16ab54eaa3571661dbe7122f95a9891db50d262352c3a017e0505ab",
+    "B_P85_N9": "cb7dbdf16a2acd8b12b0a1fa3410df23f248132a0de2d13a6a18f522013c7c42",
+    "R0": "ed93fc46bd4da2317b0004333109ca3b9402e7f5c888ccd11f7c297e476e2156",
+    "RA": "6d977394821286231cf7daaa3261a060b3c40f5d33d9edae41ec067860e9e98b",
+    "RAC": "ac56a2690bb2b40a5cb7c0ba66542a658d9c1f45789b7c92e96badf0ce2439ff",
+    "RC": "d3370c2ea77cc401c9d7e3ecab5cb63edd89898415fc4f5d5fd189121525e21b",
+    "S_L35_M200": "998d3822731d713db3ed254e887888f707a9b4fb6946b033b1ef819a6e27d17f",
+    "S_L35_M325": "d110afbfa6eb34028f0a1d84013c643c7dd60f996d74626bae5852ef4530418c",
+    "S_L35_M450": "0a348d16d578f8e084807df388a939af557463646369c0530b8546be2ddd0c59",
+    "S_L40_M200": "324bfb1af15f4711d72f19bd77ee7dbc468fa21cbb13ced70cff8bb1e46787c8",
+    "S_L40_M450": "7310193de21ee0f437a35237f9fed177288f4b9bd020dcb1fdce098e6a637236",
+    "S_L45_M200": "93221c60752ff8ad6b61c5bab47a9c048ea5fcbd2b969c159b9d3b194e682078",
+    "S_L45_M325": "d36862bf56091dbfd94ff70286422e4556a40faa94b00deb2756e4821c59249f",
+    "S_L45_M450": "d3180cb4165468bea6458bba573136c597e8021bbd8936324a3e62eb674c27c1"
+  },
+  "schema": "support-constraint-14case-soil-x-audited-post-run-seal/v18",
+  "state": "complete"
+}

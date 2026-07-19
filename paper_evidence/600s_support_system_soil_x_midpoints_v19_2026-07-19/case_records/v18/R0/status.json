@@ -1,0 +1,10 @@
+{
+  "attempt_number": 1,
+  "case_id": "R0",
+  "finished_unix": 1784424471.0773823,
+  "gate_pass": true,
+  "no_retry_performed": true,
+  "production_rescue_exercised": false,
+  "started_unix": 1784424259.1424122,
+  "state": "complete"
+}

@@ -1,0 +1,21 @@
+{
+  "case_count": 4,
+  "code_commit": "167075a6a37c739b8c9c6113a0eed88720ec1c95",
+  "code_workspace": "E:\\dredger_project_worktrees\\spud-buffer-xs-600s-2026-07-19",
+  "code_workspace_clean": true,
+  "created_date": "2026-07-19",
+  "evidence_status": "diagnostic_non_promotable_without_independent_stage_review",
+  "formal_baseline": {
+    "dt_s": 0.1,
+    "experimental_solver_variant": "full_working_support_baseline",
+    "integration_step_policy": "fixed_newmark",
+    "mode": "rigid_multibody",
+    "roll_enabled": true,
+    "total_time_s": 600.0
+  },
+  "schema": "support-constraint-midpoint-linearity-manifest/v19",
+  "source_v18": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_soil_x_audited_v18_2026-07-19T091329",
+  "source_v18_ready_seal_sha256": "5303687c4fe4a5dc08ad7daaff2457835688cee2f2462aa33d40db6c4091b5ed",
+  "source_v18_runner_sha256": "5e2b529c33cb29f90681c6bad7f49dae3f7030c9cce1bb990bbf3c5c460be738",
+  "status": "prepared"
+}

@@ -1,0 +1,19 @@
+﻿case_id,source_packet,case_groups,environment_load,cutter_load,buffer_average_initial_pressure_bar,buffer_accumulators_per_branch,soil_embedment_L_m,soil_m_MN_per_m4,duration_s,dt_s,frame_count,newmark_step_count,roll_enabled,state,gate_pass,main_corrector_only,post_stroke_proxy_frame_count,report_use_allowed
+RAC,v18,load_decomposition|buffer_pressure|soil_3x3,启用 AQWA 环境载荷,波动绞刀载荷,135.0,9,4.0,3.25,600.0,0.1,6001,6000,True,complete,True,True,171,False
+R0,v18,load_decomposition,无 AQWA 环境载荷,恒定均值绞刀载荷,135.0,9,4.0,3.25,600.0,0.1,6001,6000,True,complete,True,True,0,False
+RA,v18,load_decomposition,启用 AQWA 环境载荷,恒定均值绞刀载荷,135.0,9,4.0,3.25,600.0,0.1,6001,6000,True,complete,True,True,165,False
+RC,v18,load_decomposition,无 AQWA 环境载荷,波动绞刀载荷,135.0,9,4.0,3.25,600.0,0.1,6001,6000,True,complete,True,True,0,False
+B_P85_N9,v18,buffer_pressure,启用 AQWA 环境载荷,波动绞刀载荷,85.0,9,4.0,3.25,600.0,0.1,6001,6000,True,complete,True,True,400,False
+B_P185_N9,v18,buffer_pressure,启用 AQWA 环境载荷,波动绞刀载荷,185.0,9,4.0,3.25,600.0,0.1,6001,6000,True,complete,True,True,20,False
+S_L35_M200,v18,soil_3x3,启用 AQWA 环境载荷,波动绞刀载荷,135.0,9,3.5,2.0,600.0,0.1,6001,6000,True,complete,True,True,219,False
+S_L35_M325,v18,soil_3x3,启用 AQWA 环境载荷,波动绞刀载荷,135.0,9,3.5,3.25,600.0,0.1,6001,6000,True,complete,True,True,117,False
+S_L35_M450,v18,soil_3x3,启用 AQWA 环境载荷,波动绞刀载荷,135.0,9,3.5,4.5,600.0,0.1,6001,6000,True,complete,True,True,98,False
+S_L40_M200,v18,soil_3x3,启用 AQWA 环境载荷,波动绞刀载荷,135.0,9,4.0,2.0,600.0,0.1,6001,6000,True,complete,True,True,271,False
+S_L40_M450,v18,soil_3x3,启用 AQWA 环境载荷,波动绞刀载荷,135.0,9,4.0,4.5,600.0,0.1,6001,6000,True,complete,True,True,122,False
+S_L45_M200,v18,soil_3x3,启用 AQWA 环境载荷,波动绞刀载荷,135.0,9,4.5,2.0,600.0,0.1,6001,6000,True,complete,True,True,318,False
+S_L45_M325,v18,soil_3x3,启用 AQWA 环境载荷,波动绞刀载荷,135.0,9,4.5,3.25,600.0,0.1,6001,6000,True,complete,True,True,215,False
+S_L45_M450,v18,soil_3x3,启用 AQWA 环境载荷,波动绞刀载荷,135.0,9,4.5,4.5,600.0,0.1,6001,6000,True,complete,True,True,166,False
+S_L375_M325,v19,soil_midpoint,启用 AQWA 环境载荷,波动绞刀载荷,135.0,9,3.75,3.25,600.0,0.1,6001,6000,True,complete,True,True,155,False
+S_L425_M325,v19,soil_midpoint,启用 AQWA 环境载荷,波动绞刀载荷,135.0,9,4.25,3.25,600.0,0.1,6001,6000,True,complete,True,True,203,False
+S_L40_M2625,v19,soil_midpoint,启用 AQWA 环境载荷,波动绞刀载荷,135.0,9,4.0,2.625,600.0,0.1,6001,6000,True,complete,True,True,206,False
+S_L40_M3875,v19,soil_midpoint,启用 AQWA 环境载荷,波动绞刀载荷,135.0,9,4.0,3.875,600.0,0.1,6001,6000,True,complete,True,True,142,False

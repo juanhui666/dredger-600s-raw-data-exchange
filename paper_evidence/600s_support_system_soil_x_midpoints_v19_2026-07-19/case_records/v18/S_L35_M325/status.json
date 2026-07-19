@@ -1,0 +1,10 @@
+{
+  "attempt_number": 1,
+  "case_id": "S_L35_M325",
+  "finished_unix": 1784428977.6524105,
+  "gate_pass": true,
+  "no_retry_performed": true,
+  "production_rescue_exercised": false,
+  "started_unix": 1784428470.5895731,
+  "state": "complete"
+}

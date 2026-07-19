@@ -1,0 +1,510 @@
+{
+  "case_count": 18,
+  "created_date": "2026-07-19",
+  "files": {
+    "README.md": {
+      "bytes": 3139,
+      "sha256": "ce5128601ea1990359bb5ea32180894d96b314dcd7c2b9d66fb5ec3794b8b523"
+    },
+    "case_inventory.csv": {
+      "bytes": 2901,
+      "sha256": "05c9716ce1d9be65a08b348cd0ef8c53be8e3f6c1dfb074ddceb680f627aad09"
+    },
+    "case_records/v18/B_P185_N9/analysis.json": {
+      "bytes": 5481,
+      "sha256": "26282ac7928df48c404e7aece9a53a03f388ba409517d3b661d215d6d4268cf9"
+    },
+    "case_records/v18/B_P185_N9/hashes.json": {
+      "bytes": 719,
+      "sha256": "058685ff238374d5a85c87a1161a75e2bf87efb377950315d6af5b98dd2423e6"
+    },
+    "case_records/v18/B_P185_N9/metrics.json": {
+      "bytes": 152973,
+      "sha256": "000c2054df5ecc7ba74bcc7a95399fdce76c1d50548a374e2360f551998ac4fd"
+    },
+    "case_records/v18/B_P185_N9/soil_x_audit.json": {
+      "bytes": 743,
+      "sha256": "796649a2a57e51ff3a489bab787f078be9b266ce4b21f2bd4a3fa18061f9d21b"
+    },
+    "case_records/v18/B_P185_N9/status.json": {
+      "bytes": 242,
+      "sha256": "b92ad507d08ea6e01ce13e9351ed19d48091cf6b45500d81a01166bbed46da1a"
+    },
+    "case_records/v18/B_P185_N9/v18_gate.json": {
+      "bytes": 528,
+      "sha256": "fd8e7b8b552f59352dc33dbcd846d0fae6446515a12eeba7bfb55c60025bcf0c"
+    },
+    "case_records/v18/B_P85_N9/analysis.json": {
+      "bytes": 5496,
+      "sha256": "5bd1992f5e65040781de470dcb74e42d75b7fcfbe4387212a2f9a57d8a30aefa"
+    },
+    "case_records/v18/B_P85_N9/hashes.json": {
+      "bytes": 719,
+      "sha256": "bac7c9f020fc974a6ba121370f7ce3baa930b5f7122af9ce571d1679c70bedc8"
+    },
+    "case_records/v18/B_P85_N9/metrics.json": {
+      "bytes": 152734,
+      "sha256": "0c55246251717931586165ac3e47e0118170d1cf8f2b74ec23ae09f303994415"
+    },
+    "case_records/v18/B_P85_N9/soil_x_audit.json": {
+      "bytes": 725,
+      "sha256": "4486ce200cc19ea7bd735044fe5c4b375a41300db2ca83e1bfcc25d87fa2ca2b"
+    },
+    "case_records/v18/B_P85_N9/status.json": {
+      "bytes": 242,
+      "sha256": "16f31433b0b615c39d72b594aa4639bde2fc449b197204f3339f3e44b9067229"
+    },
+    "case_records/v18/B_P85_N9/v18_gate.json": {
+      "bytes": 527,
+      "sha256": "337311a5f29f120ad47478a4dc9be95f8339f31f5cd0433a73f54aaf88f0d909"
+    },
+    "case_records/v18/R0/analysis.json": {
+      "bytes": 5391,
+      "sha256": "d05c6079ca63a0357503197337911a22f05cf0e15e008416ed2ab51ad2179201"
+    },
+    "case_records/v18/R0/hashes.json": {
+      "bytes": 719,
+      "sha256": "6ebff8b62a88de4490e6c896ce963ce1bd2c5fb85eb0d4d45fbc721a5173b0df"
+    },
+    "case_records/v18/R0/metrics.json": {
+      "bytes": 141767,
+      "sha256": "81e3db02c936c30a238aa333036192a2c3c63cdc0d7a3ffbc89314927037807b"
+    },
+    "case_records/v18/R0/soil_x_audit.json": {
+      "bytes": 737,
+      "sha256": "99546588c19734a717b585dd98ddb58fd650db17933e6d328c5070b6db72d148"
+    },
+    "case_records/v18/R0/status.json": {
+      "bytes": 236,
+      "sha256": "83257f8e7fdff5271fe4a28d2a83f782a0c984fce8629647d96b87232da928f2"
+    },
+    "case_records/v18/R0/v18_gate.json": {
+      "bytes": 521,
+      "sha256": "66230fbfe3f194eb02762e9b368833f1dcac9bf7d144a20d35c0865248b2591c"
+    },
+    "case_records/v18/RA/analysis.json": {
+      "bytes": 5478,
+      "sha256": "b6c4131d58569d86eafa3dd73f932f838806ed25157f6f4760e3b6303a1c0796"
+    },
+    "case_records/v18/RA/hashes.json": {
+      "bytes": 719,
+      "sha256": "c4ac3c7dd05002e0b246dbb203a0c945785935a613a115f46afadbec8274dc47"
+    },
+    "case_records/v18/RA/metrics.json": {
+      "bytes": 153026,
+      "sha256": "14f68c11953c28a382a78fa41c0d67d9c0603ed24004333a91ecb08f447610b7"
+    },
+    "case_records/v18/RA/soil_x_audit.json": {
+      "bytes": 741,
+      "sha256": "0e4dcf88ece195147586f558d334a56f50edd7c1dc522e43f8e527fbfb7e3cf4"
+    },
+    "case_records/v18/RA/status.json": {
+      "bytes": 236,
+      "sha256": "3d8a9deb0550ffb236401f90cf01da10bc73a13397055ae5067ab403010c8d08"
+    },
+    "case_records/v18/RA/v18_gate.json": {
+      "bytes": 521,
+      "sha256": "776de330be15f4a9e59a406b932689eeb61d137a0d6600094ef9ebf1840c2173"
+    },
+    "case_records/v18/RAC/analysis.json": {
+      "bytes": 5477,
+      "sha256": "2c3bb0cbf0821c03c1b8f78d3be1fefd1c1ade93e48ce592e299a1c58ccaa842"
+    },
+    "case_records/v18/RAC/hashes.json": {
+      "bytes": 719,
+      "sha256": "80e73eb13448da1edb5b3824eb577cb5a9764bbe865fad57e87957aa73db769b"
+    },
+    "case_records/v18/RAC/metrics.json": {
+      "bytes": 152936,
+      "sha256": "672fe0a641e8ab00f6307e178fbc261876a8b38f125e0435b912f7e3981f58b2"
+    },
+    "case_records/v18/RAC/soil_x_audit.json": {
+      "bytes": 741,
+      "sha256": "415c3cebe14164169c8f1aea1a0c6d7266ce4c3d190a4a73502e4a8be6320e4e"
+    },
+    "case_records/v18/RAC/status.json": {
+      "bytes": 237,
+      "sha256": "241f3113a58e9fd3f28f526b3395b4face0ad97a3e67cf633352290bd5085873"
+    },
+    "case_records/v18/RAC/v18_gate.json": {
+      "bytes": 522,
+      "sha256": "746adcd858338b0c04c7ba5587a0df9b7a5b2b0bf3a1ee1c34ba07db76a96d1d"
+    },
+    "case_records/v18/RC/analysis.json": {
+      "bytes": 5370,
+      "sha256": "b03017827e8fdc3c87a081aba675b26e158719feff23819b97cf992465805fb6"
+    },
+    "case_records/v18/RC/hashes.json": {
+      "bytes": 719,
+      "sha256": "44903a4fed523fdf71a92562f9baba7605d5c629c6f5f47766f484948e86dab9"
+    },
+    "case_records/v18/RC/metrics.json": {
+      "bytes": 140769,
+      "sha256": "b337bc5ca0689ca8f485d82fa6617f1b3ca5aaa2c808820b004c060971dfca0e"
+    },
+    "case_records/v18/RC/soil_x_audit.json": {
+      "bytes": 737,
+      "sha256": "733f71122aefc63db7b7acfe32141bb19fa8e0df3459f241d11e4c1346886e89"
+    },
+    "case_records/v18/RC/status.json": {
+      "bytes": 236,
+      "sha256": "13fee312d204d78b1a851cf40457990ac2648fa1793981ad3c34c0d84224ab47"
+    },
+    "case_records/v18/RC/v18_gate.json": {
+      "bytes": 521,
+      "sha256": "be9887895bee69899ca8ced414831741d9dab47302001caabb68351724062e89"
+    },
+    "case_records/v18/S_L35_M200/analysis.json": {
+      "bytes": 5501,
+      "sha256": "dfbd8ec14dc46c6e66cb5bd5726b7fe4c049ca79a9a347526bbe6006cf9d5047"
+    },
+    "case_records/v18/S_L35_M200/hashes.json": {
+      "bytes": 719,
+      "sha256": "cbd8f94adf7678a5f3dd1ccd7f1d5dc131d7bd2ad523ea333e50f06ec09190d1"
+    },
+    "case_records/v18/S_L35_M200/metrics.json": {
+      "bytes": 152690,
+      "sha256": "5f905aeb8dceb03536193d0709dec22061f3394ff6b354feb7ed797e8845c8fb"
+    },
+    "case_records/v18/S_L35_M200/soil_x_audit.json": {
+      "bytes": 742,
+      "sha256": "5781c935b6352629858e187ac071103a45e7f689de328755b3d3e5f1ff6765c1"
+    },
+    "case_records/v18/S_L35_M200/status.json": {
+      "bytes": 243,
+      "sha256": "81bbaba946550d2ae1ce5998ee241bba681e0079d45ad2f3bed198b735065e36"
+    },
+    "case_records/v18/S_L35_M200/v18_gate.json": {
+      "bytes": 529,
+      "sha256": "6ab06b1857f6a60821ae36c4e2874c3af4dc94bbec3c66ec334b45675529e085"
+    },
+    "case_records/v18/S_L35_M325/analysis.json": {
+      "bytes": 5490,
+      "sha256": "b181347383dcc8f7b00dd71aecbd6503c3d53fcbd67c0d8ae7929b7302dc1c08"
+    },
+    "case_records/v18/S_L35_M325/hashes.json": {
+      "bytes": 719,
+      "sha256": "1967a72b0ad36a0a46c24849aa3e3b9ffe025b52c34a4b1ef789bc945f5b9b64"
+    },
+    "case_records/v18/S_L35_M325/metrics.json": {
+      "bytes": 152940,
+      "sha256": "386fbbc2eed5148f1ab65827ae6649cf7bcdbd33bfb8d32d475c600ba78edb93"
+    },
+    "case_records/v18/S_L35_M325/soil_x_audit.json": {
+      "bytes": 741,
+      "sha256": "86cf9870a353812e6aa51e5f1e305fe3c57192bd1ac44cecf720717b89e1c3fe"
+    },
+    "case_records/v18/S_L35_M325/status.json": {
+      "bytes": 244,
+      "sha256": "911a95883917ace9a8fade0eb6e951ab0e6f75e503dabb32647a62023c7f28df"
+    },
+    "case_records/v18/S_L35_M325/v18_gate.json": {
+      "bytes": 529,
+      "sha256": "7fb94b0836b697fb3e9b294196114c2f6a22eb1758199d5a8c879cb66a0694f7"
+    },
+    "case_records/v18/S_L35_M450/analysis.json": {
+      "bytes": 5471,
+      "sha256": "aa330420e0c0a5511006b3e61cdfc38eded287f706504a87e19dd62cce9fdf6a"
+    },
+    "case_records/v18/S_L35_M450/hashes.json": {
+      "bytes": 719,
+      "sha256": "b68b35dc242f5107ac848f76ac81d79d4eb72bcadb7d91d1faaea616b7552164"
+    },
+    "case_records/v18/S_L35_M450/metrics.json": {
+      "bytes": 152695,
+      "sha256": "e2bf8bb8d944b3dfe17904ff21b27788dbbf0a70063baf588501bc0da163f1fe"
+    },
+    "case_records/v18/S_L35_M450/soil_x_audit.json": {
+      "bytes": 741,
+      "sha256": "c95df1fe6075d8c50842860ae96517052058c9be5534b8cf3500ac56e02a1fee"
+    },
+    "case_records/v18/S_L35_M450/status.json": {
+      "bytes": 243,
+      "sha256": "06cb00bef6973a85b698588983076bb28c75142f5882842156fd1d051a837a3c"
+    },
+    "case_records/v18/S_L35_M450/v18_gate.json": {
+      "bytes": 529,
+      "sha256": "3e19e736e416e069fd0a4831c1399c026298b37bc352b1ee3a68bc07f9b56bd7"
+    },
+    "case_records/v18/S_L40_M200/analysis.json": {
+      "bytes": 5483,
+      "sha256": "b5facb9b85cf0de54471bff5f640909bbf77bec28b457152712355f24f1b9d99"
+    },
+    "case_records/v18/S_L40_M200/hashes.json": {
+      "bytes": 719,
+      "sha256": "0429327adc756e188c2b237307524570d5ae3d840377aaddee5a00963aafbc46"
+    },
+    "case_records/v18/S_L40_M200/metrics.json": {
+      "bytes": 152783,
+      "sha256": "763c7d42ce1fd13616c0ca523485450f47756f8292ad2b933a5bc71688ac8f84"
+    },
+    "case_records/v18/S_L40_M200/soil_x_audit.json": {
+      "bytes": 739,
+      "sha256": "63f54d1526d703ff52325decb9ea35f94f973f96c9a75a421972ee2b5e9f3d79"
+    },
+    "case_records/v18/S_L40_M200/status.json": {
+      "bytes": 244,
+      "sha256": "8b937028ada9a336803b8a66594e10bc09125ce10eef0a76840740f3e3238de4"
+    },
+    "case_records/v18/S_L40_M200/v18_gate.json": {
+      "bytes": 529,
+      "sha256": "682b130bb87e8431bc560c1836ff5cdc9393ce602b8ed29791ac272f6c023f42"
+    },
+    "case_records/v18/S_L40_M450/analysis.json": {
+      "bytes": 5481,
+      "sha256": "3aec84b71fa856d2dc8b87da2927e6b429e394aa20a8d68976d7871cef706c32"
+    },
+    "case_records/v18/S_L40_M450/hashes.json": {
+      "bytes": 719,
+      "sha256": "3714f609c890d167d91a4cc439af2f85464070b2dcc2c650c7dd44b7a5bfcaa4"
+    },
+    "case_records/v18/S_L40_M450/metrics.json": {
+      "bytes": 152907,
+      "sha256": "130a172eab2b90950e7b8c266dc2231a9a6684247fa5c9a676ff5a86da71dde3"
+    },
+    "case_records/v18/S_L40_M450/soil_x_audit.json": {
+      "bytes": 744,
+      "sha256": "9baf15133c5c0fbb4845d48dd46ed9ae1835e6c5e837928c990414115f2b2e54"
+    },
+    "case_records/v18/S_L40_M450/status.json": {
+      "bytes": 244,
+      "sha256": "9edadf3fa190cadf22c86fc0db34e864d095ecdd80dda1919f9d6c6915ed9065"
+    },
+    "case_records/v18/S_L40_M450/v18_gate.json": {
+      "bytes": 529,
+      "sha256": "2d65c2cc04d968a45a8713519d7b4e3ee7f13fdc105218edb00bda8cd2b399f1"
+    },
+    "case_records/v18/S_L45_M200/analysis.json": {
+      "bytes": 5486,
+      "sha256": "aa27f4d5203ad80c0e2748336364327c689c152252555c37c74ed85dc97f0be4"
+    },
+    "case_records/v18/S_L45_M200/hashes.json": {
+      "bytes": 719,
+      "sha256": "eff09ce4e2f39fed3834854f21877b3776c2c01027e65d987f7ce85fce70b5e2"
+    },
+    "case_records/v18/S_L45_M200/metrics.json": {
+      "bytes": 152812,
+      "sha256": "88c5260511a5b33b185dd3cd38094b22b401b6ab4f50e96fa39394d8374b69ff"
+    },
+    "case_records/v18/S_L45_M200/soil_x_audit.json": {
+      "bytes": 730,
+      "sha256": "6522a518f1f686a0d463026d97d16d969714b16c0d4ec0ace6ae5961ad33420b"
+    },
+    "case_records/v18/S_L45_M200/status.json": {
+      "bytes": 243,
+      "sha256": "e37960f10648a327ffb3e2473b5765d2e3319dbc9fc9767ab90f0ea0f92f2930"
+    },
+    "case_records/v18/S_L45_M200/v18_gate.json": {
+      "bytes": 529,
+      "sha256": "0cf7b95a38a780529fd0d8e6b5e77a6a16f34e8cac17b2c258d4b4b9334d00af"
+    },
+    "case_records/v18/S_L45_M325/analysis.json": {
+      "bytes": 5494,
+      "sha256": "0d222ae7fde21f2f4b18aad5b15c9f5d2e40ba5c5f9bd2b7dc8750acd382c806"
+    },
+    "case_records/v18/S_L45_M325/hashes.json": {
+      "bytes": 719,
+      "sha256": "6000eb0e78fdd55789adf07279f4426baa37d2dd2bfef5c543b221b1572926c8"
+    },
+    "case_records/v18/S_L45_M325/metrics.json": {
+      "bytes": 153055,
+      "sha256": "24dda5b582c13dc0eadc09f42d07db97d831703aa370194249fbcf4a3ee1979a"
+    },
+    "case_records/v18/S_L45_M325/soil_x_audit.json": {
+      "bytes": 730,
+      "sha256": "48927f7ef6790261be96ddf27b102bf552f82bb35c52d708281db9cdf42b376b"
+    },
+    "case_records/v18/S_L45_M325/status.json": {
+      "bytes": 244,
+      "sha256": "d2e18e78783a55354717d6aedd1f43149564eeac9c1ff195c7567311bb99e712"
+    },
+    "case_records/v18/S_L45_M325/v18_gate.json": {
+      "bytes": 529,
+      "sha256": "aa9dd82b35426a9d97f190514546bdf060e3906f4b49e34a420eb271bb29a789"
+    },
+    "case_records/v18/S_L45_M450/analysis.json": {
+      "bytes": 5484,
+      "sha256": "6e5fbb12618c7df660da895553ea8a3fe84cd51c7b3378c864c23bd9cd7b97c4"
+    },
+    "case_records/v18/S_L45_M450/hashes.json": {
+      "bytes": 719,
+      "sha256": "6062bfa0e2f809d12099c020c520c3561516f0617146147761e489e85fe31001"
+    },
+    "case_records/v18/S_L45_M450/metrics.json": {
+      "bytes": 152906,
+      "sha256": "f92e56ec91e29ef1bfea75894434668622db4d3c78f05c9f8bad5827d00fc8c0"
+    },
+    "case_records/v18/S_L45_M450/soil_x_audit.json": {
+      "bytes": 731,
+      "sha256": "392e2be5f7cdbef9818ea994c1dc3ae0d52a364684561d231bafd874c0e306c1"
+    },
+    "case_records/v18/S_L45_M450/status.json": {
+      "bytes": 243,
+      "sha256": "185525e77834e55f2e2f512fdbde0e03c690a9f17053ca1552de259bcb548a75"
+    },
+    "case_records/v18/S_L45_M450/v18_gate.json": {
+      "bytes": 529,
+      "sha256": "6069995bbc063eeb7a5d60bc68ce501f59087ab42c93494d93ea37dd0b0f0e05"
+    },
+    "case_records/v19/S_L375_M325/analysis.json": {
+      "bytes": 5480,
+      "sha256": "65a7a5f1eec794d950afbbf5c2c796d67ed66ee7ea691ecbc9b3669590a24552"
+    },
+    "case_records/v19/S_L375_M325/hashes.json": {
+      "bytes": 719,
+      "sha256": "7c481a070c1cb0384362fa077c6c430fadba52e58985e51fdd32cef3a2c2549c"
+    },
+    "case_records/v19/S_L375_M325/metrics.json": {
+      "bytes": 152823,
+      "sha256": "6ee198d07df954d70f3d6519f5f43c09d223779e7f8cffe8000b1c034613a990"
+    },
+    "case_records/v19/S_L375_M325/soil_x_audit.json": {
+      "bytes": 727,
+      "sha256": "77b9f856cb4b77ca30852f16995a0412c2c26baf98fb53aa0d3ef2edae10d58f"
+    },
+    "case_records/v19/S_L375_M325/status.json": {
+      "bytes": 244,
+      "sha256": "b462e0a7106c914a1327b867cad2dfe42f56c3098c7b26c7922153646eca363b"
+    },
+    "case_records/v19/S_L375_M325/v19_gate.json": {
+      "bytes": 530,
+      "sha256": "610806f061b6edef70df6bb8ce7731a412f8e9734dc80e88aaaab950bcd00234"
+    },
+    "case_records/v19/S_L40_M2625/analysis.json": {
+      "bytes": 5487,
+      "sha256": "2e8f7aa01b77a4d1fae0cf5411ced9f7ab3c5ab95da0f561cd33ed746a0f392c"
+    },
+    "case_records/v19/S_L40_M2625/hashes.json": {
+      "bytes": 719,
+      "sha256": "d58c71c2268524d65a5de3f182f24a87117b0c2154f3759754a52cbcafef42dc"
+    },
+    "case_records/v19/S_L40_M2625/metrics.json": {
+      "bytes": 152892,
+      "sha256": "89a190dc1ec71810c98e0c7bcd7245a0d69dbf069352a8c6291300d8031f52a2"
+    },
+    "case_records/v19/S_L40_M2625/soil_x_audit.json": {
+      "bytes": 730,
+      "sha256": "6b35fe83012434e65a1c90e6612587e91b7ae02f8a2d8db6692ba3fc71366437"
+    },
+    "case_records/v19/S_L40_M2625/status.json": {
+      "bytes": 245,
+      "sha256": "784436430fa6e58b1f757b7d534b2baabf1eb6df097ef545376187aa065aff8c"
+    },
+    "case_records/v19/S_L40_M2625/v19_gate.json": {
+      "bytes": 530,
+      "sha256": "546ab277f7e0f5e99fccea1064c37ba6e395a9063f8d8a28fd99a5b9db7ec78d"
+    },
+    "case_records/v19/S_L40_M3875/analysis.json": {
+      "bytes": 5474,
+      "sha256": "74fb114729f562b8e4398d5a8e92a5ca4e786ad0377bc57b2a7607ab122f36ef"
+    },
+    "case_records/v19/S_L40_M3875/hashes.json": {
+      "bytes": 719,
+      "sha256": "38454c1362c9d08dc8319b332b46d5ae840bb9e6dd81a11129237601b79a3018"
+    },
+    "case_records/v19/S_L40_M3875/metrics.json": {
+      "bytes": 152983,
+      "sha256": "63ba58e66092e3e78b996653f268cd9d9dd3f7dc207870f1ec5bce7463205ab8"
+    },
+    "case_records/v19/S_L40_M3875/soil_x_audit.json": {
+      "bytes": 741,
+      "sha256": "5cad910ce4817db23c8cb2141455028a017cb5900eab2d919dc66ae64367dec5"
+    },
+    "case_records/v19/S_L40_M3875/status.json": {
+      "bytes": 245,
+      "sha256": "c5670ca289a4fbb7a25071fa5c719c1bc473807c2354505e741a7fab6b1b38f9"
+    },
+    "case_records/v19/S_L40_M3875/v19_gate.json": {
+      "bytes": 530,
+      "sha256": "042fd59d303b47e9dc4d0d1844b310cc3db8b4aade029e97d5989dc0ee52aff4"
+    },
+    "case_records/v19/S_L425_M325/analysis.json": {
+      "bytes": 5477,
+      "sha256": "36e61b3addf52f0be3744dead52eff18ec8bca199bdc80c772011073f940681b"
+    },
+    "case_records/v19/S_L425_M325/hashes.json": {
+      "bytes": 719,
+      "sha256": "65cb824d6ca7ea921beb0caaa7e44b8771d689746b3baa1a31f62603538d4d98"
+    },
+    "case_records/v19/S_L425_M325/metrics.json": {
+      "bytes": 152974,
+      "sha256": "87456a63f7c7c1c82902a3be29099ea2c327ffecc7fbe23d848adfdb89a0f925"
+    },
+    "case_records/v19/S_L425_M325/soil_x_audit.json": {
+      "bytes": 740,
+      "sha256": "99bcbaa8e600029327ebb529283b0c448adf88aa8ccb5315218697c869ba4cba"
+    },
+    "case_records/v19/S_L425_M325/status.json": {
+      "bytes": 244,
+      "sha256": "1bcb51738249e669a6bceea57c357533c3a9cd5cf0d7702de261ea3fb583aba0"
+    },
+    "case_records/v19/S_L425_M325/v19_gate.json": {
+      "bytes": 530,
+      "sha256": "d308ef3adeb7634397e8553336976602831990f7c8e2029b8f2ce6f61052fdd7"
+    },
+    "midpoint_axis_summary.csv": {
+      "bytes": 1631,
+      "sha256": "6e98858e475f7e251cde36b2dc98e16fab4f41eda547fbdda4eb9a3d559352ba"
+    },
+    "response_summary_18case.csv": {
+      "bytes": 19971,
+      "sha256": "c70dba92c7756bca27af51ac300a1975c6b2e73e458f600627e502bb8324c342"
+    },
+    "run_records/v18/engineering_review_pause.json": {
+      "bytes": 2970,
+      "sha256": "a9b9cad0fa8aa66041e555424d3af6286b2912a1f4dd05b8ff4a68cffacd91f5"
+    },
+    "run_records/v18/input_audit.json": {
+      "bytes": 9458,
+      "sha256": "e13b3e038434944900f0664e280c1f9085fd5d8732593bd7068aafb0bb815238"
+    },
+    "run_records/v18/manifest.json": {
+      "bytes": 1420,
+      "sha256": "e3c200f049c2aaf50063f219a4381a7c7e0926777ce9ce91313309f49f4cc737"
+    },
+    "run_records/v18/matrix.json": {
+      "bytes": 2498,
+      "sha256": "05a1c5c190579d4ac5d55e18918ea6077ff3f43b6db13ee3f292ec00aad9f43b"
+    },
+    "run_records/v18/post_run_result_seal.json": {
+      "bytes": 2360,
+      "sha256": "73c4b0f9a644d1314d798e7c3a734478b31e163d60ce4d55e12998fb5d18536f"
+    },
+    "run_records/v18/ready_seal.json": {
+      "bytes": 1715,
+      "sha256": "eab4ca724a7a01efee0411d6fcec2944c0027b139d7af87134d06280a5fd7a75"
+    },
+    "run_records/v19/input_audit.json": {
+      "bytes": 2922,
+      "sha256": "9f7503e14b241162069a71478d585d4bf41687d87d7afb1e83b2837cc65d5927"
+    },
+    "run_records/v19/manifest.json": {
+      "bytes": 970,
+      "sha256": "9a4cb0e3282373f3a7c07554d490501da21d6fe491670a97c9974d9a13adde6b"
+    },
+    "run_records/v19/matrix.json": {
+      "bytes": 1506,
+      "sha256": "d6f95dca13144154807b810bde5d31d6d2241e1a52bc86abe4687fc833db4075"
+    },
+    "run_records/v19/post_run_result_seal.json": {
+      "bytes": 1686,
+      "sha256": "fd44bbbfb2e4b6c59024242f29bfd55c9f1545115f0861fde45862dfd452825c"
+    },
+    "run_records/v19/ready_seal.json": {
+      "bytes": 1068,
+      "sha256": "7622d3d5739d2ba0ac9d4488c5afa63fa12adb97c919b42665d640939be46a9a"
+    },
+    "soil_x_audit_summary.csv": {
+      "bytes": 6194,
+      "sha256": "2ac7c5adaede6e629b19f097fe8a7313dbb7d057600438bb77459fe43cb6ffd4"
+    }
+  },
+  "interpretation_neutral": true,
+  "report_use_allowed": false,
+  "schema": "github-neutral-case-exchange-manifest/v19",
+  "simulation_rerun_performed_for_packaging": false,
+  "source_packets": {
+    "v18": "x1_600s_support_constraint_14case_soil_x_audited_v18_2026-07-19T091329",
+    "v19": "x1_600s_support_constraint_midpoint_linearity_4case_v19_2026-07-19T110609"
+  }
+}

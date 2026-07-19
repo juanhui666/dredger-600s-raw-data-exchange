@@ -1,0 +1,23 @@
+{
+  "code_commit": "167075a6a37c739b8c9c6113a0eed88720ec1c95",
+  "code_workspace": "E:\\dredger_project_worktrees\\spud-buffer-xs-600s-2026-07-19",
+  "code_workspace_clean": true,
+  "created_date": "2026-07-19",
+  "evidence_status": "diagnostic_non_promotable_without_independent_stage_review",
+  "execution_policy": "RAC first; remaining 13 only after solver and soil-X field audit pass",
+  "formal_baseline": {
+    "dt_s": 0.1,
+    "experimental_solver_variant": "full_working_support_baseline",
+    "integration_step_policy": "fixed_newmark",
+    "mode": "rigid_multibody",
+    "roll_enabled": true,
+    "total_time_s": 600.0
+  },
+  "purpose": "repeat the roll-enabled 600 s matrix with explicit pile-soil X-displacement audit on a reproducible code baseline",
+  "schema": "support-constraint-14case-soil-x-audited-manifest/v18",
+  "source_v15": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_v15_2026-07-18T115653",
+  "source_v15_post_run_seal_sha256": "a2b5c7ede4a5f94399132df62684b9582d1e4ce80d890ed6e43d70ee17fb9978",
+  "status": "prepared_rac_first",
+  "supersedes_failed_packet": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_soil_x_audited_v17_2026-07-19T090543",
+  "supersession_reason": "v17 exposed that the v15 declared clean commit omitted runtime changes required by its analysis contract; v18 binds those exact scoped changes to an explicit commit"
+}

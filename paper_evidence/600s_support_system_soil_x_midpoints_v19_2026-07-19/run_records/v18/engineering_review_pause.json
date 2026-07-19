@@ -1,0 +1,78 @@
+{
+  "schema": "soil-x-engineering-review-pause/v1",
+  "created_date": "2026-07-19",
+  "run_packet": "x1_600s_support_constraint_14case_soil_x_audited_v18_2026-07-19T091329",
+  "status": "remaining_matrix_paused_pending_engineering_magnitude_review",
+  "completed_cases": [
+    "RAC",
+    "R0",
+    "RA",
+    "RC",
+    "B_P85_N9"
+  ],
+  "case_results": {
+    "RAC": {
+      "soil_x_abs_peak_m": 0.23833334670911777,
+      "soil_x_rms_m": 0.08681777977795976,
+      "soil_x_max_step_m": 0.0261408366426776,
+      "solver_and_field_gate_pass": true
+    },
+    "R0": {
+      "soil_x_abs_peak_m": 6.573064984681197e-11,
+      "soil_x_rms_m": 2.1194450922628967e-11,
+      "soil_x_max_step_m": 8.216823972969234e-12,
+      "solver_and_field_gate_pass": true
+    },
+    "RA": {
+      "soil_x_abs_peak_m": 0.2375783579988665,
+      "soil_x_rms_m": 0.08670905327778465,
+      "soil_x_max_step_m": 0.026318369604289387,
+      "solver_and_field_gate_pass": true
+    },
+    "RC": {
+      "soil_x_abs_peak_m": 0.0012826583435448984,
+      "soil_x_rms_m": 0.0007019914353415049,
+      "soil_x_max_step_m": 0.00011292856723588466,
+      "solver_and_field_gate_pass": true
+    },
+    "B_P85_N9": {
+      "soil_x_abs_peak_m": 0.290597330848807,
+      "soil_x_rms_m": 0.10174000044191474,
+      "soil_x_max_step_m": 0.02644706741137534,
+      "solver_and_field_gate_pass": true
+    }
+  },
+  "diagnosis": {
+    "numerical_divergence_detected": false,
+    "aqwa_disabled_cases_millimetric_or_smaller": true,
+    "aqwa_enabled_cases_decimetric": true,
+    "ra_response_dominant_frequency_hz": [
+      0.17163806032327703,
+      0.18330278286951915,
+      0.18830194967505148
+    ],
+    "linearized_surge_spud_pitch_mode_frequency_hz": [
+      0.16319588782489003,
+      0.18344912320412016
+    ],
+    "linearized_mode_0p1834_damping_ratio": 0.024322,
+    "aqwa_hull_load_contains_overlapping_frequency_components": true,
+    "primary_candidate": "AQWA excitation overlaps low-damped coupled surge-spud-pitch modes in the current parameter model",
+    "physical_magnitude_confirmed": false
+  },
+  "model_limits": {
+    "soil_model": "JTS147-7-2022 m-method linear single-layer envelope",
+    "site_calibrated": false,
+    "runtime_displacement_applicability_gate_present": false,
+    "hydrodynamic_radiation_model": "selected-frequency approximation at representative 0.143 Hz",
+    "aqwa_source_quality_warning": "AQWA source retained 1753 non-fatal GOON modelling-rule violations",
+    "paper_quantitative_use_allowed": false
+  },
+  "next_required_review": [
+    "confirm allowable displacement domain for the linear m-method soil model",
+    "review soil horizontal stiffness and radiation-damping calibration against project soil data",
+    "review selected-frequency hydrodynamic damping against the 0.16-0.18 Hz response band",
+    "review AQWA excitation moment and force reference semantics",
+    "define an engineering displacement gate before restarting the remaining matrix"
+  ]
+}

@@ -4,11 +4,15 @@ This repository contains retained simulation inputs, time histories, and a separ
 
 ## Current 600 s Case Data
 
-The current roll-enabled 14-case dataset is:
+The current roll-enabled case dataset is:
+
+- [`paper_evidence/600s_support_system_soil_x_midpoints_v19_2026-07-19/`](paper_evidence/600s_support_system_soil_x_midpoints_v19_2026-07-19/)
+
+This package contains the 14-case soil-X-audited run and four within-range midpoint cases. All 18 cases completed 600 s, with 6001 frames and 6000 fixed Newmark steps per case. It contains case definitions, numerical summaries, per-case audit records, and run seals, but no manuscript outline or recommended interpretation. Its current seals retain `report_use.allowed=false` pending independent stage review.
+
+The preceding roll-enabled 14-case package is retained at:
 
 - [`paper_evidence/600s_support_system_roll_enabled_v16_2026-07-18/`](paper_evidence/600s_support_system_roll_enabled_v16_2026-07-18/)
-
-All 14 cases completed 600 s, with 6001 frames and 6000 fixed Newmark steps per case. The package contains case definitions, numerical summaries, field-oriented comparison tables, and run/review seals. It contains no manuscript outline or recommended interpretation.
 
 The older `raw/` and `chunks/` trees below are retained for traceability. They include a different baseline and 60 s one-at-a-time studies and must not be substituted for the current roll-enabled 14-case dataset.
 

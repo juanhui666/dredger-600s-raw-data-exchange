@@ -1,0 +1,53 @@
+{
+  "depth_axis_m_at_m_3p25": [
+    3.5,
+    3.75,
+    4.0,
+    4.25,
+    4.5
+  ],
+  "evidence_boundary": "descriptive single-realization midpoint check; not optimization, design, safety, or site calibration",
+  "m_axis_MN_per_m4_at_L_4p0": [
+    2.0,
+    2.625,
+    3.25,
+    3.875,
+    4.5
+  ],
+  "new_cases": {
+    "S_L375_M325": {
+      "L_m": 3.75,
+      "axis": "depth",
+      "m_MN_per_m4": 3.25
+    },
+    "S_L40_M2625": {
+      "L_m": 4.0,
+      "axis": "m",
+      "m_MN_per_m4": 2.625
+    },
+    "S_L40_M3875": {
+      "L_m": 4.0,
+      "axis": "m",
+      "m_MN_per_m4": 3.875
+    },
+    "S_L425_M325": {
+      "L_m": 4.25,
+      "axis": "depth",
+      "m_MN_per_m4": 3.25
+    }
+  },
+  "parent_existing_points": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_soil_x_audited_v18_2026-07-19T091329\\matrix.json",
+  "purpose": "add four within-range midpoint cases to inspect local linearity along L and m axes",
+  "schema": "support-constraint-midpoint-linearity-matrix/v19",
+  "shared_buffer": {
+    "accumulators_per_branch": 9,
+    "average_initial_pressure_bar": 135.0
+  },
+  "shared_load_case": "RAC external AQWA plus fluctuating cutter load",
+  "soil_x_response_policy": {
+    "buffer_direct_translation_coupling": false,
+    "not_quantity": "positioning-spud relative displacement against buffer trolley",
+    "quantity": "positioning-spud relative longitudinal displacement against fixed soil reference",
+    "runtime_field": "motion[].spud.soil_x_displacement_m"
+  }
+}

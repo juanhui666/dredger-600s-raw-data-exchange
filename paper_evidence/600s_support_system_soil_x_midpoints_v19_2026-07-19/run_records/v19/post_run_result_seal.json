@@ -1,0 +1,29 @@
+{
+  "all_main_corrector_only": true,
+  "all_status_gate_hashes_and_soil_x_audits_pass": true,
+  "code_commit": "167075a6a37c739b8c9c6113a0eed88720ec1c95",
+  "duration_s_each": 600.0,
+  "evidence_status": "diagnostic_complete_non_promotable_without_independent_stage_review",
+  "finalizer_sha256": "e10cdb80a2cd84bb62f690a4076381ae282a2306a38d7587e2beb9a8c68ebbca",
+  "frame_count_each": 6001,
+  "linearity_axis_summary_sha256": "10ae13716dad8aaf2a167bf12977acdefac1acf0fbc04e8a164dc2f27c460a39",
+  "linearity_review_sha256": "6306da1bc895c1d6c25d658e347a8dcadbf3ac555236ce4ee53d30458b78b0e0",
+  "new_case_count": 4,
+  "new_result_manifest_sha256": {
+    "S_L375_M325": "bb556907e9d29ae9dc2560ab2ab57bd2f9d9c3453e16b35e6f1f209b6893069e",
+    "S_L40_M2625": "6ae3696145ae6833eabcd595cd52e07a192e531d8087cdad42f7c8186cc21277",
+    "S_L40_M3875": "402ac71b5ef1c01667f1bda35cf041c4c58cdf76f603a1dea70bdb4d2807a954",
+    "S_L425_M325": "d073a4c6403f6fa924638525cba69f9fc231a5f68b1360c1c04eeb61efe3b50a"
+  },
+  "newmark_step_count_each": 6000,
+  "ready_seal_sha256": "d656a4cda0f1c0f91679e32d9ec109c5c555c556094f89b1b8ecee2668370b25",
+  "report_use": {
+    "allowed": false,
+    "reason": "requires independent stage review and evidence-bounded manuscript integration"
+  },
+  "rescue_reject_nonconvergence_count": 0,
+  "schema": "support-constraint-midpoint-linearity-post-run-seal/v19",
+  "source_v18_post_run_result_seal": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_soil_x_audited_v18_2026-07-19T091329\\post_run_result_seal.json",
+  "source_v18_post_run_result_seal_sha256": "89c4650df86897f9574de13951b529546fe5ab852b9a1767c9c49c3868bcec6b",
+  "state": "complete"
+}

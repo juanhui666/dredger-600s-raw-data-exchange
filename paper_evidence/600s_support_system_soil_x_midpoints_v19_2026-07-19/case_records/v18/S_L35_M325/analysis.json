@@ -1,0 +1,145 @@
+{
+  "case_id": "S_L35_M325",
+  "checks": {
+    "all_6000_steps_main_corrector_only": true,
+    "all_finite": true,
+    "bridge_hinge_model_and_zero_pure_moment_valid": true,
+    "fixed_newmark_6000_steps": true,
+    "frame_count_6001": true,
+    "persisted_accepted_trace_exact": true,
+    "pressure_volume_and_domain_semantics_valid": true,
+    "production_rescue_never_attempted_triggered_or_accepted": true,
+    "roll_dof_provenance_present_and_consistent_all_frames": true,
+    "soil_py_energy_available_semantics_and_trapezoid_closure_valid": true,
+    "support_total_preload_runtime_delta_semantics_and_closure_valid": true,
+    "time_grid_0_to_600_dt_0p1": true,
+    "zero_reject_or_nonconvergence": true
+  },
+  "frame_audit": {
+    "all_within_limits_allowed": true,
+    "branch_counts": {
+      "branch_1": {
+        "end_stop": 71,
+        "proxy": 71,
+        "slack": 0,
+        "source": 5930
+      },
+      "branch_2": {
+        "end_stop": 117,
+        "proxy": 117,
+        "slack": 3,
+        "source": 5884
+      }
+    },
+    "end_stop_reaction_interpretation": "continuation_proxy_not_impact_or_safety_evidence",
+    "first_end_stop_time_s": 45.800000000000004,
+    "last_end_stop_time_s": 595.6,
+    "post_stroke_proxy_allowed_but_not_source_domain": true,
+    "post_stroke_proxy_frame_count": 117,
+    "post_stroke_proxy_frame_fraction": 0.019496750541576405,
+    "source_domain_frame_count": 5884,
+    "source_domain_frame_fraction": 0.9805032494584236,
+    "valid": true
+  },
+  "hinge_model_audit": {
+    "bridge_connection_model_required": "hinge",
+    "bridge_constraint_active_required": false,
+    "failure_count": 0,
+    "frame_count": 6001,
+    "max_abs_bridge_connection_reaction_moment_Nm": 0.0,
+    "reaction_absolute_tolerance_Nm": 1e-06,
+    "reaction_semantics": "hinge_transmits_force_but_no_pure_moment_model_imposed_zero",
+    "valid": true
+  },
+  "report_use": {
+    "allowed": false,
+    "status": "await_complete_matrix_and_pattern_review"
+  },
+  "roll_dof_provenance_audit": {
+    "all_frames_exactly_consistent": true,
+    "all_frames_present": true,
+    "frame_count": 6001,
+    "provenance": {
+      "constraints": [],
+      "enabled_flag": true,
+      "hull_spud_mode": "pinned_longitudinal_buffer",
+      "notes": [],
+      "provenance_class": "free_dynamic",
+      "report_free_response_valid": true,
+      "spud_soil_mode": "spring",
+      "zero_value_interpretation": "free_dynamic_response"
+    },
+    "report_free_response_valid": true,
+    "valid": true
+  },
+  "schema": "support-constraint-14case-analysis/v13",
+  "soil_py_energy_audit": {
+    "availability_failure_count": 0,
+    "closure_absolute_tolerance_J": 1e-06,
+    "closure_failure_count": 0,
+    "closure_relative_tolerance": 1e-09,
+    "energy_domain_contributions_J": {
+      "full_0_600s": {
+        "interval_count_sum": 6000,
+        "interval_count_sum_is_6000": true,
+        "proxy_interval_contribution_J": 586905.2172195968,
+        "proxy_interval_count": 68,
+        "source_interval_contribution_J": 10123531.731465321,
+        "source_interval_count": 5834,
+        "sum_contribution_J": 11572780.837836316,
+        "sum_equals_total_final": true,
+        "total_final_energy_J": 11572780.837836295,
+        "transition_interval_contribution_J": 862343.8891513979,
+        "transition_interval_count": 98,
+        "window_interval_rule": "all_adjacent_intervals_from_0_to_600s"
+      },
+      "interval_assignment_rule": "both_endpoints_source_to_source_both_proxy_to_proxy_cross_domain_to_transition",
+      "steady_60_600s": {
+        "expected_energy_change_J": 11097989.337895468,
+        "interval_count_sum": 5400,
+        "proxy_interval_contribution_J": 584800.3279462955,
+        "proxy_interval_count": 67,
+        "source_interval_contribution_J": 9655340.981843857,
+        "source_interval_count": 5237,
+        "sum_contribution_J": 11097989.33789549,
+        "sum_equals_window_energy_change": true,
+        "transition_interval_contribution_J": 857848.0281053367,
+        "transition_interval_count": 96,
+        "window_interval_rule": "adjacent_intervals_with_both_endpoints_inside_60_to_600s"
+      }
+    },
+    "final_energy_J": 11572780.837836295,
+    "finite_or_nonnegative_failure_count": 0,
+    "frame_count": 6001,
+    "initial_energy_J": 0.0,
+    "layer_consistency_failure_count": 0,
+    "max_abs_closure_error_J": 9.311804660683265e-10,
+    "nondecreasing_failure_count": 0,
+    "required_semantics": "accepted_output_time_history_trapezoidal_integral_of_soil_py_damping_power",
+    "semantics_failure_count": 0,
+    "valid": true
+  },
+  "support_balance_audit": {
+    "closure_equation": "explicit_total_equals_explicit_preload_plus_explicit_runtime_delta",
+    "component_absolute_tolerance": 1e-06,
+    "component_relative_tolerance": 1e-09,
+    "failure_count": 0,
+    "force_resultant_not_used_for_additive_closure": true,
+    "frame_count": 6001,
+    "max_abs_component_closure_error": 0.0,
+    "required_runtime_delta_semantics": "dynamic_balance_runtime_delta",
+    "required_total_semantics": "total_physical_dynamic_balance",
+    "valid": true
+  },
+  "trace_audit": {
+    "all_steps_main_corrector_only": true,
+    "any_rescue_requires_source_investigation": "assembly_constitutive_or_runtime_reference_state",
+    "attempted_count": 0,
+    "entry_count": 6000,
+    "main_corrector_converged_count": 6000,
+    "ordered": true,
+    "production_rescue_exercised": false,
+    "rescued_count": 0,
+    "triggered_count": 0
+  }
+}

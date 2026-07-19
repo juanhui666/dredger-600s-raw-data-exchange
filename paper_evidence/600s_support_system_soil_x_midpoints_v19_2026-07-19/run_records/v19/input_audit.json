@@ -1,0 +1,86 @@
+{
+  "allowed_difference_paths": [
+    "/ladder/spud/penetration_depth",
+    "/ladder/spud/soil_lateral_y_damping_Ns_per_m",
+    "/ladder/spud/soil_lateral_y_stiffness_N_per_m",
+    "/ladder/spud/soil_layers/0/bottom_m"
+  ],
+  "cases": {
+    "S_L375_M325": {
+      "Cyy_Ns_per_m": 5015135.390642292,
+      "Cyy_formula": "2*zeta_s*Kyy/omega",
+      "Kyy_N_per_m": 57585937.5,
+      "L_m": 3.75,
+      "axis": "depth",
+      "b0_m": 2.52,
+      "difference_paths_from_RAC": [
+        "/ladder/spud/penetration_depth",
+        "/ladder/spud/soil_lateral_y_damping_Ns_per_m",
+        "/ladder/spud/soil_lateral_y_stiffness_N_per_m",
+        "/ladder/spud/soil_layers/0/bottom_m"
+      ],
+      "m_MN_per_m4": 3.25,
+      "pass": true,
+      "reference_period_s": 8.0,
+      "sha256": "62c275fd501629f6d10b57f68b6a8bf01cb3c299e6e167d8fb319b8af98b55d4",
+      "zeta_s": 0.0342
+    },
+    "S_L40_M2625": {
+      "Cyy_Ns_per_m": 4608780.830785121,
+      "Cyy_formula": "2*zeta_s*Kyy/omega",
+      "Kyy_N_per_m": 52920000.0,
+      "L_m": 4.0,
+      "axis": "m",
+      "b0_m": 2.52,
+      "difference_paths_from_RAC": [
+        "/ladder/spud/soil_lateral_y_damping_Ns_per_m",
+        "/ladder/spud/soil_lateral_y_stiffness_N_per_m"
+      ],
+      "m_MN_per_m4": 2.625,
+      "pass": true,
+      "reference_period_s": 8.0,
+      "sha256": "a8daabcca43e68f4a7b232f6943a8150137636a9145ef50382e07cb6cb9575ec",
+      "zeta_s": 0.0342
+    },
+    "S_L40_M3875": {
+      "Cyy_Ns_per_m": 6803438.369254227,
+      "Cyy_formula": "2*zeta_s*Kyy/omega",
+      "Kyy_N_per_m": 78120000.0,
+      "L_m": 4.0,
+      "axis": "m",
+      "b0_m": 2.52,
+      "difference_paths_from_RAC": [
+        "/ladder/spud/soil_lateral_y_damping_Ns_per_m",
+        "/ladder/spud/soil_lateral_y_stiffness_N_per_m"
+      ],
+      "m_MN_per_m4": 3.875,
+      "pass": true,
+      "reference_period_s": 8.0,
+      "sha256": "a8f1d07125ebe9b45a6784b64c6b926d03d5d1ac399581bce3499aec8ce6a6c5",
+      "zeta_s": 0.0342
+    },
+    "S_L425_M325": {
+      "Cyy_Ns_per_m": 6441662.79064721,
+      "Cyy_formula": "2*zeta_s*Kyy/omega",
+      "Kyy_N_per_m": 73965937.5,
+      "L_m": 4.25,
+      "axis": "depth",
+      "b0_m": 2.52,
+      "difference_paths_from_RAC": [
+        "/ladder/spud/penetration_depth",
+        "/ladder/spud/soil_lateral_y_damping_Ns_per_m",
+        "/ladder/spud/soil_lateral_y_stiffness_N_per_m",
+        "/ladder/spud/soil_layers/0/bottom_m"
+      ],
+      "m_MN_per_m4": 3.25,
+      "pass": true,
+      "reference_period_s": 8.0,
+      "sha256": "2094ab9cfa013cd35a5a5dcba27bba8552200f4568b991887d5f90c56df613d5",
+      "zeta_s": 0.0342
+    }
+  },
+  "pass": true,
+  "schema": "support-constraint-midpoint-input-audit/v19",
+  "source_RAC": "E:\\dredger_project_artifacts\\x1_600s_support_constraint_14case_roll_enabled_v15_2026-07-18T115653\\inputs\\RAC.json",
+  "source_RAC_sha256": "9ca6d87738663dae8f06d8677364cd944a0b8c70b0adefef2d9c6acdd51f589d"
+}

@@ -1,0 +1,19 @@
+{
+  "code_commit": "167075a6a37c739b8c9c6113a0eed88720ec1c95",
+  "external_inputs": {
+    "S_L375_M325": "62c275fd501629f6d10b57f68b6a8bf01cb3c299e6e167d8fb319b8af98b55d4",
+    "S_L40_M2625": "a8daabcca43e68f4a7b232f6943a8150137636a9145ef50382e07cb6cb9575ec",
+    "S_L40_M3875": "a8f1d07125ebe9b45a6784b64c6b926d03d5d1ac399581bce3499aec8ce6a6c5",
+    "S_L425_M325": "2094ab9cfa013cd35a5a5dcba27bba8552200f4568b991887d5f90c56df613d5"
+  },
+  "files": {
+    "README.md": "e0947a7460d8ec5d9511e88069f5033ef3d10cb143fcfceb0f85cfa3398ec6f3",
+    "input_audit.json": "5402f9f27c3e8e6edfef96e96b42a846d3f27476eec5a2c5d41502c92db2bc36",
+    "manifest.json": "a4847934046e3b0e4a636468afba34c070f582c842573942ec8f4a15eeedcfb7",
+    "matrix.json": "a37e2b0bed506195dac578a4785b5fc5a728f49be8c0a7be7f2399ceab41c146",
+    "prepare_packet.py": "3b9c52d41411b941505cdc95aab270b6e380b6cd86f44ca3d0e3443b46e528f3",
+    "run_case.py": "b5ba1e88855b1ce4e3fe828477e925e4a8c991467ae6b7bf1b8cd2ba1157485f"
+  },
+  "pass": true,
+  "schema": "support-constraint-midpoint-linearity-ready/v19"
+}
