@@ -1,0 +1,51 @@
+{
+  "implementation_owners": [
+    "representative-case execution agents and sealed v21 runtime scripts"
+  ],
+  "independent_from_implementation": true,
+  "overall_status": "pass",
+  "process_correctness": {
+    "evidence": [
+      "All 48 files listed by the six result seals independently match their SHA-256 values; each status records attempt_number=1, state=complete, no_retry_performed=true, and gate_pass=true.",
+      "S_L35_M200 result seal f75dff2a0b83dff892d50cbb657016e5a9451410be844583f90885bdb589af87 contains 6000 sequential main-corrector steps and 6001 sequential frames, with zero rescue, continuation, non-finite values, invalid flags, or end-stop frames.",
+      "S_L45_M450 result seal c122cb58a32e5f033ac2489adf8405af2f811f42331e0cd9b3479076f3353550 passes the same independently recomputed 6000-step and 6001-frame checks.",
+      "For both new endpoints, every frame is source_only and the independently reconstructed soil-X alias and translation-plus-rotation decomposition residuals are exactly 0.0 m.",
+      "The authoritative worktree remains clean at commit 1965eabd7cd38a0d441f98c1503491ff8e3465fe, and project harness status remains 43/43 with zero failures and zero warnings.",
+      "Only RAC and the six representative case result directories exist; no remaining case or matrix analysis was started during this review."
+    ],
+    "finding": "All six representative results are current-candidate, current-stage, single-attempt, complete v21 results with passing gates and intact file hashes. The two newly added true K/C endpoint cases were independently recomputed step by step and frame by frame.",
+    "status": "pass"
+  },
+  "result_reasonableness": {
+    "evidence": [
+      "S_L35_M200 has max soil-X magnitude 0.025098513341397677 m, max soil-force-X magnitude 535271.1649180179 N, and minimum centered half-stroke margin 0.1455202502216668 m.",
+      "S_L45_M450 has max soil-X magnitude 0.03403970774836296 m, max soil-force-X magnitude 552747.7068973542 N, and minimum centered half-stroke margin 0.14182643039099685 m.",
+      "Across all six representatives, minimum buffer margin remains positive; all cases have zero rescue, zero continuation, zero nonconvergence, zero end-stop frames, finite source-only outputs, and exact soil-X closure.",
+      "The authorized remaining set is R0, RA, RC, S_L35_M325, S_L40_M200, S_L40_M450, S_L45_M325, S_L375_M325, S_L425_M325, S_L40_M2625, and S_L40_M3875.",
+      "Soil displacement and force engineering applicability limits remain not evaluated because no authoritative project limit is supplied; no safety, design-optimum, matrix-linearity, or paper-level physical claim is approved."
+    ],
+    "finding": "GO for the remaining 11 explicit case runs. The representative pressure endpoints and complete soil-corner/K-C envelope all pass numerical, source-domain, repaired soil-X closure, and positive buffer-margin gates. Interior behavior must still be measured rather than inferred, so every remaining run retains its individual hard gate and matrix/paper promotion remains closed.",
+    "status": "pass"
+  },
+  "reviewed_run_ids": [
+    "rac-release-seal-sha256:a56d15e1134f3abd3e96e57479a7fbd31d6702bb5866a3e7d4b2786af5696394",
+    "B_P85_N9-result-seal-sha256:8d661f246e2c58cc8ddc67923612050b61e7d1a8e71489e91ac204738aa66dc0",
+    "B_P185_N9-result-seal-sha256:b9afc916aad4b45cb2d55c9e8a4f57c67ab4d519f285688bdbf75f925d969a8d",
+    "S_L45_M200-result-seal-sha256:4d4f302f9b84647c478e479e61378013ab9374134246f4ce07eb7a9e3fc618b3",
+    "S_L35_M450-result-seal-sha256:c06f020292abe726268c916fc8678b6fbd895695a58756616ad06a650ab479fa",
+    "S_L35_M200-result-seal-sha256:f75dff2a0b83dff892d50cbb657016e5a9451410be844583f90885bdb589af87",
+    "S_L45_M450-result-seal-sha256:c122cb58a32e5f033ac2489adf8405af2f811f42331e0cd9b3479076f3353550"
+  ],
+  "reviewer": "stage-review-contact-kinematics-agent:/root/stage_review_contact_kinematics",
+  "stage_id": "support-system-contact-kinematics-repair-v21-representative-batch-2026-07-20",
+  "starting_premise": {
+    "evidence": [
+      "Buffer-pressure coverage is B_P85_N9, RAC at 135 bar, and B_P185_N9.",
+      "Soil corner coverage is S_L35_M200, S_L35_M450, S_L45_M200, and S_L45_M450 around RAC at L=4.0 m and m=3.25 MN/m^4.",
+      "The true condensed soil range is covered from K=30.87 MN/m and C=2.688455 MN*s/m through K=114.8175 MN/m and C=9.999408 MN*s/m.",
+      "The remaining soil cases lie inside this sealed input envelope; R0, RA, and RC are required load-decomposition runs and remain subject to their own full per-case gates."
+    ],
+    "finding": "The representative-batch premise is now correct. Following the prior no-go, the batch includes both pressure endpoints and all four soil L-m corner combinations, including the true minimum and maximum condensed K/C cases, while retaining the independently released RAC center case. This is sufficient to decide whether execution may continue, but it is not a monotonicity, optimum-design, or paper-evidence conclusion.",
+    "status": "pass"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "implementation_owners": [
+    "v21 18-case preparation and bounded rework agents"
+  ],
+  "independent_from_implementation": true,
+  "overall_status": "pass",
+  "process_correctness": {
+    "evidence": [
+      "The ready candidate SHA-256 is ff0aea354090e2b14191beb4dec291ed5bdf0414ec2e7e33443aae4a1068482c; all 31 listed file hashes independently match.",
+      "All six Python scripts parse, all 18 inputs pass SimulateInput validation from the authoritative worktree, and the input and 13 soil-formula audits pass.",
+      "Five external CSVs independently pass sealed hashes, full-row numeric finiteness, t0=0 s, t1=600 s, expected row counts, and per-step fixed-dt continuity; both cutter histories additionally have zero endpoint difference for every load field.",
+      "analyze_matrix.py requires the current stage-review and ready-candidate ancestry plus matching case_id, state=complete, gate_pass=true, no_retry_performed=true, and complete per-file hash verification for every result seal.",
+      "results, matrix_analysis, stage_review.json, and stage_review_seal.json were absent before this independent review; no solver or case runner was invoked.",
+      "Project harness status reports 43/43 manifest coverage with zero failures and zero warnings."
+    ],
+    "finding": "The preparation, source-integrity, capture, case-analysis, RAC-reproduction, matrix-analysis, and execution gates are sealed and mutually bound. The runner mechanically permits RAC first and blocks every other case pending a passing current RAC result, locked v19 comparison candidate, and independent three-layer RAC reproduction seal.",
+    "status": "pass"
+  },
+  "result_reasonableness": {
+    "evidence": [
+      "The v19 reference result seal and metrics independently match SHA-256 790490c3b4a6971005a6cf06ff7412172a91b8c6311f51f47c749a4723252507 and 01f98aacc3704ac7f878c829f06756530b411c5f20f0a940a730e0da6a0e562c.",
+      "compare_rac_v19.py uses exact counters and predefined field-specific atol+rtol comparisons without promoting its candidate to paper evidence.",
+      "analyze_matrix.py defines the timewise load interaction as RAC-RA-RC+R0, pressure curvature about the 135 bar center, five-point center-axis diagnostics, and 3x3 soil-model residual fits as descriptive-only outputs.",
+      "No 600 s result exists yet, so this pass is a pre-run process authorization and makes no claim about simulated response magnitudes, engineering limits, safety, optimum design, or paper conclusions."
+    ],
+    "finding": "GO only for the first RAC reproduction run. The predefined RAC comparison and descriptive matrix-analysis contracts are technically coherent and evidence-bounded, while the remaining 17 runs, matrix result, and all paper-level physical conclusions remain unauthorized.",
+    "status": "pass"
+  },
+  "reviewed_run_ids": [
+    "ready-candidate-sha256:ff0aea354090e2b14191beb4dec291ed5bdf0414ec2e7e33443aae4a1068482c",
+    "code-commit:1965eabd7cd38a0d441f98c1503491ff8e3465fe",
+    "v19-rac-result-seal-sha256:790490c3b4a6971005a6cf06ff7412172a91b8c6311f51f47c749a4723252507"
+  ],
+  "reviewer": "stage-review-contact-kinematics-agent:/root/stage_review_contact_kinematics",
+  "stage_id": "support-system-contact-kinematics-repair-18case-v21-pre-run-rac-first-2026-07-20",
+  "starting_premise": {
+    "evidence": [
+      "The authoritative worktree is clean at commit 1965eabd7cd38a0d441f98c1503491ff8e3465fe.",
+      "The ready candidate binds the v15 ready seal, repaired v19 RAC input, and v20 ready seal to their independently recomputed SHA-256 values.",
+      "The formal solve contract remains rigid_multibody with full_working_support_baseline, geometry_reference, and ladder_theta=0 in all 18 model-validated inputs.",
+      "The manifest forbids old-result reuse and records paper_evidence_promoted=false."
+    ],
+    "finding": "The package starts from the repaired support-system contact-kinematics baseline at the locked authoritative commit and asks the correct next question: reproduce RAC first before permitting the remaining 17 cases. This review authorizes no paper conclusion and no case other than the first RAC run.",
+    "status": "pass"
+  }
+}

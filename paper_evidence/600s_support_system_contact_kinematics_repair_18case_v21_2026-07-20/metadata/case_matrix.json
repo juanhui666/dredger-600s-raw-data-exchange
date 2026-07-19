@@ -1,0 +1,64 @@
+{
+  "buffer_pressure_bar_N9": {
+    "B_P185_N9": 185.0,
+    "B_P85_N9": 85.0,
+    "RAC": 135.0
+  },
+  "case_count": 18,
+  "deduplication": "RAC is shared by load, buffer, and soil groups; 4 + 2 + 8 + 4 = 18 unique cases",
+  "formal_order": [
+    "RAC",
+    "R0",
+    "RA",
+    "RC",
+    "B_P85_N9",
+    "B_P185_N9",
+    "S_L35_M200",
+    "S_L35_M325",
+    "S_L35_M450",
+    "S_L40_M200",
+    "S_L40_M450",
+    "S_L45_M200",
+    "S_L45_M325",
+    "S_L45_M450",
+    "S_L375_M325",
+    "S_L425_M325",
+    "S_L40_M2625",
+    "S_L40_M3875"
+  ],
+  "load_decomposition": [
+    "R0",
+    "RA",
+    "RC",
+    "RAC"
+  ],
+  "paper_statistics_windows_s": {
+    "full": [
+      0.0,
+      600.0
+    ],
+    "steady": [
+      60.0,
+      600.0
+    ]
+  },
+  "results_reuse": "forbidden; every case requires a new run after stage review",
+  "schema": "support-system-contact-kinematics-repair-18case-matrix/v21",
+  "soil_3x3": [
+    "S_L35_M200",
+    "S_L35_M325",
+    "S_L35_M450",
+    "S_L40_M200",
+    "RAC",
+    "S_L40_M450",
+    "S_L45_M200",
+    "S_L45_M325",
+    "S_L45_M450"
+  ],
+  "soil_curve_shape_additions": [
+    "S_L375_M325",
+    "S_L425_M325",
+    "S_L40_M2625",
+    "S_L40_M3875"
+  ]
+}

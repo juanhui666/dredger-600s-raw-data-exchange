@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "all_18_inputs_model_validate": true,
+    "all_external_600s_sources_exist": true,
+    "all_external_600s_sources_integrity_pass": true,
+    "authoritative_commit_exact": true,
+    "authoritative_workspace_clean": true,
+    "long_run_started": false,
+    "solver_app_import_origin_authoritative": true,
+    "stage_review_seal_present": false,
+    "v19_RAC_semantically_identical_to_v15_RAC": true
+  },
+  "execution_authorized": false,
+  "pass_for_stage_review": true,
+  "schema": "support-system-contact-kinematics-repair-18case-pre-run/v21"
+}

@@ -1,0 +1,22 @@
+{
+  "absolute_windows_path_hits": [],
+  "boundary": "shared-byte hashes are authoritative in PACKAGE_MANIFEST; sanitized copies do not replace local original seals",
+  "case_count": 18,
+  "excluded_decimated_raw_present": false,
+  "excluded_step_trace_present": false,
+  "full_resolution_scalar_file_count": 18,
+  "input_numeric_values_unchanged": true,
+  "input_sanitization_pass": true,
+  "json_numeric_values_unchanged": true,
+  "json_parse_failures": [],
+  "json_sanitization_pass": true,
+  "manifest_file_count": 159,
+  "manifest_mismatches": [],
+  "package_manifest_sha256": "803c330e7c836f8cb5667b8986a675a925340881bd7b9432f0bbb7426fac4b37",
+  "pass": true,
+  "schema": "support-system-contact-kinematics-repair-18case-shared-package-verification/v21",
+  "source_copy_pass": true,
+  "source_csv_file_count": 5,
+  "structural_pass": true,
+  "utf8_failures": []
+}

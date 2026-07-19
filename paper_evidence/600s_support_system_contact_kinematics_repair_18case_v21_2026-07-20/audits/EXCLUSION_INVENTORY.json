@@ -1,0 +1,201 @@
+{
+  "excluded": {
+    "accepted_corrector_trace.ndjson": {
+      "case_count": 18,
+      "files": [
+        {
+          "bytes": 8622857,
+          "case_id": "RAC",
+          "sha256": "e11a6193d2fb62f44bb3b6e7bb9f470be56743d2cc6a348a095c014dcefe9cf8"
+        },
+        {
+          "bytes": 8622851,
+          "case_id": "R0",
+          "sha256": "07dda5a1735fe4aeb6c231b25a6abbd2e93e1011c3e4486443a7e67d4017dc6d"
+        },
+        {
+          "bytes": 8622782,
+          "case_id": "RA",
+          "sha256": "da6d86822ff69cdf3405e617609187a7d1006d0a69fce1544ae2c3882901dba7"
+        },
+        {
+          "bytes": 8622381,
+          "case_id": "RC",
+          "sha256": "d217aa637ce49799e8a6abc3afdf8abeba333f1e573f1d629475e0a644442980"
+        },
+        {
+          "bytes": 8622946,
+          "case_id": "B_P85_N9",
+          "sha256": "781e8599c0170524607b28960546a1a1b8a5eab60354d216910f521f99062b79"
+        },
+        {
+          "bytes": 8622951,
+          "case_id": "B_P185_N9",
+          "sha256": "2dc34acf29f999618025de9311fb05e07ff01788797d24a652eaf09afdb9c566"
+        },
+        {
+          "bytes": 8622856,
+          "case_id": "S_L35_M200",
+          "sha256": "a76ff83aa4bf4986326f4fde6885bed9f8e8eb8b7d14a220912b4ecbf44dc462"
+        },
+        {
+          "bytes": 8622894,
+          "case_id": "S_L35_M325",
+          "sha256": "ff24b138c45b6949f876f89efe94b69e6a2cf82d8a18044153498e251a0c9c0b"
+        },
+        {
+          "bytes": 8622837,
+          "case_id": "S_L35_M450",
+          "sha256": "324ae8651291d54bad813e5470a9118a55e0051f621ea43e96b4da7d9b50be81"
+        },
+        {
+          "bytes": 8622833,
+          "case_id": "S_L40_M200",
+          "sha256": "8ef70ce8e268fcb3ab0922d3d247657f91981357c5caa1b3cd1a3522eb922670"
+        },
+        {
+          "bytes": 8622844,
+          "case_id": "S_L40_M450",
+          "sha256": "153510f8ba076987ba953764c18eeb5d623b0a47160bb4d508056c0d392090f5"
+        },
+        {
+          "bytes": 8622895,
+          "case_id": "S_L45_M200",
+          "sha256": "e3310f8e50ff194dbc5253706a2c5a7ae59c0ccb89e346ba86ee47e43f735bf2"
+        },
+        {
+          "bytes": 8622919,
+          "case_id": "S_L45_M325",
+          "sha256": "113799d360e161d2251384369fdc9a911b577efd4197d26212a48a08c65d4518"
+        },
+        {
+          "bytes": 8623005,
+          "case_id": "S_L45_M450",
+          "sha256": "7b19689480e90e1fd6f383fff29b24b3ce9e1a86b627160f208fef5c80a230cd"
+        },
+        {
+          "bytes": 8622819,
+          "case_id": "S_L375_M325",
+          "sha256": "83ecae461a90b73999275a2b3ef7670529a36b81e9aa3d20c3a0459008d4e250"
+        },
+        {
+          "bytes": 8622869,
+          "case_id": "S_L425_M325",
+          "sha256": "f60adbf4f0618bcd8fa7eed09d00991bb05989834b20f911e3f1964cb8926267"
+        },
+        {
+          "bytes": 8622880,
+          "case_id": "S_L40_M2625",
+          "sha256": "059ef941adc044cd18c1ec9f84e34851d58afe7d328d4cea04d03d1fd684b66d"
+        },
+        {
+          "bytes": 8622860,
+          "case_id": "S_L40_M3875",
+          "sha256": "71f374168de9aa568bb21edc371c9f81e8ef2f297f19e4f1d01899836a583093"
+        }
+      ],
+      "reason": "large accepted-step trace excluded from GitHub sharing",
+      "total_bytes": 155211279
+    },
+    "raw_result_decimated_1s.json.gz": {
+      "case_count": 18,
+      "files": [
+        {
+          "bytes": 25147055,
+          "case_id": "RAC",
+          "sha256": "1c61bb41c9745cd06d0bfc49cbd4db12e0ca3e94a3206768da3565faf33987d2"
+        },
+        {
+          "bytes": 24640282,
+          "case_id": "R0",
+          "sha256": "d3139d877d646a51989da46b07ae2e402308346ba07c7f17e4f6ed42afe5c886"
+        },
+        {
+          "bytes": 25085750,
+          "case_id": "RA",
+          "sha256": "be08d474cb3219425482d7cb053a4a18228a1ffd1070ca506c1c268058040a7b"
+        },
+        {
+          "bytes": 24994437,
+          "case_id": "RC",
+          "sha256": "dd6c2e24a903185fa4e77401c330b3eb15d13c4f3f9941c6823a81fc1772cb1e"
+        },
+        {
+          "bytes": 25140752,
+          "case_id": "B_P85_N9",
+          "sha256": "7f3452bd7c95bd7dc73a336c98dbad56acb9e3aec32e95e784c8b5d29feb1219"
+        },
+        {
+          "bytes": 25132297,
+          "case_id": "B_P185_N9",
+          "sha256": "04e468201ea1a75a69eeb6b15e5058d96703d48b6c9b3172c9bcdafcbda56b64"
+        },
+        {
+          "bytes": 25078003,
+          "case_id": "S_L35_M200",
+          "sha256": "dd7e4bc144521bcdc9d77b55811aca63763bb6a20bc4dcaa89e2121a4a76ea21"
+        },
+        {
+          "bytes": 25122479,
+          "case_id": "S_L35_M325",
+          "sha256": "3b2e9b7dea215ccfb22fe0c88112ad7083c06028fae5d096b0eb896e2b91f166"
+        },
+        {
+          "bytes": 25096494,
+          "case_id": "S_L35_M450",
+          "sha256": "17c9363893ce15a329d507bc8e2d422a82f197ca58650ceb8a4aaf15d5425d3a"
+        },
+        {
+          "bytes": 25135062,
+          "case_id": "S_L40_M200",
+          "sha256": "d76215307b494a5f5ec4120ad30c3ae43c442e783f97b241e3f723be90438eed"
+        },
+        {
+          "bytes": 25097773,
+          "case_id": "S_L40_M450",
+          "sha256": "88acd82182026b2c61ace4aa694df16fd21effcb01bf5aa57625b34a6e5245b5"
+        },
+        {
+          "bytes": 25129048,
+          "case_id": "S_L45_M200",
+          "sha256": "252978529be7fbaeb24e0c2bf9d429eb5550df2c1e8833c69e9bc516d5b60f81"
+        },
+        {
+          "bytes": 25114546,
+          "case_id": "S_L45_M325",
+          "sha256": "a4f0460e54f89956d68ac8ec9270f662a04f1214b69b65f1abedaf7630c571fb"
+        },
+        {
+          "bytes": 25148919,
+          "case_id": "S_L45_M450",
+          "sha256": "d96d6b292d35e0d43738e0c39f66841e4d90e31b7a2885780cabbd0de20c53dc"
+        },
+        {
+          "bytes": 25165105,
+          "case_id": "S_L375_M325",
+          "sha256": "b7c66b1928fc929687940826033bf186d10e77e04a41f1ab6932dda15f750261"
+        },
+        {
+          "bytes": 25138658,
+          "case_id": "S_L425_M325",
+          "sha256": "ac9197b01f1b90bb252c820cfc58a41007a8ce80d3f7f922e0481874930f7219"
+        },
+        {
+          "bytes": 25076128,
+          "case_id": "S_L40_M2625",
+          "sha256": "c2151e986c5deacfa82760161f47fff874324fad8a7a5314f4bba2f912c38203"
+        },
+        {
+          "bytes": 25128318,
+          "case_id": "S_L40_M3875",
+          "sha256": "a590d889fddafe9d1143d51b8c1e90146f2b0e3d7f30bc6a76c3b85be61d1609"
+        }
+      ],
+      "reason": "large decimated heavy-result payload excluded from GitHub sharing",
+      "total_bytes": 451571106
+    }
+  },
+  "included_full_resolution_scalar_bytes": 50238974,
+  "included_full_resolution_scalar_case_count": 18,
+  "schema": "shared-exclusion-inventory/v21"
+}

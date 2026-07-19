@@ -1,0 +1,16 @@
+{
+  "case_id": "RA",
+  "continuation_attempted_triggered_rejected_nonconverged_zero": true,
+  "convergence_and_finite_pass": true,
+  "eighteen_case_matrix_promoted": false,
+  "minimum_margin_to_centered_half_stroke_m": 0.143547601918266,
+  "model_and_source_applicability_all_frames": true,
+  "output_alias_and_decomposition_closure_pass": true,
+  "paper_evidence_promoted": false,
+  "pass": true,
+  "public_repaired_output_fields_present": true,
+  "schema": "support-system-contact-kinematics-repair-600s-gate/v21",
+  "soil_displacement_engineering_applicability_gate": "not_evaluated_no_authoritative_project_limit",
+  "soil_force_engineering_applicability_gate": "not_evaluated_no_authoritative_project_limit",
+  "within_buffer_design_stroke_all_frames": true
+}

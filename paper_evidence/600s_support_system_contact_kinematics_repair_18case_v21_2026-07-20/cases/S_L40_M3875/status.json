@@ -1,0 +1,10 @@
+{
+  "attempt_number": 1,
+  "case_id": "S_L40_M3875",
+  "finished_unix": 1784488937.507398,
+  "gate_pass": true,
+  "no_retry_performed": true,
+  "started_unix": 1784488406.4962704,
+  "state": "complete",
+  "wall_clock_s": 531.0111274719238
+}

@@ -1,0 +1,48 @@
+{
+  "implementation_owners": [
+    "RAC execution agent and sealed v21 runtime scripts"
+  ],
+  "independent_from_implementation": true,
+  "overall_status": "pass",
+  "process_correctness": {
+    "evidence": [
+      "The result seal SHA-256 is f17244478cd058c16f84b39e411c45fbe5ca3e97a26c7f897902bf8b5cea5781; all eight sealed result-file hashes match, and hashes.json exactly equals the seal file map.",
+      "Status is complete for attempt 1 with no_retry_performed=true and gate_pass=true; wall-clock duration is 550.6523957252502 s.",
+      "The accepted trace contains exactly 6000 sequential 0.1 s steps from 0 to 600 s. All 6000 have reason=main_corrector_converged; rescued, attempted continuation, triggered continuation, rejected, and nonconverged counts are zero. The maximum residual is 9.999281054082904e-7 and the maximum iteration count is 5.",
+      "The full-resolution table contains exactly 6001 sequential frames from 0 to 600 s. Every numeric value is finite, every frame is source_only, all required validity flags are true, and all invalidity/end-stop/slack/design-exceedance flags are false.",
+      "Independent row-wise reconstruction gives max soil-X alias residual 0.0 m and max soil-X translation-plus-rotation decomposition residual 0.0 m.",
+      "The 1 s retained result contains 601 points and 3548083 numeric values with zero non-finite values.",
+      "The predefined comparison was independently recomputed for all 19 fields. Every exact/tolerance comparison passes and the maximum absolute new-minus-v19 difference is 0.0; the candidate SHA-256 is 20281f452a3a247129fb12712963b6e3fa184c569b37cd204317e23be1bbe91a."
+    ],
+    "finding": "The single-attempt result, full-resolution scalar record, accepted-corrector trace, retained result, gate, status, and comparison candidate are internally consistent, finite, hash-bound, and independently recomputed from source files rather than accepted from summary fields.",
+    "status": "pass"
+  },
+  "result_reasonableness": {
+    "evidence": [
+      "Frame and step closure is 6001 frames for 6000 accepted main-corrector steps with zero rescue or continuation activity.",
+      "Soil contact-X ranges from -0.012679593151709412 m to 0.03010725150046767 m, soil-force-X ranges from -545559.843228972 N to -17697.40593521425 N, and the spud-pin O reaction-X absolute peak is 524471.7754527582 N; all predefined values equal v19 exactly.",
+      "Buffer branch absolute peak strokes are 0.5960393465706586 m and 0.6078819949716321 m against a centered half-stroke limit of 0.75 m, leaving positive margins of 0.1539606534293414 m and 0.1421180050283679 m with zero end-stop frames.",
+      "The gate explicitly records soil displacement and force engineering applicability as not evaluated because no authoritative project limit was supplied; this review therefore makes no safety, optimum-design, or paper-level physical claim."
+    ],
+    "finding": "The new RAC result is an exact reproduction of the locked v19 comparison contract and passes the predefined numerical, source-domain, repaired soil-X closure, and buffer operating-boundary checks. GO for the remaining 17 explicitly launched cases under the existing runner gate; matrix analysis and paper-evidence promotion remain unauthorized until their later gates are satisfied.",
+    "status": "pass"
+  },
+  "reviewed_run_ids": [
+    "new-rac-result-seal-sha256:f17244478cd058c16f84b39e411c45fbe5ca3e97a26c7f897902bf8b5cea5781",
+    "rac-comparison-candidate-sha256:20281f452a3a247129fb12712963b6e3fa184c569b37cd204317e23be1bbe91a",
+    "v19-reference-result-seal-sha256:790490c3b4a6971005a6cf06ff7412172a91b8c6311f51f47c749a4723252507",
+    "code-commit:1965eabd7cd38a0d441f98c1503491ff8e3465fe"
+  ],
+  "reviewer": "stage-review-contact-kinematics-agent:/root/stage_review_contact_kinematics",
+  "stage_id": "support-system-contact-kinematics-repair-v21-rac-reproduction-2026-07-20",
+  "starting_premise": {
+    "evidence": [
+      "The new result seal binds ready candidate ff0aea354090e2b14191beb4dec291ed5bdf0414ec2e7e33443aae4a1068482c and stage review seal c7070b596090d12b2423345221c27280f4774b1ab3dedf141285d9ba7b799203.",
+      "The authoritative worktree is clean at commit 1965eabd7cd38a0d441f98c1503491ff8e3465fe, and the module-origin audit resolves all runtime modules inside its authoritative app directory.",
+      "The v19 reference result seal and metrics remain locked at SHA-256 790490c3b4a6971005a6cf06ff7412172a91b8c6311f51f47c749a4723252507 and 01f98aacc3704ac7f878c829f06756530b411c5f20f0a940a730e0da6a0e562c.",
+      "Only results/RAC exists; no other case and no matrix analysis was started."
+    ],
+    "finding": "The review starts from the correct bounded question: determine whether the single new RAC run reproduces the locked repaired v19 RAC result under the same code, input, source, baseline, ready candidate, and stage-review ancestry before authorizing the remaining 17 cases. It does not evaluate or promote a paper-level physical conclusion.",
+    "status": "pass"
+  }
+}

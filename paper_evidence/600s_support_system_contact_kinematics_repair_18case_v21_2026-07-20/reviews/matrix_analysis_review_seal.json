@@ -1,0 +1,50 @@
+{
+  "analysis_files_sha256": {
+    "matrix_analysis/interaction_and_pressure_curvature_steady.csv.gz": "25fbbd291eea2ce4c30f30a709dd5be4c2d5a83cfc2552e6597b679333d45ae6",
+    "matrix_analysis/matrix_analysis.json": "3fb825d94c903cae916b89229808f9eaf2a6a3093beebc2c746ae471b7234cf8"
+  },
+  "analysis_result_seal_sha256": "7f633021459e55361785d92cc5ebc4322594c316ccb1a5b825ab55cb16ffc960",
+  "analyze_matrix_sha256": "e8379de5754cd3e4f933555055d17a405ae4912b934a579ee80032b1d543a98f",
+  "authoritative_paper_word_sha256_at_review": "c97a17512805bc6394f5577a72f96bca1d89db16962255fe85255d52f142e655",
+  "case_count": 18,
+  "case_result_seal_sha256": {
+    "B_P185_N9": "b9afc916aad4b45cb2d55c9e8a4f57c67ab4d519f285688bdbf75f925d969a8d",
+    "B_P85_N9": "8d661f246e2c58cc8ddc67923612050b61e7d1a8e71489e91ac204738aa66dc0",
+    "R0": "dc5f1be4200a059dbc224afa6c24e662d9a958133f7e1e0dd7a91a1195b70c54",
+    "RA": "e6ad0e52a583b7feede2e852d610e5a9d4a76ed51d7c079574663ba25b243db5",
+    "RAC": "f17244478cd058c16f84b39e411c45fbe5ca3e97a26c7f897902bf8b5cea5781",
+    "RC": "2b73c2c3d6706cb1d1f4e8ada94f4c0de062683fcaca3ee8e8baa6972e737cbc",
+    "S_L35_M200": "f75dff2a0b83dff892d50cbb657016e5a9451410be844583f90885bdb589af87",
+    "S_L35_M325": "1491b079374891ea8bfe8ea63dcb415ea96553447814b1f17de4adbcb00e3b91",
+    "S_L35_M450": "c06f020292abe726268c916fc8678b6fbd895695a58756616ad06a650ab479fa",
+    "S_L375_M325": "77fb1940ecc259898bb3df2ef2dcab014b61d360cfec763de4971a44ed1e7a25",
+    "S_L40_M200": "a15471d51aa9c72def5fbbe096d1b7bc409886382e263f60647ffb49d4392257",
+    "S_L40_M2625": "89a1a972fbdf1ad6fd5fc4bc76d17e8e625a74b7553027e2260edda5dbf8e016",
+    "S_L40_M3875": "67c94cd4ad50eaa5450f4b02b0c4324fb4527668fa3bdb839ec80502e69fab8d",
+    "S_L40_M450": "791997298cc164de5c12e3356ac421a0bacb10dd39d8aa4972cd803e4948e15d",
+    "S_L425_M325": "eca8d73ddc63a8b4fd30767756c4153bfac0ea5583c68b720119504baf90d655",
+    "S_L45_M200": "4d4f302f9b84647c478e479e61378013ab9374134246f4ce07eb7a9e3fc618b3",
+    "S_L45_M325": "4992870b0820acb0565beccbc5fb7a208acfc0e447368cf84d26a093d612573d",
+    "S_L45_M450": "c122cb58a32e5f033ac2489adf8405af2f811f42331e0cd9b3479076f3353550"
+  },
+  "descriptive_draft_data_authorized": true,
+  "evidence_manifest_promotion_authorized": false,
+  "formal_paper_evidence_promoted": false,
+  "full_matrix_run_review_seal_sha256": "94933282e44574b741e4c7736a92d32ed6f476c90c7531424f1e72dfcb697b58",
+  "matrix_analysis_review_sha256": "a5f1d962c4f4ebd71662cd8a951eb97526be5752dd4ca33b1096a36e61a70678",
+  "pass": true,
+  "process_correctness_pass": true,
+  "rac_reproduction_review_seal_sha256": "a56d15e1134f3abd3e96e57479a7fbd31d6702bb5866a3e7d4b2786af5696394",
+  "ready_candidate_seal_sha256": "ff0aea354090e2b14191beb4dec291ed5bdf0414ec2e7e33443aae4a1068482c",
+  "representative_batch_review_seal_sha256": "76757bf9cf1e7f89f80615468e63ca34d211f3e1de5b8cb0bb999e397dc0f3f8",
+  "response_field_count": 26,
+  "result_reasonableness_pass": true,
+  "schema": "support-system-contact-kinematics-repair-matrix-analysis-review-seal/v21",
+  "stage_review_seal_sha256": "c7070b596090d12b2423345221c27280f4774b1ab3dedf141285d9ba7b799203",
+  "starting_premise_pass": true,
+  "steady_window_s": [
+    60.0,
+    600.0
+  ],
+  "trend_conclusions_authorized": false
+}

@@ -1,0 +1,16 @@
+{
+  "authorized_case_ids": [
+    "RAC"
+  ],
+  "authorized_first_case": "RAC",
+  "matrix_analysis_authorized": false,
+  "paper_evidence_promoted": false,
+  "pass": true,
+  "process_correctness_pass": true,
+  "ready_candidate_sha256": "ff0aea354090e2b14191beb4dec291ed5bdf0414ec2e7e33443aae4a1068482c",
+  "remaining_17_execution_authorized": false,
+  "result_reasonableness_pass": true,
+  "schema": "support-system-contact-kinematics-repair-18case-stage-review/v21",
+  "stage_review_sha256": "7d443ea61bbb5986cbd50a08502de02c27343c8124f90a1a3809add86164f051",
+  "starting_premise_pass": true
+}

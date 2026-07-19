@@ -1,0 +1,173 @@
+{
+  "candidate_pass": true,
+  "comparison_policy": "predefined exact counters and field-specific atol+rtol; candidate only pending xhigh three-layer review",
+  "comparisons": {
+    "accepted_step_count": {
+      "mode": "exact",
+      "new": 6000,
+      "pass": true,
+      "v19": 6000
+    },
+    "buffer_branch_1_abs_peak_stroke_m": {
+      "absolute_tolerance": 1e-10,
+      "computed_limit": 6.060393465706586e-09,
+      "difference": 0.0,
+      "new": 0.5960393465706586,
+      "pass": true,
+      "relative_tolerance": 1e-08,
+      "v19": 0.5960393465706586
+    },
+    "buffer_branch_2_abs_peak_stroke_m": {
+      "absolute_tolerance": 1e-10,
+      "computed_limit": 6.178819949716321e-09,
+      "difference": 0.0,
+      "new": 0.6078819949716321,
+      "pass": true,
+      "relative_tolerance": 1e-08,
+      "v19": 0.6078819949716321
+    },
+    "buffer_end_stop_frame_count": {
+      "mode": "exact",
+      "new": 0,
+      "pass": true,
+      "v19": 0
+    },
+    "main_corrector_converged_count": {
+      "mode": "exact",
+      "new": 6000,
+      "pass": true,
+      "v19": 6000
+    },
+    "max_corrector_residual": {
+      "absolute_tolerance": 1e-09,
+      "computed_limit": 1.000009999281054e-09,
+      "difference": 0.0,
+      "new": 9.999281054082904e-07,
+      "pass": true,
+      "relative_tolerance": 1e-08,
+      "v19": 9.999281054082904e-07
+    },
+    "rescued_step_count": {
+      "mode": "exact",
+      "new": 0,
+      "pass": true,
+      "v19": 0
+    },
+    "soil_contact_x_abs_peak_m": {
+      "absolute_tolerance": 1e-10,
+      "computed_limit": 4.010725150046767e-10,
+      "difference": 0.0,
+      "new": 0.03010725150046767,
+      "pass": true,
+      "relative_tolerance": 1e-08,
+      "v19": 0.03010725150046767
+    },
+    "soil_contact_x_max_m": {
+      "absolute_tolerance": 1e-10,
+      "computed_limit": 4.010725150046767e-10,
+      "difference": 0.0,
+      "new": 0.03010725150046767,
+      "pass": true,
+      "relative_tolerance": 1e-08,
+      "v19": 0.03010725150046767
+    },
+    "soil_contact_x_min_m": {
+      "absolute_tolerance": 1e-10,
+      "computed_limit": 2.2679593151709412e-10,
+      "difference": 0.0,
+      "new": -0.012679593151709412,
+      "pass": true,
+      "relative_tolerance": 1e-08,
+      "v19": -0.012679593151709412
+    },
+    "soil_force_x_abs_peak_N": {
+      "absolute_tolerance": 0.001,
+      "computed_limit": 0.00645559843228972,
+      "difference": 0.0,
+      "new": 545559.843228972,
+      "pass": true,
+      "relative_tolerance": 1e-08,
+      "v19": 545559.843228972
+    },
+    "soil_force_x_max_N": {
+      "absolute_tolerance": 0.001,
+      "computed_limit": 0.0011769740593521425,
+      "difference": 0.0,
+      "new": -17697.40593521425,
+      "pass": true,
+      "relative_tolerance": 1e-08,
+      "v19": -17697.40593521425
+    },
+    "soil_force_x_min_N": {
+      "absolute_tolerance": 0.001,
+      "computed_limit": 0.00645559843228972,
+      "difference": 0.0,
+      "new": -545559.843228972,
+      "pass": true,
+      "relative_tolerance": 1e-08,
+      "v19": -545559.843228972
+    },
+    "soil_rotation_abs_peak_deg": {
+      "absolute_tolerance": 1e-08,
+      "computed_limit": 1.8419275079843443e-08,
+      "difference": 0.0,
+      "new": 0.8419275079843443,
+      "pass": true,
+      "relative_tolerance": 1e-08,
+      "v19": 0.8419275079843443
+    },
+    "soil_rotation_max_deg": {
+      "absolute_tolerance": 1e-08,
+      "computed_limit": 1.0650989424200504e-08,
+      "difference": 0.0,
+      "new": 0.06509894242005045,
+      "pass": true,
+      "relative_tolerance": 1e-08,
+      "v19": 0.06509894242005045
+    },
+    "soil_rotation_min_deg": {
+      "absolute_tolerance": 1e-08,
+      "computed_limit": 1.8419275079843443e-08,
+      "difference": 0.0,
+      "new": -0.8419275079843443,
+      "pass": true,
+      "relative_tolerance": 1e-08,
+      "v19": -0.8419275079843443
+    },
+    "soil_x_alias_residual_m": {
+      "absolute_tolerance": 1e-12,
+      "computed_limit": 1e-12,
+      "difference": 0.0,
+      "new": 0.0,
+      "pass": true,
+      "relative_tolerance": 0.0,
+      "v19": 0.0
+    },
+    "soil_x_decomposition_residual_m": {
+      "absolute_tolerance": 1e-12,
+      "computed_limit": 1e-12,
+      "difference": 0.0,
+      "new": 0.0,
+      "pass": true,
+      "relative_tolerance": 0.0,
+      "v19": 0.0
+    },
+    "spud_pin_O_reaction_x_abs_peak_N": {
+      "absolute_tolerance": 0.001,
+      "computed_limit": 0.006244717754527582,
+      "difference": 0.0,
+      "new": 524471.7754527582,
+      "pass": true,
+      "relative_tolerance": 1e-08,
+      "v19": 524471.7754527582
+    }
+  },
+  "independent_review_pass": false,
+  "new_rac_result_seal": "artifact_ref:local_v21/results/RAC/result_seal.json",
+  "new_rac_result_seal_sha256": "f17244478cd058c16f84b39e411c45fbe5ca3e97a26c7f897902bf8b5cea5781",
+  "paper_evidence_promoted": false,
+  "schema": "support-system-contact-kinematics-repair-rac-reproduction-review-candidate/v21",
+  "v19_reference_metrics_sha256": "01f98aacc3704ac7f878c829f06756530b411c5f20f0a940a730e0da6a0e562c",
+  "v19_reference_result_seal": "artifact_ref:v19_repaired_rac_parent/post_run_result_seal.json",
+  "v19_reference_result_seal_sha256": "790490c3b4a6971005a6cf06ff7412172a91b8c6311f51f47c749a4723252507"
+}

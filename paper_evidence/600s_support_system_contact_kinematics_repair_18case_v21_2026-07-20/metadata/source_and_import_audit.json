@@ -1,0 +1,245 @@
+{
+  "app_origin_is_authoritative_worktree": true,
+  "code_commit": "1965eabd7cd38a0d441f98c1503491ff8e3465fe",
+  "code_workspace": "repo_ref:authoritative_worktree",
+  "code_workspace_clean": true,
+  "external_sources": {
+    "source_ref:source_data/aqwa_bridge_0_600s.csv": {
+      "all_numeric_finite": true,
+      "checks": {
+        "all_numeric_finite": true,
+        "cutter_endpoint_continuity": true,
+        "dt_continuous": true,
+        "row_count": true,
+        "t0": true,
+        "t1": true
+      },
+      "dt_absolute_tolerance_s": 1e-09,
+      "dt_continuous": true,
+      "endpoint_continuity": null,
+      "exists": true,
+      "expected_dt_s": 0.2,
+      "expected_rows": 3001,
+      "headers": [
+        "time",
+        "Fx",
+        "Fy",
+        "Fz",
+        "Mx",
+        "My",
+        "Mz"
+      ],
+      "pass": true,
+      "rows": 3001,
+      "sha256": "0664769ab579b44776f2826b28d11dadc71b0fd2811a8c9730c0d59a0baf2131",
+      "source_class": "aqwa_body_load",
+      "t0_s": 0.0,
+      "t1_s": 600.0
+    },
+    "source_ref:source_data/aqwa_hull_0_600s.csv": {
+      "all_numeric_finite": true,
+      "checks": {
+        "all_numeric_finite": true,
+        "cutter_endpoint_continuity": true,
+        "dt_continuous": true,
+        "row_count": true,
+        "t0": true,
+        "t1": true
+      },
+      "dt_absolute_tolerance_s": 1e-09,
+      "dt_continuous": true,
+      "endpoint_continuity": null,
+      "exists": true,
+      "expected_dt_s": 0.2,
+      "expected_rows": 3001,
+      "headers": [
+        "time",
+        "Fx",
+        "Fy",
+        "Fz",
+        "Mx",
+        "My",
+        "Mz"
+      ],
+      "pass": true,
+      "rows": 3001,
+      "sha256": "b62a8e9785b0715255b9b87bae0d9ecd9398d9964676e41c30a29abbc3ea3905",
+      "source_class": "aqwa_body_load",
+      "t0_s": 0.0,
+      "t1_s": 600.0
+    },
+    "source_ref:source_data/aqwa_spud_0_600s.csv": {
+      "all_numeric_finite": true,
+      "checks": {
+        "all_numeric_finite": true,
+        "cutter_endpoint_continuity": true,
+        "dt_continuous": true,
+        "row_count": true,
+        "t0": true,
+        "t1": true
+      },
+      "dt_absolute_tolerance_s": 1e-09,
+      "dt_continuous": true,
+      "endpoint_continuity": null,
+      "exists": true,
+      "expected_dt_s": 0.2,
+      "expected_rows": 3001,
+      "headers": [
+        "time",
+        "Fx",
+        "Fy",
+        "Fz",
+        "Mx",
+        "My",
+        "Mz"
+      ],
+      "pass": true,
+      "rows": 3001,
+      "sha256": "23350675b6fee901d69dd882534ec1fe2b3b4a5f7b2d2480952bce591b709f17",
+      "source_class": "aqwa_body_load",
+      "t0_s": 0.0,
+      "t1_s": 600.0
+    },
+    "source_ref:source_data/cutter_constant_mean_0_600s.csv": {
+      "all_numeric_finite": true,
+      "checks": {
+        "all_numeric_finite": true,
+        "cutter_endpoint_continuity": true,
+        "dt_continuous": true,
+        "row_count": true,
+        "t0": true,
+        "t1": true
+      },
+      "dt_absolute_tolerance_s": 1e-09,
+      "dt_continuous": true,
+      "endpoint_continuity": {
+        "compare_fields": [
+          "Fx_local",
+          "Fy_local",
+          "Fz_local"
+        ],
+        "comparisons": {
+          "Fx_local": {
+            "absolute_tolerance": 1e-09,
+            "computed_limit": 4.361987400024175e-07,
+            "difference": 0.0,
+            "end": 435198.74000241753,
+            "pass": true,
+            "relative_tolerance": 1e-12,
+            "start": 435198.74000241753
+          },
+          "Fy_local": {
+            "absolute_tolerance": 1e-09,
+            "computed_limit": 6.162716166119581e-07,
+            "difference": 0.0,
+            "end": 615271.6166119581,
+            "pass": true,
+            "relative_tolerance": 1e-12,
+            "start": 615271.6166119581
+          },
+          "Fz_local": {
+            "absolute_tolerance": 1e-09,
+            "computed_limit": 5.339350984338797e-07,
+            "difference": 0.0,
+            "end": 532935.0984338798,
+            "pass": true,
+            "relative_tolerance": 1e-12,
+            "start": 532935.0984338798
+          }
+        },
+        "definition": "compare t=600 s with t=0 s for every non-time load field",
+        "pass": true
+      },
+      "exists": true,
+      "expected_dt_s": 0.01,
+      "expected_rows": 60001,
+      "headers": [
+        "time",
+        "Fx_local",
+        "Fy_local",
+        "Fz_local"
+      ],
+      "pass": true,
+      "rows": 60001,
+      "sha256": "f107d4e0b8f9155e57c67ca65f1ebfe88aa8791b8b16b352866ccbb57254f9af",
+      "source_class": "cutter_load",
+      "t0_s": 0.0,
+      "t1_s": 600.0
+    },
+    "source_ref:source_data/cutter_projected_0_600s.csv": {
+      "all_numeric_finite": true,
+      "checks": {
+        "all_numeric_finite": true,
+        "cutter_endpoint_continuity": true,
+        "dt_continuous": true,
+        "row_count": true,
+        "t0": true,
+        "t1": true
+      },
+      "dt_absolute_tolerance_s": 1e-09,
+      "dt_continuous": true,
+      "endpoint_continuity": {
+        "compare_fields": [
+          "Fx_local",
+          "Fy_local",
+          "Fz_local"
+        ],
+        "comparisons": {
+          "Fx_local": {
+            "absolute_tolerance": 1e-09,
+            "computed_limit": 4.364776337047387e-07,
+            "difference": 0.0,
+            "end": 435477.6337047387,
+            "pass": true,
+            "relative_tolerance": 1e-12,
+            "start": 435477.6337047387
+          },
+          "Fy_local": {
+            "absolute_tolerance": 1e-09,
+            "computed_limit": 6.08891135923642e-07,
+            "difference": 0.0,
+            "end": 607891.1359236421,
+            "pass": true,
+            "relative_tolerance": 1e-12,
+            "start": 607891.1359236421
+          },
+          "Fz_local": {
+            "absolute_tolerance": 1e-09,
+            "computed_limit": 5.322041972931875e-07,
+            "difference": 0.0,
+            "end": 531204.1972931875,
+            "pass": true,
+            "relative_tolerance": 1e-12,
+            "start": 531204.1972931875
+          }
+        },
+        "definition": "compare t=600 s with t=0 s for every non-time load field",
+        "pass": true
+      },
+      "exists": true,
+      "expected_dt_s": 0.01,
+      "expected_rows": 60001,
+      "headers": [
+        "time",
+        "Fx_local",
+        "Fy_local",
+        "Fz_local"
+      ],
+      "pass": true,
+      "rows": 60001,
+      "sha256": "a1bf708319e0a3fc4cafaa095bbe5146f06455e8490141e6a87b7106827382d1",
+      "source_class": "cutter_load",
+      "t0_s": 0.0,
+      "t1_s": 600.0
+    }
+  },
+  "model_validated_case_count": 18,
+  "old_results_reused": false,
+  "pass": true,
+  "schema": "support-system-contact-kinematics-repair-18case-source-import-integrity-audit/v21",
+  "source_integrity_policy": "rows, t0, t1, fixed-dt continuity and finite numeric values; cutter endpoints additionally continuous by field-specific comparison",
+  "validated_app_module_files": {
+    "app.main": "repo_ref:authoritative_worktree/app/main.py",
+    "app.models": "repo_ref:authoritative_worktree/app/models.py"
+  }
+}

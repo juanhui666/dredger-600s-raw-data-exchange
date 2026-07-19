@@ -1,0 +1,72 @@
+{
+  "audit_files": [
+    "audits/INPUT_SANITIZATION_AUDIT.json",
+    "audits/JSON_SANITIZATION_AUDIT.json",
+    "audits/SOURCE_COPY_AUDIT.json",
+    "audits/EXCLUSION_INVENTORY.json"
+  ],
+  "case_count": 18,
+  "cases": [
+    "RAC",
+    "R0",
+    "RA",
+    "RC",
+    "B_P85_N9",
+    "B_P185_N9",
+    "S_L35_M200",
+    "S_L35_M325",
+    "S_L35_M450",
+    "S_L40_M200",
+    "S_L40_M450",
+    "S_L45_M200",
+    "S_L45_M325",
+    "S_L45_M450",
+    "S_L375_M325",
+    "S_L425_M325",
+    "S_L40_M2625",
+    "S_L40_M3875"
+  ],
+  "matrix_analysis_files": [
+    "matrix_analysis/matrix_analysis.json",
+    "matrix_analysis/interaction_and_pressure_curvature_steady.csv.gz",
+    "matrix_analysis/result_seal.json"
+  ],
+  "metadata_files": [
+    "metadata/case_matrix.json",
+    "metadata/manifest.json",
+    "metadata/input_diff_audit.json",
+    "metadata/source_and_import_audit.json",
+    "metadata/pre_run_report.json",
+    "metadata/ready_candidate_seal.json",
+    "metadata/review_contracts.json"
+  ],
+  "per_case_files": [
+    "metrics.json",
+    "gate.json",
+    "status.json",
+    "module_origin_audit.json",
+    "result_seal.json",
+    "full_resolution_metrics.csv.gz"
+  ],
+  "review_files": [
+    "reviews/stage_review.json",
+    "reviews/stage_review_seal.json",
+    "reviews/rac_reproduction_review.json",
+    "reviews/rac_reproduction_review_candidate.json",
+    "reviews/rac_reproduction_review_seal.json",
+    "reviews/representative_batch_review.json",
+    "reviews/representative_batch_review_seal.json",
+    "reviews/full_matrix_run_review.json",
+    "reviews/full_matrix_run_review_seal.json",
+    "reviews/matrix_analysis_review.json",
+    "reviews/matrix_analysis_review_seal.json"
+  ],
+  "schema": "support-system-contact-kinematics-repair-18case-data-index/v21",
+  "source_files": [
+    "aqwa_bridge_0_600s.csv",
+    "aqwa_hull_0_600s.csv",
+    "aqwa_spud_0_600s.csv",
+    "cutter_constant_mean_0_600s.csv",
+    "cutter_projected_0_600s.csv"
+  ]
+}

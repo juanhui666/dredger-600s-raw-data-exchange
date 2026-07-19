@@ -1,0 +1,10 @@
+{
+  "authoritative_app_root": "repo_ref:authoritative_worktree/app",
+  "modules": {
+    "app.models": "repo_ref:authoritative_worktree/app/models.py",
+    "app.rigid_multibody_runtime": "repo_ref:authoritative_worktree/app/rigid_multibody_runtime.py",
+    "app.rigid_multibody_time_history": "repo_ref:authoritative_worktree/app/rigid_multibody_time_history.py",
+    "app.simulation": "repo_ref:authoritative_worktree/app/simulation.py"
+  },
+  "pass": true
+}

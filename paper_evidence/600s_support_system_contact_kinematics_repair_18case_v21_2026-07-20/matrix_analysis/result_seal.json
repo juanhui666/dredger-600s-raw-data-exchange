@@ -1,0 +1,30 @@
+{
+  "case_result_seals": {
+    "B_P185_N9": "b9afc916aad4b45cb2d55c9e8a4f57c67ab4d519f285688bdbf75f925d969a8d",
+    "B_P85_N9": "8d661f246e2c58cc8ddc67923612050b61e7d1a8e71489e91ac204738aa66dc0",
+    "R0": "dc5f1be4200a059dbc224afa6c24e662d9a958133f7e1e0dd7a91a1195b70c54",
+    "RA": "e6ad0e52a583b7feede2e852d610e5a9d4a76ed51d7c079574663ba25b243db5",
+    "RAC": "f17244478cd058c16f84b39e411c45fbe5ca3e97a26c7f897902bf8b5cea5781",
+    "RC": "2b73c2c3d6706cb1d1f4e8ada94f4c0de062683fcaca3ee8e8baa6972e737cbc",
+    "S_L35_M200": "f75dff2a0b83dff892d50cbb657016e5a9451410be844583f90885bdb589af87",
+    "S_L35_M325": "1491b079374891ea8bfe8ea63dcb415ea96553447814b1f17de4adbcb00e3b91",
+    "S_L35_M450": "c06f020292abe726268c916fc8678b6fbd895695a58756616ad06a650ab479fa",
+    "S_L375_M325": "77fb1940ecc259898bb3df2ef2dcab014b61d360cfec763de4971a44ed1e7a25",
+    "S_L40_M200": "a15471d51aa9c72def5fbbe096d1b7bc409886382e263f60647ffb49d4392257",
+    "S_L40_M2625": "89a1a972fbdf1ad6fd5fc4bc76d17e8e625a74b7553027e2260edda5dbf8e016",
+    "S_L40_M3875": "67c94cd4ad50eaa5450f4b02b0c4324fb4527668fa3bdb839ec80502e69fab8d",
+    "S_L40_M450": "791997298cc164de5c12e3356ac421a0bacb10dd39d8aa4972cd803e4948e15d",
+    "S_L425_M325": "eca8d73ddc63a8b4fd30767756c4153bfac0ea5583c68b720119504baf90d655",
+    "S_L45_M200": "4d4f302f9b84647c478e479e61378013ab9374134246f4ce07eb7a9e3fc618b3",
+    "S_L45_M325": "4992870b0820acb0565beccbc5fb7a208acfc0e447368cf84d26a093d612573d",
+    "S_L45_M450": "c122cb58a32e5f033ac2489adf8405af2f811f42331e0cd9b3479076f3353550"
+  },
+  "files": {
+    "interaction_and_pressure_curvature_steady.csv.gz": "25fbbd291eea2ce4c30f30a709dd5be4c2d5a83cfc2552e6597b679333d45ae6",
+    "matrix_analysis.json": "3fb825d94c903cae916b89229808f9eaf2a6a3093beebc2c746ae471b7234cf8"
+  },
+  "paper_evidence_promoted": false,
+  "pass": true,
+  "ready_candidate_seal_sha256": "ff0aea354090e2b14191beb4dec291ed5bdf0414ec2e7e33443aae4a1068482c",
+  "schema": "support-system-contact-kinematics-repair-18case-matrix-analysis-result-seal/v21"
+}

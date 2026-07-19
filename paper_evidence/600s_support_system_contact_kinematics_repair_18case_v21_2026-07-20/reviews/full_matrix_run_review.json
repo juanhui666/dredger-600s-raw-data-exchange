@@ -1,0 +1,68 @@
+{
+  "implementation_owners": [
+    "18-case execution agents and sealed v21 runtime scripts"
+  ],
+  "independent_from_implementation": true,
+  "overall_status": "pass",
+  "process_correctness": {
+    "evidence": [
+      "All 144 files listed by the 18 result seals match their SHA-256 values, and every hashes.json map exactly matches its result seal.",
+      "All 18 statuses record state=complete, attempt_number=1, no_retry_performed=true, and gate_pass=true; no exception.json exists.",
+      "Independent trace audit counts 108000 sequential 0.1 s accepted steps, all 108000 with main_corrector_converged, with zero rescue, continuation attempt/trigger, rejection, or nonconvergence.",
+      "Independent scalar audit counts 108018 finite frames. Every frame is source_only, all required model/source validity fields are true, all invalidity/slack/end-stop/design-exceedance fields are false, and all 18 time axes are identical from 0 to 600 s.",
+      "Independent row-wise reconstruction gives zero soil-X alias residual and zero translation-plus-rotation decomposition residual in every case.",
+      "Every frame remains below the case relief pressure and has positive accumulator volume; all module-origin audits resolve to the authoritative app directory.",
+      "The sealed analyze_matrix.py parses successfully and its read-only verify_case gate accepts all 18 current result seals without invoking analysis main."
+    ],
+    "finding": "All 18 result packages were independently rehashed and recomputed from their accepted-corrector traces and full-resolution scalar tables. Every case satisfies the current lineage, single-attempt, completion, convergence, source-domain, repaired soil-X, buffer, pressure, accumulator-volume, and model-validity contracts.",
+    "status": "pass"
+  },
+  "result_reasonableness": {
+    "evidence": [
+      "The largest accepted-step residual across all runs is 9.999738188257168e-7 with at most 5 iterations, while every case passes its predefined convergence gate.",
+      "The minimum centered half-stroke margin across all runs is positive at 0.13466296235796182 m, with zero end-stop frames.",
+      "The minimum accumulator volume is positive at 0.04390191892645257 m^3; the maximum branch pressure is 22.223830920127697 MPa against a 31.5 MPa relief boundary.",
+      "The analyzer SHA-256 e8379de5754cd3e4f933555055d17a405ae4912b934a579ee80032b1d543a98f is bound by the ready candidate, and matrix_analysis did not exist during this review.",
+      "Soil displacement and force engineering applicability remain not evaluated because authoritative project limits are absent. No safety, design-optimum, linearity, interaction, curvature, or paper-level conclusion is made here."
+    ],
+    "finding": "GO to execute the sealed analyze_matrix.py once. Aggregate numerical and operating-boundary checks are coherent across the complete case set, with no failed or exceptional run. This approval concerns analyzer execution only; the derived matrix result still requires its own seal and independent evidence review before any trend or paper claim.",
+    "status": "pass"
+  },
+  "reviewed_run_ids": [
+    "ready-candidate-sha256:ff0aea354090e2b14191beb4dec291ed5bdf0414ec2e7e33443aae4a1068482c",
+    "stage-review-seal-sha256:c7070b596090d12b2423345221c27280f4774b1ab3dedf141285d9ba7b799203",
+    "rac-release-seal-sha256:a56d15e1134f3abd3e96e57479a7fbd31d6702bb5866a3e7d4b2786af5696394",
+    "representative-batch-seal-sha256:76757bf9cf1e7f89f80615468e63ca34d211f3e1de5b8cb0bb999e397dc0f3f8",
+    "RAC-result-seal-sha256:f17244478cd058c16f84b39e411c45fbe5ca3e97a26c7f897902bf8b5cea5781",
+    "R0-result-seal-sha256:dc5f1be4200a059dbc224afa6c24e662d9a958133f7e1e0dd7a91a1195b70c54",
+    "RA-result-seal-sha256:e6ad0e52a583b7feede2e852d610e5a9d4a76ed51d7c079574663ba25b243db5",
+    "RC-result-seal-sha256:2b73c2c3d6706cb1d1f4e8ada94f4c0de062683fcaca3ee8e8baa6972e737cbc",
+    "B_P85_N9-result-seal-sha256:8d661f246e2c58cc8ddc67923612050b61e7d1a8e71489e91ac204738aa66dc0",
+    "B_P185_N9-result-seal-sha256:b9afc916aad4b45cb2d55c9e8a4f57c67ab4d519f285688bdbf75f925d969a8d",
+    "S_L35_M200-result-seal-sha256:f75dff2a0b83dff892d50cbb657016e5a9451410be844583f90885bdb589af87",
+    "S_L35_M325-result-seal-sha256:1491b079374891ea8bfe8ea63dcb415ea96553447814b1f17de4adbcb00e3b91",
+    "S_L35_M450-result-seal-sha256:c06f020292abe726268c916fc8678b6fbd895695a58756616ad06a650ab479fa",
+    "S_L40_M200-result-seal-sha256:a15471d51aa9c72def5fbbe096d1b7bc409886382e263f60647ffb49d4392257",
+    "S_L40_M450-result-seal-sha256:791997298cc164de5c12e3356ac421a0bacb10dd39d8aa4972cd803e4948e15d",
+    "S_L45_M200-result-seal-sha256:4d4f302f9b84647c478e479e61378013ab9374134246f4ce07eb7a9e3fc618b3",
+    "S_L45_M325-result-seal-sha256:4992870b0820acb0565beccbc5fb7a208acfc0e447368cf84d26a093d612573d",
+    "S_L45_M450-result-seal-sha256:c122cb58a32e5f033ac2489adf8405af2f811f42331e0cd9b3479076f3353550",
+    "S_L375_M325-result-seal-sha256:77fb1940ecc259898bb3df2ef2dcab014b61d360cfec763de4971a44ed1e7a25",
+    "S_L425_M325-result-seal-sha256:eca8d73ddc63a8b4fd30767756c4153bfac0ea5583c68b720119504baf90d655",
+    "S_L40_M2625-result-seal-sha256:89a1a972fbdf1ad6fd5fc4bc76d17e8e625a74b7553027e2260edda5dbf8e016",
+    "S_L40_M3875-result-seal-sha256:67c94cd4ad50eaa5450f4b02b0c4324fb4527668fa3bdb839ec80502e69fab8d"
+  ],
+  "reviewer": "stage-review-contact-kinematics-agent:/root/stage_review_contact_kinematics",
+  "stage_id": "support-system-contact-kinematics-repair-v21-full-matrix-run-2026-07-20",
+  "starting_premise": {
+    "evidence": [
+      "The formal order contains exactly 18 unique cases and the results directory set matches it exactly.",
+      "All results bind ready candidate ff0aea354090e2b14191beb4dec291ed5bdf0414ec2e7e33443aae4a1068482c and stage review seal c7070b596090d12b2423345221c27280f4774b1ab3dedf141285d9ba7b799203.",
+      "The release chain is intact through RAC reproduction seal a56d15e1134f3abd3e96e57479a7fbd31d6702bb5866a3e7d4b2786af5696394 and representative-batch seal 76757bf9cf1e7f89f80615468e63ca34d211f3e1de5b8cb0bb999e397dc0f3f8.",
+      "The eleven post-batch runs started after the representative-batch authorization; the six representatives started after RAC release; RAC itself remains bound to the initial stage authorization.",
+      "The authoritative worktree remains clean at commit 1965eabd7cd38a0d441f98c1503491ff8e3465fe."
+    ],
+    "finding": "The stage asks the correct bounded question: whether all 18 same-generation v21 runs have complete, current, numerically valid evidence sufficient to execute the already sealed descriptive matrix analyzer. It does not ask for or authorize trend interpretation, engineering-limit conclusions, or paper promotion.",
+    "status": "pass"
+  }
+}

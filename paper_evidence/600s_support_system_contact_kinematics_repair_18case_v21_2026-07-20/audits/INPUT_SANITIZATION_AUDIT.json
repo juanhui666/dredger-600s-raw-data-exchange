@@ -1,0 +1,747 @@
+{
+  "all_numeric_values_unchanged": true,
+  "case_count": 18,
+  "cases": {
+    "B_P185_N9": {
+      "changes": [
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_600s.csv",
+          "before": "local_csv_path:aqwa_bridge_0_600s.csv",
+          "path": "aqwa_external.body_loads.bridge.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_600s.csv",
+          "before": "local_csv_path:aqwa_hull_0_600s.csv",
+          "path": "aqwa_external.body_loads.hull.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_600s.csv",
+          "before": "local_csv_path:aqwa_spud_0_600s.csv",
+          "path": "aqwa_external.body_loads.spud.csv_path"
+        },
+        {
+          "after": "local_ref:TimeResponse.dat",
+          "before": "local_absolute_path:TimeResponse.dat",
+          "path": "aqwa_hydrodynamic_input.frequency_authority_path"
+        },
+        {
+          "after": "local_ref:ANALYSIS.LIS",
+          "before": "local_absolute_path:ANALYSIS.LIS",
+          "path": "aqwa_hydrodynamic_input.source_path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_projected_0_600s.csv",
+          "before": "local_csv_path:cutter_projected_0_600s.csv",
+          "path": "cutter_load_input.history_csv_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "only_expected_source_references_changed": true,
+      "original_ref": "artifact_ref:local_v21/inputs/B_P185_N9.json",
+      "original_sha256": "fff0928a1c864d5f79d506ced54f0c9d6b17db5ee39f1d7060155edf04cfe617",
+      "pass": true,
+      "shared_path": "inputs/B_P185_N9.json",
+      "shared_sha256": "bf2f466b37e106cfd04fb6f566a76d37ccd3b6a7e8ae5327846355c0721c5d7f"
+    },
+    "B_P85_N9": {
+      "changes": [
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_600s.csv",
+          "before": "local_csv_path:aqwa_bridge_0_600s.csv",
+          "path": "aqwa_external.body_loads.bridge.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_600s.csv",
+          "before": "local_csv_path:aqwa_hull_0_600s.csv",
+          "path": "aqwa_external.body_loads.hull.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_600s.csv",
+          "before": "local_csv_path:aqwa_spud_0_600s.csv",
+          "path": "aqwa_external.body_loads.spud.csv_path"
+        },
+        {
+          "after": "local_ref:TimeResponse.dat",
+          "before": "local_absolute_path:TimeResponse.dat",
+          "path": "aqwa_hydrodynamic_input.frequency_authority_path"
+        },
+        {
+          "after": "local_ref:ANALYSIS.LIS",
+          "before": "local_absolute_path:ANALYSIS.LIS",
+          "path": "aqwa_hydrodynamic_input.source_path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_projected_0_600s.csv",
+          "before": "local_csv_path:cutter_projected_0_600s.csv",
+          "path": "cutter_load_input.history_csv_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "only_expected_source_references_changed": true,
+      "original_ref": "artifact_ref:local_v21/inputs/B_P85_N9.json",
+      "original_sha256": "55cc253b338161bc0dfa86294f631397bf003be110da33f678732c95cd7ae693",
+      "pass": true,
+      "shared_path": "inputs/B_P85_N9.json",
+      "shared_sha256": "3d617bd1d647f23d27a06de951127fa2880cbd6726d6e6d041103a2a1ca3679a"
+    },
+    "R0": {
+      "changes": [
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_600s.csv",
+          "before": "local_csv_path:aqwa_bridge_0_600s.csv",
+          "path": "aqwa_external.body_loads.bridge.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_600s.csv",
+          "before": "local_csv_path:aqwa_hull_0_600s.csv",
+          "path": "aqwa_external.body_loads.hull.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_600s.csv",
+          "before": "local_csv_path:aqwa_spud_0_600s.csv",
+          "path": "aqwa_external.body_loads.spud.csv_path"
+        },
+        {
+          "after": "local_ref:TimeResponse.dat",
+          "before": "local_absolute_path:TimeResponse.dat",
+          "path": "aqwa_hydrodynamic_input.frequency_authority_path"
+        },
+        {
+          "after": "local_ref:ANALYSIS.LIS",
+          "before": "local_absolute_path:ANALYSIS.LIS",
+          "path": "aqwa_hydrodynamic_input.source_path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_constant_mean_0_600s.csv",
+          "before": "local_csv_path:cutter_constant_mean_0_600s.csv",
+          "path": "cutter_load_input.history_csv_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "only_expected_source_references_changed": true,
+      "original_ref": "artifact_ref:local_v21/inputs/R0.json",
+      "original_sha256": "153fadc99fc28613edf9037b6866a77ac1d66bd86104d182809821f386590f9a",
+      "pass": true,
+      "shared_path": "inputs/R0.json",
+      "shared_sha256": "67f485db35bb04d8aa9d3b7d10a060d8c63ff93997c642221ad39941efc7b500"
+    },
+    "RA": {
+      "changes": [
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_600s.csv",
+          "before": "local_csv_path:aqwa_bridge_0_600s.csv",
+          "path": "aqwa_external.body_loads.bridge.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_600s.csv",
+          "before": "local_csv_path:aqwa_hull_0_600s.csv",
+          "path": "aqwa_external.body_loads.hull.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_600s.csv",
+          "before": "local_csv_path:aqwa_spud_0_600s.csv",
+          "path": "aqwa_external.body_loads.spud.csv_path"
+        },
+        {
+          "after": "local_ref:TimeResponse.dat",
+          "before": "local_absolute_path:TimeResponse.dat",
+          "path": "aqwa_hydrodynamic_input.frequency_authority_path"
+        },
+        {
+          "after": "local_ref:ANALYSIS.LIS",
+          "before": "local_absolute_path:ANALYSIS.LIS",
+          "path": "aqwa_hydrodynamic_input.source_path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_constant_mean_0_600s.csv",
+          "before": "local_csv_path:cutter_constant_mean_0_600s.csv",
+          "path": "cutter_load_input.history_csv_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "only_expected_source_references_changed": true,
+      "original_ref": "artifact_ref:local_v21/inputs/RA.json",
+      "original_sha256": "a6e7046e9ed8a8516003a4f9ecd7a7916bf7e6848f943335712edd8ee97c651a",
+      "pass": true,
+      "shared_path": "inputs/RA.json",
+      "shared_sha256": "97fcfd176bf5fff0a28b3a06e9166b027695ce68a7bb2ef732c7d45421da7158"
+    },
+    "RAC": {
+      "changes": [
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_600s.csv",
+          "before": "local_csv_path:aqwa_bridge_0_600s.csv",
+          "path": "aqwa_external.body_loads.bridge.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_600s.csv",
+          "before": "local_csv_path:aqwa_hull_0_600s.csv",
+          "path": "aqwa_external.body_loads.hull.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_600s.csv",
+          "before": "local_csv_path:aqwa_spud_0_600s.csv",
+          "path": "aqwa_external.body_loads.spud.csv_path"
+        },
+        {
+          "after": "local_ref:TimeResponse.dat",
+          "before": "local_absolute_path:TimeResponse.dat",
+          "path": "aqwa_hydrodynamic_input.frequency_authority_path"
+        },
+        {
+          "after": "local_ref:ANALYSIS.LIS",
+          "before": "local_absolute_path:ANALYSIS.LIS",
+          "path": "aqwa_hydrodynamic_input.source_path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_projected_0_600s.csv",
+          "before": "local_csv_path:cutter_projected_0_600s.csv",
+          "path": "cutter_load_input.history_csv_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "only_expected_source_references_changed": true,
+      "original_ref": "artifact_ref:local_v21/inputs/RAC.json",
+      "original_sha256": "9ca6d87738663dae8f06d8677364cd944a0b8c70b0adefef2d9c6acdd51f589d",
+      "pass": true,
+      "shared_path": "inputs/RAC.json",
+      "shared_sha256": "62cafa2c96050c19946a14e1b1635498f47db22408c6754fba959df97f784896"
+    },
+    "RC": {
+      "changes": [
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_600s.csv",
+          "before": "local_csv_path:aqwa_bridge_0_600s.csv",
+          "path": "aqwa_external.body_loads.bridge.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_600s.csv",
+          "before": "local_csv_path:aqwa_hull_0_600s.csv",
+          "path": "aqwa_external.body_loads.hull.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_600s.csv",
+          "before": "local_csv_path:aqwa_spud_0_600s.csv",
+          "path": "aqwa_external.body_loads.spud.csv_path"
+        },
+        {
+          "after": "local_ref:TimeResponse.dat",
+          "before": "local_absolute_path:TimeResponse.dat",
+          "path": "aqwa_hydrodynamic_input.frequency_authority_path"
+        },
+        {
+          "after": "local_ref:ANALYSIS.LIS",
+          "before": "local_absolute_path:ANALYSIS.LIS",
+          "path": "aqwa_hydrodynamic_input.source_path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_projected_0_600s.csv",
+          "before": "local_csv_path:cutter_projected_0_600s.csv",
+          "path": "cutter_load_input.history_csv_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "only_expected_source_references_changed": true,
+      "original_ref": "artifact_ref:local_v21/inputs/RC.json",
+      "original_sha256": "48775e1a1d9c3afdf7a3c0416ee4ff78f408b35a35c94c0b9b7cf03ae4af1d52",
+      "pass": true,
+      "shared_path": "inputs/RC.json",
+      "shared_sha256": "d4df99cc9e83e5ccfa704c08392138f29737d1e3412d9899a6debd25eab02cb1"
+    },
+    "S_L35_M200": {
+      "changes": [
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_600s.csv",
+          "before": "local_csv_path:aqwa_bridge_0_600s.csv",
+          "path": "aqwa_external.body_loads.bridge.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_600s.csv",
+          "before": "local_csv_path:aqwa_hull_0_600s.csv",
+          "path": "aqwa_external.body_loads.hull.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_600s.csv",
+          "before": "local_csv_path:aqwa_spud_0_600s.csv",
+          "path": "aqwa_external.body_loads.spud.csv_path"
+        },
+        {
+          "after": "local_ref:TimeResponse.dat",
+          "before": "local_absolute_path:TimeResponse.dat",
+          "path": "aqwa_hydrodynamic_input.frequency_authority_path"
+        },
+        {
+          "after": "local_ref:ANALYSIS.LIS",
+          "before": "local_absolute_path:ANALYSIS.LIS",
+          "path": "aqwa_hydrodynamic_input.source_path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_projected_0_600s.csv",
+          "before": "local_csv_path:cutter_projected_0_600s.csv",
+          "path": "cutter_load_input.history_csv_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "only_expected_source_references_changed": true,
+      "original_ref": "artifact_ref:local_v21/inputs/S_L35_M200.json",
+      "original_sha256": "46d1b19b1a318118dc59fdbd7a77f3c472e2db707464256b724b04541808b19c",
+      "pass": true,
+      "shared_path": "inputs/S_L35_M200.json",
+      "shared_sha256": "1faae321552ab3164f9b5e6dc28a4d85c7eed0590f9128f74aadb28655fefc9a"
+    },
+    "S_L35_M325": {
+      "changes": [
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_600s.csv",
+          "before": "local_csv_path:aqwa_bridge_0_600s.csv",
+          "path": "aqwa_external.body_loads.bridge.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_600s.csv",
+          "before": "local_csv_path:aqwa_hull_0_600s.csv",
+          "path": "aqwa_external.body_loads.hull.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_600s.csv",
+          "before": "local_csv_path:aqwa_spud_0_600s.csv",
+          "path": "aqwa_external.body_loads.spud.csv_path"
+        },
+        {
+          "after": "local_ref:TimeResponse.dat",
+          "before": "local_absolute_path:TimeResponse.dat",
+          "path": "aqwa_hydrodynamic_input.frequency_authority_path"
+        },
+        {
+          "after": "local_ref:ANALYSIS.LIS",
+          "before": "local_absolute_path:ANALYSIS.LIS",
+          "path": "aqwa_hydrodynamic_input.source_path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_projected_0_600s.csv",
+          "before": "local_csv_path:cutter_projected_0_600s.csv",
+          "path": "cutter_load_input.history_csv_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "only_expected_source_references_changed": true,
+      "original_ref": "artifact_ref:local_v21/inputs/S_L35_M325.json",
+      "original_sha256": "6bd6a39821d110eaa38acc7cd6f7348ecf742d5d6d27c28f95092653078b7954",
+      "pass": true,
+      "shared_path": "inputs/S_L35_M325.json",
+      "shared_sha256": "f24b452076acb8ac3d6da905e85bec62eabd556132ac6ed4e54342905ad07010"
+    },
+    "S_L35_M450": {
+      "changes": [
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_600s.csv",
+          "before": "local_csv_path:aqwa_bridge_0_600s.csv",
+          "path": "aqwa_external.body_loads.bridge.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_600s.csv",
+          "before": "local_csv_path:aqwa_hull_0_600s.csv",
+          "path": "aqwa_external.body_loads.hull.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_600s.csv",
+          "before": "local_csv_path:aqwa_spud_0_600s.csv",
+          "path": "aqwa_external.body_loads.spud.csv_path"
+        },
+        {
+          "after": "local_ref:TimeResponse.dat",
+          "before": "local_absolute_path:TimeResponse.dat",
+          "path": "aqwa_hydrodynamic_input.frequency_authority_path"
+        },
+        {
+          "after": "local_ref:ANALYSIS.LIS",
+          "before": "local_absolute_path:ANALYSIS.LIS",
+          "path": "aqwa_hydrodynamic_input.source_path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_projected_0_600s.csv",
+          "before": "local_csv_path:cutter_projected_0_600s.csv",
+          "path": "cutter_load_input.history_csv_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "only_expected_source_references_changed": true,
+      "original_ref": "artifact_ref:local_v21/inputs/S_L35_M450.json",
+      "original_sha256": "d411f098f9b14f5e35f9dc63ba084666b088ff70c490389c3603fb541869a936",
+      "pass": true,
+      "shared_path": "inputs/S_L35_M450.json",
+      "shared_sha256": "94bcbf94e8fb58d3d4706f9a9f8c73834416a659f738a5ba71d95a665aa163eb"
+    },
+    "S_L375_M325": {
+      "changes": [
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_600s.csv",
+          "before": "local_csv_path:aqwa_bridge_0_600s.csv",
+          "path": "aqwa_external.body_loads.bridge.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_600s.csv",
+          "before": "local_csv_path:aqwa_hull_0_600s.csv",
+          "path": "aqwa_external.body_loads.hull.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_600s.csv",
+          "before": "local_csv_path:aqwa_spud_0_600s.csv",
+          "path": "aqwa_external.body_loads.spud.csv_path"
+        },
+        {
+          "after": "local_ref:TimeResponse.dat",
+          "before": "local_absolute_path:TimeResponse.dat",
+          "path": "aqwa_hydrodynamic_input.frequency_authority_path"
+        },
+        {
+          "after": "local_ref:ANALYSIS.LIS",
+          "before": "local_absolute_path:ANALYSIS.LIS",
+          "path": "aqwa_hydrodynamic_input.source_path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_projected_0_600s.csv",
+          "before": "local_csv_path:cutter_projected_0_600s.csv",
+          "path": "cutter_load_input.history_csv_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "only_expected_source_references_changed": true,
+      "original_ref": "artifact_ref:local_v21/inputs/S_L375_M325.json",
+      "original_sha256": "62c275fd501629f6d10b57f68b6a8bf01cb3c299e6e167d8fb319b8af98b55d4",
+      "pass": true,
+      "shared_path": "inputs/S_L375_M325.json",
+      "shared_sha256": "496016acbf4f429f6da216aa27a3ac6d280496ba855dba1ec62d22c54dca564f"
+    },
+    "S_L40_M200": {
+      "changes": [
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_600s.csv",
+          "before": "local_csv_path:aqwa_bridge_0_600s.csv",
+          "path": "aqwa_external.body_loads.bridge.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_600s.csv",
+          "before": "local_csv_path:aqwa_hull_0_600s.csv",
+          "path": "aqwa_external.body_loads.hull.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_600s.csv",
+          "before": "local_csv_path:aqwa_spud_0_600s.csv",
+          "path": "aqwa_external.body_loads.spud.csv_path"
+        },
+        {
+          "after": "local_ref:TimeResponse.dat",
+          "before": "local_absolute_path:TimeResponse.dat",
+          "path": "aqwa_hydrodynamic_input.frequency_authority_path"
+        },
+        {
+          "after": "local_ref:ANALYSIS.LIS",
+          "before": "local_absolute_path:ANALYSIS.LIS",
+          "path": "aqwa_hydrodynamic_input.source_path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_projected_0_600s.csv",
+          "before": "local_csv_path:cutter_projected_0_600s.csv",
+          "path": "cutter_load_input.history_csv_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "only_expected_source_references_changed": true,
+      "original_ref": "artifact_ref:local_v21/inputs/S_L40_M200.json",
+      "original_sha256": "0ab8500e946d7f23722724172e58a33de285c0266db92884ae4fb579ccfbd204",
+      "pass": true,
+      "shared_path": "inputs/S_L40_M200.json",
+      "shared_sha256": "d685597628b6387bc8393a0f5fd0dffc66895c05b3823da071385c6c241de0c0"
+    },
+    "S_L40_M2625": {
+      "changes": [
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_600s.csv",
+          "before": "local_csv_path:aqwa_bridge_0_600s.csv",
+          "path": "aqwa_external.body_loads.bridge.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_600s.csv",
+          "before": "local_csv_path:aqwa_hull_0_600s.csv",
+          "path": "aqwa_external.body_loads.hull.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_600s.csv",
+          "before": "local_csv_path:aqwa_spud_0_600s.csv",
+          "path": "aqwa_external.body_loads.spud.csv_path"
+        },
+        {
+          "after": "local_ref:TimeResponse.dat",
+          "before": "local_absolute_path:TimeResponse.dat",
+          "path": "aqwa_hydrodynamic_input.frequency_authority_path"
+        },
+        {
+          "after": "local_ref:ANALYSIS.LIS",
+          "before": "local_absolute_path:ANALYSIS.LIS",
+          "path": "aqwa_hydrodynamic_input.source_path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_projected_0_600s.csv",
+          "before": "local_csv_path:cutter_projected_0_600s.csv",
+          "path": "cutter_load_input.history_csv_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "only_expected_source_references_changed": true,
+      "original_ref": "artifact_ref:local_v21/inputs/S_L40_M2625.json",
+      "original_sha256": "a8daabcca43e68f4a7b232f6943a8150137636a9145ef50382e07cb6cb9575ec",
+      "pass": true,
+      "shared_path": "inputs/S_L40_M2625.json",
+      "shared_sha256": "3fa1667e9bb6bb8ba7348e54a5ef7d18f3427e185737ac3142549cfb1a50dc9c"
+    },
+    "S_L40_M3875": {
+      "changes": [
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_600s.csv",
+          "before": "local_csv_path:aqwa_bridge_0_600s.csv",
+          "path": "aqwa_external.body_loads.bridge.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_600s.csv",
+          "before": "local_csv_path:aqwa_hull_0_600s.csv",
+          "path": "aqwa_external.body_loads.hull.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_600s.csv",
+          "before": "local_csv_path:aqwa_spud_0_600s.csv",
+          "path": "aqwa_external.body_loads.spud.csv_path"
+        },
+        {
+          "after": "local_ref:TimeResponse.dat",
+          "before": "local_absolute_path:TimeResponse.dat",
+          "path": "aqwa_hydrodynamic_input.frequency_authority_path"
+        },
+        {
+          "after": "local_ref:ANALYSIS.LIS",
+          "before": "local_absolute_path:ANALYSIS.LIS",
+          "path": "aqwa_hydrodynamic_input.source_path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_projected_0_600s.csv",
+          "before": "local_csv_path:cutter_projected_0_600s.csv",
+          "path": "cutter_load_input.history_csv_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "only_expected_source_references_changed": true,
+      "original_ref": "artifact_ref:local_v21/inputs/S_L40_M3875.json",
+      "original_sha256": "a8f1d07125ebe9b45a6784b64c6b926d03d5d1ac399581bce3499aec8ce6a6c5",
+      "pass": true,
+      "shared_path": "inputs/S_L40_M3875.json",
+      "shared_sha256": "08bb466aece89fec3eec02ce120c8b46d1ff14e5ecbdac8702a2a909e74d5071"
+    },
+    "S_L40_M450": {
+      "changes": [
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_600s.csv",
+          "before": "local_csv_path:aqwa_bridge_0_600s.csv",
+          "path": "aqwa_external.body_loads.bridge.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_600s.csv",
+          "before": "local_csv_path:aqwa_hull_0_600s.csv",
+          "path": "aqwa_external.body_loads.hull.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_600s.csv",
+          "before": "local_csv_path:aqwa_spud_0_600s.csv",
+          "path": "aqwa_external.body_loads.spud.csv_path"
+        },
+        {
+          "after": "local_ref:TimeResponse.dat",
+          "before": "local_absolute_path:TimeResponse.dat",
+          "path": "aqwa_hydrodynamic_input.frequency_authority_path"
+        },
+        {
+          "after": "local_ref:ANALYSIS.LIS",
+          "before": "local_absolute_path:ANALYSIS.LIS",
+          "path": "aqwa_hydrodynamic_input.source_path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_projected_0_600s.csv",
+          "before": "local_csv_path:cutter_projected_0_600s.csv",
+          "path": "cutter_load_input.history_csv_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "only_expected_source_references_changed": true,
+      "original_ref": "artifact_ref:local_v21/inputs/S_L40_M450.json",
+      "original_sha256": "1dc0b67d1331b26f1aba11d8f1186765db18d32c6a5aa5236c0aacde9ceb370b",
+      "pass": true,
+      "shared_path": "inputs/S_L40_M450.json",
+      "shared_sha256": "e159ddc8f3cea238cba290df6c22fb47d6f3566351f0522714fbc016854dd293"
+    },
+    "S_L425_M325": {
+      "changes": [
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_600s.csv",
+          "before": "local_csv_path:aqwa_bridge_0_600s.csv",
+          "path": "aqwa_external.body_loads.bridge.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_600s.csv",
+          "before": "local_csv_path:aqwa_hull_0_600s.csv",
+          "path": "aqwa_external.body_loads.hull.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_600s.csv",
+          "before": "local_csv_path:aqwa_spud_0_600s.csv",
+          "path": "aqwa_external.body_loads.spud.csv_path"
+        },
+        {
+          "after": "local_ref:TimeResponse.dat",
+          "before": "local_absolute_path:TimeResponse.dat",
+          "path": "aqwa_hydrodynamic_input.frequency_authority_path"
+        },
+        {
+          "after": "local_ref:ANALYSIS.LIS",
+          "before": "local_absolute_path:ANALYSIS.LIS",
+          "path": "aqwa_hydrodynamic_input.source_path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_projected_0_600s.csv",
+          "before": "local_csv_path:cutter_projected_0_600s.csv",
+          "path": "cutter_load_input.history_csv_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "only_expected_source_references_changed": true,
+      "original_ref": "artifact_ref:local_v21/inputs/S_L425_M325.json",
+      "original_sha256": "2094ab9cfa013cd35a5a5dcba27bba8552200f4568b991887d5f90c56df613d5",
+      "pass": true,
+      "shared_path": "inputs/S_L425_M325.json",
+      "shared_sha256": "b5592b8ab487e8801c10cc9bd81ed6d20844f91008b9ef1a2aca67888ab8597e"
+    },
+    "S_L45_M200": {
+      "changes": [
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_600s.csv",
+          "before": "local_csv_path:aqwa_bridge_0_600s.csv",
+          "path": "aqwa_external.body_loads.bridge.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_600s.csv",
+          "before": "local_csv_path:aqwa_hull_0_600s.csv",
+          "path": "aqwa_external.body_loads.hull.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_600s.csv",
+          "before": "local_csv_path:aqwa_spud_0_600s.csv",
+          "path": "aqwa_external.body_loads.spud.csv_path"
+        },
+        {
+          "after": "local_ref:TimeResponse.dat",
+          "before": "local_absolute_path:TimeResponse.dat",
+          "path": "aqwa_hydrodynamic_input.frequency_authority_path"
+        },
+        {
+          "after": "local_ref:ANALYSIS.LIS",
+          "before": "local_absolute_path:ANALYSIS.LIS",
+          "path": "aqwa_hydrodynamic_input.source_path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_projected_0_600s.csv",
+          "before": "local_csv_path:cutter_projected_0_600s.csv",
+          "path": "cutter_load_input.history_csv_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "only_expected_source_references_changed": true,
+      "original_ref": "artifact_ref:local_v21/inputs/S_L45_M200.json",
+      "original_sha256": "16c5821868f89b5c622d56b562b53de4029fc2bb5ac07e85c777badde26dfa3e",
+      "pass": true,
+      "shared_path": "inputs/S_L45_M200.json",
+      "shared_sha256": "3befae1d310ed684e0b9d12c0eb7da1545a05a9025bac2f1c7cce6d35a5eee1c"
+    },
+    "S_L45_M325": {
+      "changes": [
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_600s.csv",
+          "before": "local_csv_path:aqwa_bridge_0_600s.csv",
+          "path": "aqwa_external.body_loads.bridge.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_600s.csv",
+          "before": "local_csv_path:aqwa_hull_0_600s.csv",
+          "path": "aqwa_external.body_loads.hull.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_600s.csv",
+          "before": "local_csv_path:aqwa_spud_0_600s.csv",
+          "path": "aqwa_external.body_loads.spud.csv_path"
+        },
+        {
+          "after": "local_ref:TimeResponse.dat",
+          "before": "local_absolute_path:TimeResponse.dat",
+          "path": "aqwa_hydrodynamic_input.frequency_authority_path"
+        },
+        {
+          "after": "local_ref:ANALYSIS.LIS",
+          "before": "local_absolute_path:ANALYSIS.LIS",
+          "path": "aqwa_hydrodynamic_input.source_path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_projected_0_600s.csv",
+          "before": "local_csv_path:cutter_projected_0_600s.csv",
+          "path": "cutter_load_input.history_csv_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "only_expected_source_references_changed": true,
+      "original_ref": "artifact_ref:local_v21/inputs/S_L45_M325.json",
+      "original_sha256": "408f9256584e258e5ddf07e00f339958f935c0622590e6aa11afc13dcb49fec8",
+      "pass": true,
+      "shared_path": "inputs/S_L45_M325.json",
+      "shared_sha256": "1425e2edb59499f2c9f8f26dc8a3ad63cc3f7d99bbcd094c8e9c0f5ac8f0588b"
+    },
+    "S_L45_M450": {
+      "changes": [
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_600s.csv",
+          "before": "local_csv_path:aqwa_bridge_0_600s.csv",
+          "path": "aqwa_external.body_loads.bridge.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_600s.csv",
+          "before": "local_csv_path:aqwa_hull_0_600s.csv",
+          "path": "aqwa_external.body_loads.hull.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_600s.csv",
+          "before": "local_csv_path:aqwa_spud_0_600s.csv",
+          "path": "aqwa_external.body_loads.spud.csv_path"
+        },
+        {
+          "after": "local_ref:TimeResponse.dat",
+          "before": "local_absolute_path:TimeResponse.dat",
+          "path": "aqwa_hydrodynamic_input.frequency_authority_path"
+        },
+        {
+          "after": "local_ref:ANALYSIS.LIS",
+          "before": "local_absolute_path:ANALYSIS.LIS",
+          "path": "aqwa_hydrodynamic_input.source_path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_projected_0_600s.csv",
+          "before": "local_csv_path:cutter_projected_0_600s.csv",
+          "path": "cutter_load_input.history_csv_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "only_expected_source_references_changed": true,
+      "original_ref": "artifact_ref:local_v21/inputs/S_L45_M450.json",
+      "original_sha256": "9f4f9eb1579255453663ccf9aaaa19321de977ec2a1c66d3efbedac4cdb6b4fa",
+      "pass": true,
+      "shared_path": "inputs/S_L45_M450.json",
+      "shared_sha256": "09866b004918106add6950aca346f76636a4de9e71fb067b2548746b2607a327"
+    }
+  },
+  "pass": true,
+  "required_change": "six expected local source references replaced by source_ref:source_data/<file>",
+  "schema": "shared-input-sanitization-audit/v21"
+}

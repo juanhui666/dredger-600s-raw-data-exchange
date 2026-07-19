@@ -1,0 +1,21 @@
+{
+  "rac_reproduction_review_seal_required_fields": {
+    "candidate_sha256": "sha256(rac_reproduction_review_candidate.json)",
+    "new_rac_result_seal_sha256": "sha256(results/RAC/result_seal.json)",
+    "pass": true,
+    "process_correctness_pass": true,
+    "result_reasonableness_pass": true,
+    "schema": "support-system-contact-kinematics-repair-rac-reproduction-review/v21",
+    "starting_premise_pass": true,
+    "v19_reference_result_seal_sha256": "790490c3b4a6971005a6cf06ff7412172a91b8c6311f51f47c749a4723252507"
+  },
+  "schema": "support-system-contact-kinematics-repair-18case-review-contracts/v21",
+  "stage_review_seal_required_fields": {
+    "pass": true,
+    "process_correctness_pass": true,
+    "ready_candidate_sha256": "sha256(ready_candidate_seal.json)",
+    "result_reasonableness_pass": true,
+    "schema": "support-system-contact-kinematics-repair-18case-stage-review/v21",
+    "starting_premise_pass": true
+  }
+}

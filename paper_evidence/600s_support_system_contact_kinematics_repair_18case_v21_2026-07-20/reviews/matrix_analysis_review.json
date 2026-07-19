@@ -1,0 +1,149 @@
+{
+  "implementation_owners": [
+    "sealed v21 matrix analyzer and 18-case execution agents"
+  ],
+  "independent_from_implementation": true,
+  "numerical_audit": {
+    "case_count": 18,
+    "derived_column_count": 79,
+    "design_matrix_condition_number": {
+      "L_axis_linear_fit": 48.416160250493874,
+      "affine": 56.22242641395186,
+      "affine_with_L_times_m": 515.5721682318305,
+      "m_axis_linear_fit": 13.893382214299791,
+      "quadratic": 3893.0529399837974
+    },
+    "design_matrix_rank": {
+      "affine": 3,
+      "affine_with_L_times_m": 4,
+      "quadratic": 6
+    },
+    "largest_model_residual_ratio_over_grid_max_abs_response": {
+      "affine": {
+        "feature": "min",
+        "ratio": 0.44024003145892404,
+        "response": "yaw_psi_rad"
+      },
+      "affine_with_L_times_m": {
+        "feature": "min",
+        "ratio": 0.2686051743259536,
+        "response": "yaw_psi_rad"
+      },
+      "quadratic": {
+        "feature": "min",
+        "ratio": 0.19769043817206733,
+        "response": "yaw_psi_rad"
+      }
+    },
+    "largest_normalized_Cp_abs_peak": {
+      "RAC_steady_rms_scale": 0.14932363418014413,
+      "absolute_Cp_abs_peak": 0.4347982809079347,
+      "response": "roll_phi_deg",
+      "value": 2.9117847505867274
+    },
+    "maximum_absolute_recompute_difference": {
+      "derived_summary": 1.862645149230957e-09,
+      "load_interaction_I": 7.457856554538012e-09,
+      "normalized_pressure_contrast_Cp": 1.3067324999838092e-13,
+      "pressure_contrast_Cp": 5.591573426499963e-09
+    },
+    "maximum_scaled_recompute_difference": {
+      "five_point_axis_diagnostics": 4.0398692433297435e-09,
+      "soil_3x3_models": 1.744043785493782e-10,
+      "source_metrics_statistics": 9.603815820811292e-12
+    },
+    "response_field_count": 26,
+    "steady_row_count": 5401,
+    "steady_window_s": [
+      60.0,
+      600.0
+    ],
+    "summary_feature_count": 6,
+    "zero_RAC_rms_fields": [
+      "spud_yaw_psi_rad",
+      "spud_lateral_y_m",
+      "soil_lateral_displacement_m",
+      "soil_force_y_total_N"
+    ]
+  },
+  "overall_status": "pass",
+  "paper_draft_boundary": {
+    "allowed_for_initial_working_draft": [
+      "The factual 18-case matrix composition, case identifiers, parameter coordinates, fixed 600 s duration, 0.1 s nominal step, and the predeclared 60-600 s statistics window.",
+      "Directly traceable per-case 60-600 s min, max, signed absolute peak and time, mean, RMS, and population standard deviation for the 26 sealed response fields, with exact field names and units preserved.",
+      "The derived I(t)=RAC(t)-RA(t)-RC(t)+R0(t) time series and its descriptive statistics, explicitly labeled as a factorial interaction contrast rather than proof of physical interaction or non-superposition.",
+      "The derived Cp(t)=y135(t)-(y85(t)+y185(t))/2 time series, absolute statistics, and RAC-RMS-normalized statistics, explicitly labeled as a centered three-pressure contrast. Cp must not be called a hydrodynamic pressure coefficient or a pressure second derivative.",
+      "The five-point L and m axis values, adjacent slopes, second differences, scaled second differences, and linear-fit residual diagnostics, provided they retain the no-engineering-tolerance and no-binary-linearity labels.",
+      "The 3 x 3 affine, affine-plus-L*m, and quadratic predictions and residual diagnostics, preferably reporting residuals and condition-number caveats rather than ranking raw coefficients.",
+      "Figures or tables generated directly from the sealed matrix_analysis.json or sealed derived CSV, with the analysis-result-seal hash and this review boundary recorded in the working-draft source note."
+    ],
+    "descriptive_draft_data_authorized": true,
+    "evidence_manifest_promotion_authorized": false,
+    "evidence_state": "independently_reviewed_candidate_descriptive_material_not_manifest_promoted",
+    "formal_paper_evidence_promoted": false,
+    "prohibited_for_initial_or_formal_paper_claims": [
+      "A causal statement that one load source or parameter causes the observed contrast solely because I or Cp is nonzero.",
+      "A claim of exact superposition, non-superposition, linearity, nonlinearity, monotonicity, statistical significance, or physical curvature without a declared engineering tolerance and uncertainty or repeatability analysis.",
+      "Calling Cp a conventional pressure coefficient, a nondimensional pressure, or a second derivative with respect to pressure; the stored absolute Cp has the response unit and is not divided by the 50 bar spacing squared.",
+      "Using the 3 x 3 raw polynomial coefficients as robust sensitivity rankings without centering or scaling and conditioning analysis.",
+      "An optimum pressure, optimum L or m, design recommendation, safety margin, structural adequacy, soil applicability, or generalization beyond the sealed input window.",
+      "Cross-generation comparison with v13, v15, v19, v20, the old 14-case manuscript material, or other AQWA/source layers unless a separate same-source evidence contract is reviewed.",
+      "Promotion to official evidence, alteration of an evidence manifest, or modification/replacement of the authoritative Word manuscript under this review."
+    ],
+    "required_labels_and_caveats": [
+      "Mark all included numbers and figures as candidate descriptive simulation results pending evidence-manifest and manuscript promotion.",
+      "Describe 60-600 s as the predefined statistics window, not as a statistically proven steady or stationary interval.",
+      "Preserve each response unit and distinguish absolute Cp, normalized Cp, time-series contrast, summary-feature fit, and physical response magnitude.",
+      "For spud_yaw_psi_rad, spud_lateral_y_m, soil_lateral_displacement_m, and soil_force_y_total_N, state that the RAC RMS scale and Cp are both zero; do not interpret the normalized zero as sensitivity evidence.",
+      "Retain the single-generation, deterministic, no-repeat, no-uncertainty-analysis boundary."
+    ],
+    "trend_conclusions_authorized": false
+  },
+  "process_correctness": {
+    "evidence": [
+      "The independently computed analysis-result-seal SHA-256 is 7f633021459e55361785d92cc5ebc4322594c316ccb1a5b825ab55cb16ffc960. Both derived files match the hashes recorded in that seal.",
+      "All 18 current per-case result-seal hashes exactly match both matrix_analysis/result_seal.json and full_matrix_run_review_seal.json; the ready candidate and analyzer hashes also match their upstream seals.",
+      "The derived table has 5401 rows and 79 columns: time_s plus three derived channels for each of 26 response fields. Its time axis is exactly the source axis from 60.0 through 600.0 s, with nominal 0.1 s spacing.",
+      "Independent source-table recomputation produced maximum absolute differences of 7.457856554538012e-09 for I(t), 5.591573426499963e-09 for Cp(t), and 1.3067324999838092e-13 for normalized Cp. The largest derived-summary difference was 1.862645149230957e-09.",
+      "Independent 60-600 s per-case statistics agree with sealed metrics.json values to maximum scaled difference 9.603815820811292e-12.",
+      "All 26 x 6 x 2 five-point axis diagnostics reproduce their point order, values, slopes, second differences, linear fits, residuals, ranks, and singular values; the maximum scaled numeric difference is 4.0398692433297435e-09.",
+      "All 26 x 6 x 3 soil-model fits reproduce their term order, coefficients, residual vectors, RSS, RMSE, maximum residuals, ranks, and singular values; the maximum scaled numeric difference is 1.744043785493782e-10.",
+      "The affine, affine-plus-L*m, and quadratic design matrices are full rank at 3, 4, and 6 respectively. The analysis JSON and all independently recomputed derived channels contain no NaN or infinity."
+    ],
+    "finding": "The analysis lineage, file hashes, time bases, formulas, summary statistics, five-point diagnostics, and 3 x 3 fits were independently rehashed and recomputed from the sealed per-case full-resolution tables. All recomputations agree with the sealed outputs within floating-point summation and CSV round-trip tolerances.",
+    "status": "pass"
+  },
+  "result_reasonableness": {
+    "evidence": [
+      "For the four zero-RAC-RMS channels, both the absolute pressure contrast and the normalized contrast are exactly zero. The 1e-30 denominator floor therefore introduces no hidden large value, but these normalized zeros carry no physical scale information.",
+      "The largest normalized pressure-contrast peak is 2.9117847505867274 for roll_phi_deg; yaw_psi_rad is 2.510941227307064. Ratios above one are arithmetically valid because the contrast peak is normalized by RAC RMS, not by a compatible peak norm, and must not be presented as a failure threshold.",
+      "The raw-basis quadratic design condition number is 3893.0529399837974 and the affine-plus-interaction condition number is 515.5721682318305. Predictions and residuals reproduce correctly, but raw polynomial coefficients are basis-scale sensitive and are unsuitable for unqualified coefficient ranking.",
+      "The worst maximum-residual-to-grid-scale ratio is 44.0% for the affine model, 26.9% for affine plus L*m, and 19.8% for the quadratic model, all for yaw_psi_rad minimum. These residuals reinforce the declared descriptive-only policy and preclude a binary linearity claim.",
+      "The 60-600 s label is a predeclared statistics window. This analysis did not conduct a stationarity, uncertainty, repeatability, convergence-with-time-step, or experimental validation study.",
+      "No authoritative soil displacement, force, moment, or structural safety limits are present in this evidence package, so engineering applicability remains unevaluated."
+    ],
+    "finding": "GO for the sealed analysis result as a faithful descriptive diagnostic. The values are finite and internally coherent, but neither small nor large contrasts, fitted coefficients, or residual sizes establish engineering linearity, causality, superposition, safety, or an optimum.",
+    "status": "pass"
+  },
+  "reviewed_artifacts": {
+    "analysis_result_seal_sha256": "7f633021459e55361785d92cc5ebc4322594c316ccb1a5b825ab55cb16ffc960",
+    "analyze_matrix_sha256": "e8379de5754cd3e4f933555055d17a405ae4912b934a579ee80032b1d543a98f",
+    "derived_timeseries_sha256": "25fbbd291eea2ce4c30f30a709dd5be4c2d5a83cfc2552e6597b679333d45ae6",
+    "full_matrix_run_review_seal_sha256": "94933282e44574b741e4c7736a92d32ed6f476c90c7531424f1e72dfcb697b58",
+    "matrix_analysis_sha256": "3fb825d94c903cae916b89229808f9eaf2a6a3093beebc2c746ae471b7234cf8",
+    "ready_candidate_seal_sha256": "ff0aea354090e2b14191beb4dec291ed5bdf0414ec2e7e33443aae4a1068482c",
+    "stage_review_seal_sha256": "c7070b596090d12b2423345221c27280f4774b1ab3dedf141285d9ba7b799203"
+  },
+  "reviewer": "stage-review-contact-kinematics-agent:/root/stage_review_contact_kinematics",
+  "stage_id": "support-system-contact-kinematics-repair-v21-matrix-analysis-2026-07-20",
+  "starting_premise": {
+    "evidence": [
+      "PRE_RUN.md and the ready-bound analyze_matrix.py predeclare the 60-600 s window, I(t)=RAC(t)-RA(t)-RC(t)+R0(t), the centered 85/135/185 bar pressure contrast, two five-point center axes, and the 3 x 3 soil fits.",
+      "The full-matrix run review seal 94933282e44574b741e4c7736a92d32ed6f476c90c7531424f1e72dfcb697b58 explicitly authorized exactly one execution of analyze_matrix.py with SHA-256 e8379de5754cd3e4f933555055d17a405ae4912b934a579ee80032b1d543a98f.",
+      "The analysis result seal and matrix_analysis.json both retain paper_evidence_promoted=false, while the execution review retains trend_conclusions_authorized=false.",
+      "The current paper authority declared by paper/AGENTS.md is repo_ref:project_root\\paper\\绞吸挖泥船绞刀冲击载荷传递特性.docx, SHA-256 c97a17512805bc6394f5577a72f96bca1d89db16962255fe85255d52f142e655. Read-only OOXML inspection found no 600 s, Cp, or current 18-case matrix material in that document."
+    ],
+    "finding": "The correct bounded question is whether the single sealed matrix-analysis result faithfully implements the predeclared descriptive contrasts and regression diagnostics over the current 18-case v21 generation. This review may authorize traceable descriptive material for an initial working draft, but it does not authorize trend conclusions, formal physical conclusions, evidence-manifest promotion, or direct modification of the authoritative Word manuscript.",
+    "status": "pass"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "attempt_number": 1,
+  "case_id": "S_L35_M200",
+  "finished_unix": 1784486803.2119653,
+  "gate_pass": true,
+  "no_retry_performed": true,
+  "started_unix": 1784486279.6759307,
+  "state": "complete",
+  "wall_clock_s": 523.5360345840454
+}

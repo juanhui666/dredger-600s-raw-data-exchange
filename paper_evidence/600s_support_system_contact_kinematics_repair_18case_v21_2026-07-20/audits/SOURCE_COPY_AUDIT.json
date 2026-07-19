@@ -1,0 +1,51 @@
+{
+  "pass": true,
+  "schema": "shared-source-copy-audit/v21",
+  "sources": {
+    "aqwa_bridge_0_600s.csv": {
+      "byte_identical": true,
+      "bytes": 241054,
+      "original_ref": "local_csv_source:aqwa_bridge_0_600s.csv",
+      "original_sha256": "0664769ab579b44776f2826b28d11dadc71b0fd2811a8c9730c0d59a0baf2131",
+      "pass": true,
+      "shared_path": "source_data/aqwa_bridge_0_600s.csv",
+      "shared_sha256": "0664769ab579b44776f2826b28d11dadc71b0fd2811a8c9730c0d59a0baf2131"
+    },
+    "aqwa_hull_0_600s.csv": {
+      "byte_identical": true,
+      "bytes": 247872,
+      "original_ref": "local_csv_source:aqwa_hull_0_600s.csv",
+      "original_sha256": "b62a8e9785b0715255b9b87bae0d9ecd9398d9964676e41c30a29abbc3ea3905",
+      "pass": true,
+      "shared_path": "source_data/aqwa_hull_0_600s.csv",
+      "shared_sha256": "b62a8e9785b0715255b9b87bae0d9ecd9398d9964676e41c30a29abbc3ea3905"
+    },
+    "aqwa_spud_0_600s.csv": {
+      "byte_identical": true,
+      "bytes": 255382,
+      "original_ref": "local_csv_source:aqwa_spud_0_600s.csv",
+      "original_sha256": "23350675b6fee901d69dd882534ec1fe2b3b4a5f7b2d2480952bce591b709f17",
+      "pass": true,
+      "shared_path": "source_data/aqwa_spud_0_600s.csv",
+      "shared_sha256": "23350675b6fee901d69dd882534ec1fe2b3b4a5f7b2d2480952bce591b709f17"
+    },
+    "cutter_constant_mean_0_600s.csv": {
+      "byte_identical": true,
+      "bytes": 3829096,
+      "original_ref": "local_csv_source:cutter_constant_mean_0_600s.csv",
+      "original_sha256": "f107d4e0b8f9155e57c67ca65f1ebfe88aa8791b8b16b352866ccbb57254f9af",
+      "pass": true,
+      "shared_path": "source_data/cutter_constant_mean_0_600s.csv",
+      "shared_sha256": "f107d4e0b8f9155e57c67ca65f1ebfe88aa8791b8b16b352866ccbb57254f9af"
+    },
+    "cutter_projected_0_600s.csv": {
+      "byte_identical": true,
+      "bytes": 3807796,
+      "original_ref": "local_csv_source:cutter_projected_0_600s.csv",
+      "original_sha256": "a1bf708319e0a3fc4cafaa095bbe5146f06455e8490141e6a87b7106827382d1",
+      "pass": true,
+      "shared_path": "source_data/cutter_projected_0_600s.csv",
+      "shared_sha256": "a1bf708319e0a3fc4cafaa095bbe5146f06455e8490141e6a87b7106827382d1"
+    }
+  }
+}

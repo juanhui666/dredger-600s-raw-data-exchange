@@ -1,0 +1,648 @@
+{
+  "accepted_step_count": 6000,
+  "accumulator_volume_positive_all_frames": true,
+  "all_full_resolution_scalar_values_finite": true,
+  "all_retained_result_values_finite": true,
+  "attempted_continuation_count": 0,
+  "branch_minimum_margin_to_centered_half_stroke_m": {
+    "b1": 0.15354467988339016,
+    "b2": 0.14169164014109192
+  },
+  "buffer_branch_1_stroke_m": {
+    "abs_peak": 0.5964553201166098,
+    "max": 0.5964553201166098,
+    "min": 0.1067599467321032
+  },
+  "buffer_branch_2_stroke_m": {
+    "abs_peak": 0.6083083598589081,
+    "max": -0.10844879974202803,
+    "min": -0.6083083598589081
+  },
+  "buffer_end_stop_frame_count": 0,
+  "buffer_first_end_stop_time_s": null,
+  "case_id": "S_L35_M450",
+  "centered_half_stroke_limit_m": 0.75,
+  "domain_all_source_only": true,
+  "frame_count": 6001,
+  "invalidity_flags_all_false": {
+    "b1_design_stroke_exceeded": true,
+    "b1_end_stop_active": true,
+    "b1_slack": true,
+    "b2_design_stroke_exceeded": true,
+    "b2_end_stop_active": true,
+    "b2_slack": true,
+    "buffer_design_stroke_exceeded": true
+  },
+  "main_corrector_converged_count": 6000,
+  "max_corrector_residual": 9.987610074674302e-07,
+  "max_iterations_used": 5,
+  "max_soil_x_alias_residual_m": 0.0,
+  "max_soil_x_decomposition_residual_m": 0.0,
+  "minimum_margin_to_centered_half_stroke_m": 0.14169164014109192,
+  "nonconverged_step_count": 0,
+  "paper_response_statistics": {
+    "full_0_600s": {
+      "b1_piston_displacement_m": {
+        "abs_peak": 0.5964553201166098,
+        "abs_peak_signed_value": 0.5964553201166098,
+        "abs_peak_time_s": 105.9,
+        "max": 0.5964553201166098,
+        "mean": 0.28484021192049097,
+        "min": 0.1067599467321032,
+        "rms": 0.2942222167689308,
+        "std": 0.07370730298629499
+      },
+      "b1_pressure_Pa": {
+        "abs_peak": 16270892.085661048,
+        "abs_peak_signed_value": 16270892.085661048,
+        "abs_peak_time_s": 105.9,
+        "max": 16270892.085661048,
+        "mean": 14778191.02914662,
+        "min": 14018165.330977501,
+        "rms": 14781871.47170968,
+        "std": 329839.524913135
+      },
+      "b1_rope_tension_N": {
+        "abs_peak": 813411.5459262703,
+        "abs_peak_signed_value": 813411.5459262703,
+        "abs_peak_time_s": 105.9,
+        "max": 813411.5459262703,
+        "mean": 738788.699951209,
+        "min": 700793.6302994178,
+        "rms": 738972.6919818337,
+        "std": 16489.278919354394
+      },
+      "b2_piston_displacement_m": {
+        "abs_peak": 0.6083083598589081,
+        "abs_peak_signed_value": -0.6083083598589081,
+        "abs_peak_time_s": 105.9,
+        "max": -0.10844879974202803,
+        "mean": -0.289803952398657,
+        "min": -0.6083083598589081,
+        "rms": 0.2993954043308698,
+        "std": 0.07517497794187854
+      },
+      "b2_pressure_Pa": {
+        "abs_peak": 13002689.870541295,
+        "abs_peak_signed_value": 13002689.870541295,
+        "abs_peak_time_s": 115.30000000000001,
+        "max": 13002689.870541295,
+        "mean": 12382025.13791821,
+        "min": 11397424.413635096,
+        "rms": 12384478.563123383,
+        "std": 246501.04345457169
+      },
+      "b2_rope_tension_N": {
+        "abs_peak": 659462.767521832,
+        "abs_peak_signed_value": 659462.767521832,
+        "abs_peak_time_s": 115.30000000000001,
+        "max": 659462.767521832,
+        "mean": 627984.2591244157,
+        "min": 578047.8594252387,
+        "rms": 628108.6904991405,
+        "std": 12501.894756550422
+      },
+      "buffer_moment_Nm": {
+        "abs_peak": 14342121.600626864,
+        "abs_peak_signed_value": -14342121.600626864,
+        "abs_peak_time_s": 105.9,
+        "max": -2518537.4542149603,
+        "mean": -6751979.406221481,
+        "min": -14342121.600626864,
+        "rms": 6979118.4231295455,
+        "std": 1766031.7273557822
+      },
+      "buffer_relative_pitch_rad": {
+        "abs_peak": 0.03624946042051171,
+        "abs_peak_signed_value": 0.03624946042051171,
+        "abs_peak_time_s": 105.9,
+        "max": 0.03624946042051171,
+        "mean": 0.017286154083642227,
+        "min": 0.00647330881271069,
+        "rms": 0.017857096063689702,
+        "std": 0.004479370137019432
+      },
+      "heave_z_m": {
+        "abs_peak": 0.6512858970967242,
+        "abs_peak_signed_value": -0.6512858970967242,
+        "abs_peak_time_s": 119.7,
+        "max": -0.2893741126410554,
+        "mean": -0.4558520026405272,
+        "min": -0.6512858970967242,
+        "rms": 0.4587383652667175,
+        "std": 0.051379368001184166
+      },
+      "hull_pitch_theta_deg": {
+        "abs_peak": 2.0698029616862628,
+        "abs_peak_signed_value": -2.0698029616862628,
+        "abs_peak_time_s": 106.0,
+        "max": -0.717893601126956,
+        "mean": -1.4482372702409732,
+        "min": -2.0698029616862628,
+        "rms": 1.4613169354571576,
+        "std": 0.1950794580135814
+      },
+      "ladder_theta_deg": {
+        "abs_peak": 131.64609335717097,
+        "abs_peak_signed_value": -131.64609335717097,
+        "abs_peak_time_s": 124.2,
+        "max": -130.23596189974438,
+        "mean": -130.93309097587948,
+        "min": -131.64609335717097,
+        "rms": 130.93321172152446,
+        "std": 0.1778179282579774
+      },
+      "roll_phi_deg": {
+        "abs_peak": 0.3808903714268964,
+        "abs_peak_signed_value": 0.3808903714268964,
+        "abs_peak_time_s": 210.9,
+        "max": 0.3808903714268964,
+        "mean": 0.1306955131826031,
+        "min": -0.13005097591236361,
+        "rms": 0.14901385514708332,
+        "std": 0.07158080650378246
+      },
+      "soil_force_x_total_N": {
+        "abs_peak": 537176.2487349475,
+        "abs_peak_signed_value": -537176.2487349475,
+        "abs_peak_time_s": 106.5,
+        "max": -15906.898088819114,
+        "mean": -203418.07764140549,
+        "min": -537176.2487349475,
+        "rms": 214532.88137746023,
+        "std": 68157.48587492468
+      },
+      "soil_force_y_total_N": {
+        "abs_peak": 0.0,
+        "abs_peak_signed_value": 0.0,
+        "abs_peak_time_s": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "rms": 0.0,
+        "std": 0.0
+      },
+      "soil_lateral_displacement_m": {
+        "abs_peak": 0.0,
+        "abs_peak_signed_value": 0.0,
+        "abs_peak_time_s": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "rms": 0.0,
+        "std": 0.0
+      },
+      "soil_moment_total_Nm": {
+        "abs_peak": 1239398.6450083265,
+        "abs_peak_signed_value": -1239398.6450083265,
+        "abs_peak_time_s": 106.4,
+        "max": 475735.07231972925,
+        "mean": -96896.70395678583,
+        "min": -1239398.6450083265,
+        "rms": 250424.70716174316,
+        "std": 230918.95270712586
+      },
+      "soil_rotation_rad": {
+        "abs_peak": 0.014609974338742386,
+        "abs_peak_signed_value": -0.014609974338742386,
+        "abs_peak_time_s": 10.8,
+        "max": 0.0011037056086478422,
+        "mean": -0.007990354632157647,
+        "min": -0.014609974338742386,
+        "rms": 0.008352568637923198,
+        "std": 0.0024330301485133736
+      },
+      "soil_x_displacement_m": {
+        "abs_peak": 0.026205695238999738,
+        "abs_peak_signed_value": 0.026205695238999738,
+        "abs_peak_time_s": 10.9,
+        "max": 0.026205695238999738,
+        "mean": 0.011572677708410636,
+        "min": -0.011421855959703464,
+        "rms": 0.012751797342406796,
+        "std": 0.0053555080168989164
+      },
+      "spud_lateral_y_m": {
+        "abs_peak": 0.0,
+        "abs_peak_signed_value": 0.0,
+        "abs_peak_time_s": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "rms": 0.0,
+        "std": 0.0
+      },
+      "spud_pin_O_reaction_x_N": {
+        "abs_peak": 520586.9278842844,
+        "abs_peak_signed_value": 520586.9278842844,
+        "abs_peak_time_s": 123.4,
+        "max": 520586.9278842844,
+        "mean": 144651.1034246716,
+        "min": -349179.3473826458,
+        "rms": 177370.95943718927,
+        "std": 102647.53055818733
+      },
+      "spud_theta_deg": {
+        "abs_peak": 90.83708986840436,
+        "abs_peak_signed_value": -90.83708986840436,
+        "abs_peak_time_s": 10.8,
+        "max": -89.93676232679957,
+        "mean": -90.45781359723544,
+        "min": -90.83708986840436,
+        "rms": 90.45792101198143,
+        "std": 0.13940235893790417
+      },
+      "spud_yaw_psi_rad": {
+        "abs_peak": 0.0,
+        "abs_peak_signed_value": 0.0,
+        "abs_peak_time_s": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "rms": 0.0,
+        "std": 0.0
+      },
+      "support_total_force_resultant_including_preload_N": {
+        "abs_peak": 17754756.920017116,
+        "abs_peak_signed_value": 17754756.920017116,
+        "abs_peak_time_s": 115.9,
+        "max": 17754756.920017116,
+        "mean": 11369907.282586223,
+        "min": 3661621.671077118,
+        "rms": 11554596.136518283,
+        "std": 2057644.3481408474
+      },
+      "surge_x_m": {
+        "abs_peak": 0.40986245794997467,
+        "abs_peak_signed_value": -0.40986245794997467,
+        "abs_peak_time_s": 11.4,
+        "max": 0.19536971685986163,
+        "mean": -0.17517872607953683,
+        "min": -0.40986245794997467,
+        "rms": 0.19909409390496577,
+        "std": 0.09460904902275433
+      },
+      "sway_y_m": {
+        "abs_peak": 0.049660526578260075,
+        "abs_peak_signed_value": 0.049660526578260075,
+        "abs_peak_time_s": 213.20000000000002,
+        "max": 0.049660526578260075,
+        "mean": 0.030073775200788043,
+        "min": -2.030151945656653e-06,
+        "rms": 0.030800324948938775,
+        "std": 0.00665041819231591
+      },
+      "yaw_psi_rad": {
+        "abs_peak": 0.001950701777864785,
+        "abs_peak_signed_value": 0.001950701777864785,
+        "abs_peak_time_s": 400.5,
+        "max": 0.001950701777864785,
+        "mean": 0.0008565290243775757,
+        "min": -0.0006878404715609883,
+        "rms": 0.000936524521634566,
+        "std": 0.00037872973215955885
+      }
+    },
+    "steady_60_600s": {
+      "b1_piston_displacement_m": {
+        "abs_peak": 0.5964553201166098,
+        "abs_peak_signed_value": 0.5964553201166098,
+        "abs_peak_time_s": 105.9,
+        "max": 0.5964553201166098,
+        "mean": 0.2837039258606264,
+        "min": 0.1067599467321032,
+        "rms": 0.292769772735056,
+        "std": 0.0722926156575105
+      },
+      "b1_pressure_Pa": {
+        "abs_peak": 16270892.085661048,
+        "abs_peak_signed_value": 16270892.085661048,
+        "abs_peak_time_s": 105.9,
+        "max": 16270892.085661048,
+        "mean": 14772922.102879949,
+        "min": 14018165.330977501,
+        "rms": 14776462.38976322,
+        "std": 323439.7908853919
+      },
+      "b1_rope_tension_N": {
+        "abs_peak": 813411.5459262703,
+        "abs_peak_signed_value": 813411.5459262703,
+        "abs_peak_time_s": 105.9,
+        "max": 813411.5459262703,
+        "mean": 738525.2967255359,
+        "min": 700793.6302994178,
+        "rms": 738702.2821183208,
+        "std": 16169.344553025981
+      },
+      "b2_piston_displacement_m": {
+        "abs_peak": 0.6083083598589081,
+        "abs_peak_signed_value": -0.6083083598589081,
+        "abs_peak_time_s": 105.9,
+        "max": -0.10844879974202803,
+        "mean": -0.28864367801705476,
+        "min": -0.6083083598589081,
+        "rms": 0.2979119354286042,
+        "std": 0.0737315971046585
+      },
+      "b2_pressure_Pa": {
+        "abs_peak": 13002689.870541295,
+        "abs_peak_signed_value": 13002689.870541295,
+        "abs_peak_time_s": 115.30000000000001,
+        "max": 13002689.870541295,
+        "mean": 12385699.297435544,
+        "min": 11397424.413635096,
+        "rms": 12388059.716083927,
+        "std": 241819.02895775854
+      },
+      "b2_rope_tension_N": {
+        "abs_peak": 659462.767521832,
+        "abs_peak_signed_value": 659462.767521832,
+        "abs_peak_time_s": 115.30000000000001,
+        "max": 659462.767521832,
+        "mean": 628170.6029830897,
+        "min": 578047.8594252387,
+        "rms": 628290.3173060392,
+        "std": 12264.435102556767
+      },
+      "buffer_moment_Nm": {
+        "abs_peak": 14342121.600626864,
+        "abs_peak_signed_value": -14342121.600626864,
+        "abs_peak_time_s": 105.9,
+        "max": -2518537.4542149603,
+        "mean": -6724573.617889697,
+        "min": -14342121.600626864,
+        "rms": 6944058.077538004,
+        "std": 1732065.8884126411
+      },
+      "buffer_relative_pitch_rad": {
+        "abs_peak": 0.03624946042051171,
+        "abs_peak_signed_value": 0.03624946042051171,
+        "abs_peak_time_s": 105.9,
+        "max": 0.03624946042051171,
+        "mean": 0.01721705083125596,
+        "min": 0.00647330881271069,
+        "rms": 0.017768753623050654,
+        "std": 0.004393377515149845
+      },
+      "heave_z_m": {
+        "abs_peak": 0.6512858970967242,
+        "abs_peak_signed_value": -0.6512858970967242,
+        "abs_peak_time_s": 119.7,
+        "max": -0.2893741126410554,
+        "mean": -0.4561081207042947,
+        "min": -0.6512858970967242,
+        "rms": 0.4590930312137779,
+        "std": 0.05226656231905277
+      },
+      "hull_pitch_theta_deg": {
+        "abs_peak": 2.0698029616862628,
+        "abs_peak_signed_value": -2.0698029616862628,
+        "abs_peak_time_s": 106.0,
+        "max": -0.717893601126956,
+        "mean": -1.4482210643232682,
+        "min": -2.0698029616862628,
+        "rms": 1.4613464143725934,
+        "std": 0.19542029487751628
+      },
+      "ladder_theta_deg": {
+        "abs_peak": 131.64609335717097,
+        "abs_peak_signed_value": -131.64609335717097,
+        "abs_peak_time_s": 124.2,
+        "max": -130.23596189974438,
+        "mean": -130.93348679401822,
+        "min": -131.64609335717097,
+        "rms": 130.9336054483526,
+        "std": 0.17627156756076412
+      },
+      "roll_phi_deg": {
+        "abs_peak": 0.3808903714268964,
+        "abs_peak_signed_value": 0.3808903714268964,
+        "abs_peak_time_s": 210.9,
+        "max": 0.3808903714268964,
+        "mean": 0.13105596666794847,
+        "min": -0.13005097591236361,
+        "rms": 0.15019480836317334,
+        "std": 0.07336766358539669
+      },
+      "soil_force_x_total_N": {
+        "abs_peak": 537176.2487349475,
+        "abs_peak_signed_value": -537176.2487349475,
+        "abs_peak_time_s": 106.5,
+        "max": -15906.898088819114,
+        "mean": -202792.03795296836,
+        "min": -537176.2487349475,
+        "rms": 214100.72143958253,
+        "std": 68662.2768616914
+      },
+      "soil_force_y_total_N": {
+        "abs_peak": 0.0,
+        "abs_peak_signed_value": 0.0,
+        "abs_peak_time_s": 60.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "rms": 0.0,
+        "std": 0.0
+      },
+      "soil_lateral_displacement_m": {
+        "abs_peak": 0.0,
+        "abs_peak_signed_value": 0.0,
+        "abs_peak_time_s": 60.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "rms": 0.0,
+        "std": 0.0
+      },
+      "soil_moment_total_Nm": {
+        "abs_peak": 1239398.6450083265,
+        "abs_peak_signed_value": -1239398.6450083265,
+        "abs_peak_time_s": 106.4,
+        "max": 475735.07231972925,
+        "mean": -92220.52508552972,
+        "min": -1239398.6450083265,
+        "rms": 238505.29615360562,
+        "std": 219954.88411551202
+      },
+      "soil_rotation_rad": {
+        "abs_peak": 0.013284960766822274,
+        "abs_peak_signed_value": -0.013284960766822274,
+        "abs_peak_time_s": 410.1,
+        "max": 0.0011037056086478422,
+        "mean": -0.008059175037921657,
+        "min": -0.013284960766822274,
+        "rms": 0.00835164030073774,
+        "std": 0.0021907974395290984
+      },
+      "soil_x_displacement_m": {
+        "abs_peak": 0.022815761941899382,
+        "abs_peak_signed_value": 0.022815761941899382,
+        "abs_peak_time_s": 410.3,
+        "max": 0.022815761941899382,
+        "mean": 0.011724270593169701,
+        "min": -0.011421855959703464,
+        "rms": 0.012685283086361156,
+        "std": 0.0048433341862044385
+      },
+      "spud_lateral_y_m": {
+        "abs_peak": 0.0,
+        "abs_peak_signed_value": 0.0,
+        "abs_peak_time_s": 60.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "rms": 0.0,
+        "std": 0.0
+      },
+      "spud_pin_O_reaction_x_N": {
+        "abs_peak": 520586.9278842844,
+        "abs_peak_signed_value": 520586.9278842844,
+        "abs_peak_time_s": 123.4,
+        "max": 520586.9278842844,
+        "mean": 143489.38365184632,
+        "min": -349179.3473826458,
+        "rms": 176797.59216249522,
+        "std": 103286.90804583726
+      },
+      "spud_theta_deg": {
+        "abs_peak": 90.76117218293581,
+        "abs_peak_signed_value": -90.76117218293581,
+        "abs_peak_time_s": 410.1,
+        "max": -89.93676232679957,
+        "mean": -90.4617567160301,
+        "min": -90.76117218293581,
+        "rms": 90.46184380326314,
+        "std": 0.1255234470530845
+      },
+      "spud_yaw_psi_rad": {
+        "abs_peak": 0.0,
+        "abs_peak_signed_value": 0.0,
+        "abs_peak_time_s": 60.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "rms": 0.0,
+        "std": 0.0
+      },
+      "support_total_force_resultant_including_preload_N": {
+        "abs_peak": 17754756.920017116,
+        "abs_peak_signed_value": 17754756.920017116,
+        "abs_peak_time_s": 115.9,
+        "max": 17754756.920017116,
+        "mean": 11365170.92482205,
+        "min": 3661621.671077118,
+        "rms": 11555479.131674288,
+        "std": 2088537.2422198965
+      },
+      "surge_x_m": {
+        "abs_peak": 0.37902297856575834,
+        "abs_peak_signed_value": -0.37902297856575834,
+        "abs_peak_time_s": 410.20000000000005,
+        "max": 0.19536971685986163,
+        "mean": -0.1777264069236018,
+        "min": -0.37902297856575834,
+        "rms": 0.19768874191753574,
+        "std": 0.0865688336698858
+      },
+      "sway_y_m": {
+        "abs_peak": 0.049660526578260075,
+        "abs_peak_signed_value": 0.049660526578260075,
+        "abs_peak_time_s": 213.20000000000002,
+        "max": 0.049660526578260075,
+        "mean": 0.03088564627787736,
+        "min": 0.013354529818213107,
+        "rms": 0.03131831927919238,
+        "std": 0.00518786820103148
+      },
+      "yaw_psi_rad": {
+        "abs_peak": 0.001950701777864785,
+        "abs_peak_signed_value": 0.001950701777864785,
+        "abs_peak_time_s": 400.5,
+        "max": 0.001950701777864785,
+        "mean": 0.0008589121993240351,
+        "min": -0.0006878404715609883,
+        "rms": 0.0009364679165337508,
+        "std": 0.0003731514338032389
+      }
+    }
+  },
+  "paper_windows_s": {
+    "full": [
+      0.0,
+      600.0
+    ],
+    "steady": [
+      60.0,
+      600.0
+    ]
+  },
+  "pressure_below_relief_all_frames": true,
+  "public_scalar_fields_present": true,
+  "rejected_step_count": 0,
+  "required_public_scalar_fields": [
+    "soil_force_x_total_N",
+    "soil_horizontal_displacement_x_m",
+    "soil_longitudinal_generalized_dof",
+    "soil_longitudinal_state_semantics",
+    "soil_state_semantics",
+    "soil_x_displacement_m",
+    "soil_x_rotation_contribution_m",
+    "soil_x_translation_contribution_m",
+    "spud_pin_O_reaction_x_N"
+  ],
+  "rescued_step_count": 0,
+  "schema": "support-system-contact-kinematics-repair-600s-metrics/v21",
+  "soil_contact_x_m": {
+    "abs_peak": 0.026205695238999738,
+    "max": 0.026205695238999738,
+    "min": -0.011421855959703464
+  },
+  "soil_displacement_engineering_applicability_gate": "not_evaluated_no_authoritative_project_limit",
+  "soil_force_engineering_applicability_gate": "not_evaluated_no_authoritative_project_limit",
+  "soil_force_x_N": {
+    "abs_peak": 537176.2487349475,
+    "max": -15906.898088819114,
+    "min": -537176.2487349475
+  },
+  "soil_longitudinal_generalized_dof": [
+    "surge"
+  ],
+  "soil_longitudinal_state_semantics": [
+    "coupled_spud_contact_point_x"
+  ],
+  "soil_rotation_rad": {
+    "abs_peak": 0.014609974338742386,
+    "max": 0.0011037056086478422,
+    "min": -0.014609974338742386
+  },
+  "soil_state_semantics": [
+    "composed_spud_contact_world_reference"
+  ],
+  "soil_x_rotation_contribution_m": {
+    "abs_peak": 0.4357452386622152,
+    "max": 0.4357452386622152,
+    "min": -0.20107623563591176
+  },
+  "soil_x_translation_contribution_m": {
+    "abs_peak": 0.40986245794997467,
+    "max": 0.19536971685986163,
+    "min": -0.40986245794997467
+  },
+  "spud_pin_O_reaction_x_N": {
+    "abs_peak": 520586.9278842844,
+    "max": 520586.9278842844,
+    "min": -349179.3473826458
+  },
+  "trace_time_axis_pass": true,
+  "triggered_continuation_count": 0,
+  "validity_flags_all_true": {
+    "b1_model_valid": true,
+    "b1_source_paper_applicability_valid": true,
+    "b2_model_valid": true,
+    "b2_source_paper_applicability_valid": true,
+    "buffer_model_valid": true,
+    "buffer_source_paper_applicability_valid": true,
+    "soil_model_valid": true,
+    "soil_py_equivalent_valid": true
+  }
+}

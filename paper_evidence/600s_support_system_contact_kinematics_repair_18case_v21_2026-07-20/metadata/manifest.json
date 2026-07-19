@@ -1,0 +1,48 @@
+{
+  "asset_id": "x1_600s_support_system_contact_kinematics_repair_18case_matrix_v21_2026-07-20T012906",
+  "capture_and_seal_pattern_parent": "artifact_ref:v20_capture_pattern_parent",
+  "case_count": 18,
+  "code": {
+    "clean_required": true,
+    "commit": "1965eabd7cd38a0d441f98c1503491ff8e3465fe",
+    "workspace": "repo_ref:authoritative_worktree"
+  },
+  "execution_policy": "one explicit case per process after independent stage review seal; no retries; external parallelism only",
+  "input_parent": "artifact_ref:v19_repaired_rac_parent/input_RAC.json",
+  "machine_enforced_sequence": {
+    "first": "RAC only",
+    "recommended_after_RAC_review": [
+      "B_P85_N9",
+      "B_P185_N9",
+      "S_L35_M200",
+      "S_L45_M450",
+      "R0",
+      "RA",
+      "RC",
+      "remaining soil cases"
+    ],
+    "remaining_17_gate": "passing RAC result seal plus compare_rac_v19 candidate plus independent xhigh RAC reproduction review seal"
+  },
+  "matrix_analysis_command_after_18_pass": "python \"artifact_ref:local_v21\\analyze_matrix.py\" --execute",
+  "matrix_analysis_contract": "steady 60-600 s; every case result seal must match directory case_id and current ready/stage seals; timewise load interaction and pressure curvature; descriptive soil center-axis and 3x3 model residuals",
+  "matrix_semantics_parent": "artifact_ref:v15_matrix_parent",
+  "old_result_reuse_allowed": false,
+  "paper_evidence_promoted": false,
+  "paper_statistics_windows_s": {
+    "full": [
+      0.0,
+      600.0
+    ],
+    "steady": [
+      60.0,
+      600.0
+    ]
+  },
+  "purpose": "new 600 s paper-condition matrix after spud-soil contact-kinematics repair",
+  "rac_reproduction_compare_command": "python \"artifact_ref:local_v21\\compare_rac_v19.py\" --execute",
+  "run_command_after_review": "python \"artifact_ref:local_v21\\run_case.py\" --case CASE_ID --execute",
+  "schema": "support-system-contact-kinematics-repair-18case-manifest/v21",
+  "source_integrity_contract": "prepare scans every AQWA/cutter CSV for rows, t0, t1, fixed-dt continuity and finite numeric values; both cutter histories also require t600=t0 continuity for every load field within sealed atol+rtol",
+  "status": "prepared_awaiting_independent_stage_review_not_execution_authorized",
+  "storage_policy": "gzip full-resolution scalar table plus 1 s retained heavy result; accepted-corrector trace and per-case result seal"
+}

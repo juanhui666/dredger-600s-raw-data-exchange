@@ -1,0 +1,19 @@
+{
+  "case_id": "RAC",
+  "files": {
+    "accepted_corrector_trace.ndjson": "e11a6193d2fb62f44bb3b6e7bb9f470be56743d2cc6a348a095c014dcefe9cf8",
+    "full_resolution_metrics.csv.gz": "b604d7aa8726b65ad94ddc2f3e9aac8fbc8e7783b58749641cce68a4fc812140",
+    "gate.json": "83a046df257e5dd7f903852c25292974c401ac7ff3ddb2b5fa08320828510986",
+    "metrics.json": "4b259cc3b19ffb598934f8ffbe446f7d9e1827616f39861496dc57d879c4b60c",
+    "module_origin_audit.json": "8f58404dab390531a9899f7c4375895d23a5f5ffc1bc9c64bcb52e0dfade62b3",
+    "progress.json": "c2b4c0bef813c32e327f30bdca893c8d4cda5a8f676632c0bd1bf07c8d60bfac",
+    "raw_result_decimated_1s.json.gz": "1c61bb41c9745cd06d0bfc49cbd4db12e0ca3e94a3206768da3565faf33987d2",
+    "status.json": "90cc0c3beab151ac2a5ae7c860b956f3156d2b7245cd4aa5450b81d83f27e790"
+  },
+  "gate_pass": true,
+  "no_retry_performed": true,
+  "ready_candidate_seal_sha256": "ff0aea354090e2b14191beb4dec291ed5bdf0414ec2e7e33443aae4a1068482c",
+  "schema": "support-system-contact-kinematics-repair-600s-result-seal/v21",
+  "stage_review_seal_sha256": "c7070b596090d12b2423345221c27280f4774b1ab3dedf141285d9ba7b799203",
+  "state": "complete"
+}

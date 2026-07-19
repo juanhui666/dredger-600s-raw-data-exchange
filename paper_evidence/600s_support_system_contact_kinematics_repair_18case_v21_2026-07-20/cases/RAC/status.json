@@ -1,0 +1,10 @@
+{
+  "attempt_number": 1,
+  "case_id": "RAC",
+  "finished_unix": 1784485023.8761482,
+  "gate_pass": true,
+  "no_retry_performed": true,
+  "started_unix": 1784484473.2237525,
+  "state": "complete",
+  "wall_clock_s": 550.6523957252502
+}

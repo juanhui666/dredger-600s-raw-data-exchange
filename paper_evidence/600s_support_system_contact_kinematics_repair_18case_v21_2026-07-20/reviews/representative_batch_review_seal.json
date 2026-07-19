@@ -1,0 +1,36 @@
+{
+  "authorized_remaining_case_count": 11,
+  "authorized_remaining_cases": [
+    "R0",
+    "RA",
+    "RC",
+    "S_L35_M325",
+    "S_L40_M200",
+    "S_L40_M450",
+    "S_L45_M325",
+    "S_L375_M325",
+    "S_L425_M325",
+    "S_L40_M2625",
+    "S_L40_M3875"
+  ],
+  "matrix_analysis_authorized": false,
+  "paper_evidence_promoted": false,
+  "pass": true,
+  "process_correctness_pass": true,
+  "rac_reproduction_review_seal_sha256": "a56d15e1134f3abd3e96e57479a7fbd31d6702bb5866a3e7d4b2786af5696394",
+  "ready_candidate_sha256": "ff0aea354090e2b14191beb4dec291ed5bdf0414ec2e7e33443aae4a1068482c",
+  "remaining_11_execution_authorized": true,
+  "representative_batch_review_sha256": "faf25e2b1b60301d699fe79babd79e9ba86284ad6e1aac6e198ea725f25ab4c2",
+  "representative_result_seal_sha256": {
+    "B_P185_N9": "b9afc916aad4b45cb2d55c9e8a4f57c67ab4d519f285688bdbf75f925d969a8d",
+    "B_P85_N9": "8d661f246e2c58cc8ddc67923612050b61e7d1a8e71489e91ac204738aa66dc0",
+    "S_L35_M200": "f75dff2a0b83dff892d50cbb657016e5a9451410be844583f90885bdb589af87",
+    "S_L35_M450": "c06f020292abe726268c916fc8678b6fbd895695a58756616ad06a650ab479fa",
+    "S_L45_M200": "4d4f302f9b84647c478e479e61378013ab9374134246f4ce07eb7a9e3fc618b3",
+    "S_L45_M450": "c122cb58a32e5f033ac2489adf8405af2f811f42331e0cd9b3479076f3353550"
+  },
+  "result_reasonableness_pass": true,
+  "schema": "support-system-contact-kinematics-repair-representative-batch-review/v21",
+  "stage_review_seal_sha256": "c7070b596090d12b2423345221c27280f4774b1ab3dedf141285d9ba7b799203",
+  "starting_premise_pass": true
+}
