@@ -1,0 +1,98 @@
+{
+  "csv_sources": {
+    "aqwa_bridge_0_5400s.csv": {
+      "byte_identical": true,
+      "bytes": 2137751,
+      "original_ref": "artifact_ref:local_v20/source_data/aqwa_bridge_0_5400s.csv",
+      "original_sha256": "469b962775a7163d08b1756015cf5ff289346de79c028d8baeda3ab8db1f6b39",
+      "shared_path": "source_data/aqwa_bridge_0_5400s.csv",
+      "shared_sha256": "469b962775a7163d08b1756015cf5ff289346de79c028d8baeda3ab8db1f6b39"
+    },
+    "aqwa_hull_0_5400s.csv": {
+      "byte_identical": true,
+      "bytes": 2279641,
+      "original_ref": "artifact_ref:local_v20/source_data/aqwa_hull_0_5400s.csv",
+      "original_sha256": "4ceab1fb03e334db5d30cefe29e5a682153c392fdaf48d8cb42e4a8006c894c6",
+      "shared_path": "source_data/aqwa_hull_0_5400s.csv",
+      "shared_sha256": "4ceab1fb03e334db5d30cefe29e5a682153c392fdaf48d8cb42e4a8006c894c6"
+    },
+    "aqwa_spud_0_5400s.csv": {
+      "byte_identical": true,
+      "bytes": 2338562,
+      "original_ref": "artifact_ref:local_v20/source_data/aqwa_spud_0_5400s.csv",
+      "original_sha256": "b2054de800f2013817417893474f4dce0622786600367ac404e5a4897d435ac0",
+      "shared_path": "source_data/aqwa_spud_0_5400s.csv",
+      "shared_sha256": "b2054de800f2013817417893474f4dce0622786600367ac404e5a4897d435ac0"
+    },
+    "cutter_projected_periodic_0_5400s.csv": {
+      "byte_identical": true,
+      "bytes": 34732594,
+      "original_ref": "artifact_ref:local_v20/source_data/cutter_projected_periodic_0_5400s.csv",
+      "original_sha256": "ae5b84aed7ab3c79ecd1263bc804ed81af1e8b6991713f4722bd9c95cb4a5219",
+      "shared_path": "source_data/cutter_projected_periodic_0_5400s.csv",
+      "shared_sha256": "ae5b84aed7ab3c79ecd1263bc804ed81af1e8b6991713f4722bd9c95cb4a5219"
+    }
+  },
+  "pass": true,
+  "profile_json": {
+    "changes": [
+      {
+        "after": "source_ref:local_aqwa\\JD9128m_full\\JD9128m_files\\dp0\\AQW-2\\AQW\\AQ\\Analysis\\TIMERESPONSE.LIS",
+        "before": "local_string_containing_absolute_path",
+        "path": "source_timeresponse_lis"
+      },
+      {
+        "after": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\bridge_cog_env_body_load.csv",
+        "before": "local_string_containing_absolute_path",
+        "path": "body_loads.bridge.csv_path"
+      },
+      {
+        "after": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\hull_cog_env_body_load.csv",
+        "before": "local_string_containing_absolute_path",
+        "path": "body_loads.hull.csv_path"
+      },
+      {
+        "after": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\spud_cog_env_body_load.csv",
+        "before": "local_string_containing_absolute_path",
+        "path": "body_loads.spud.csv_path"
+      },
+      {
+        "after": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\bridge_cog_env_body_load.csv",
+        "before": "local_string_containing_absolute_path",
+        "path": "normalized_files.bridge.path"
+      },
+      {
+        "after": "source_ref:local_aqwa\\JD9128m_full\\JD9128m_files\\dp0\\AQW-2\\AQW\\AQ\\Analysis\\TIMERESPONSE.LIS",
+        "before": "local_string_containing_absolute_path",
+        "path": "normalized_files.bridge.source_timeresponse_lis"
+      },
+      {
+        "after": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\hull_cog_env_body_load.csv",
+        "before": "local_string_containing_absolute_path",
+        "path": "normalized_files.hull.path"
+      },
+      {
+        "after": "source_ref:local_aqwa\\JD9128m_full\\JD9128m_files\\dp0\\AQW-2\\AQW\\AQ\\Analysis\\TIMERESPONSE.LIS",
+        "before": "local_string_containing_absolute_path",
+        "path": "normalized_files.hull.source_timeresponse_lis"
+      },
+      {
+        "after": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\spud_cog_env_body_load.csv",
+        "before": "local_string_containing_absolute_path",
+        "path": "normalized_files.spud.path"
+      },
+      {
+        "after": "source_ref:local_aqwa\\JD9128m_full\\JD9128m_files\\dp0\\AQW-2\\AQW\\AQ\\Analysis\\TIMERESPONSE.LIS",
+        "before": "local_string_containing_absolute_path",
+        "path": "normalized_files.spud.source_timeresponse_lis"
+      }
+    ],
+    "numeric_values_unchanged": true,
+    "original_ref": "artifact_ref:local_v20/source_data/aqwa_env_body_load_profile_source.json",
+    "original_sha256": "293d6356a9a2b7e1fcb5bea218e874b101e23f8b95acfc37582e2beae5f44094",
+    "pass": true,
+    "shared_path": "source_data/aqwa_env_body_load_profile_source.json",
+    "shared_sha256": "f8b880a632fbf24edb8127909aa713d41ca40fc07985947181a726bed1b3f766"
+  },
+  "schema": "5400s-rac-source-copy-audit/v20"
+}

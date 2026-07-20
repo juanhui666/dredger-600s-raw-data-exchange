@@ -1,0 +1,156 @@
+{
+  "aqwa_source_profile": {
+    "expected_sha256": "293d6356a9a2b7e1fcb5bea218e874b101e23f8b95acfc37582e2beae5f44094",
+    "path": "artifact_ref:local_v20\\source_data\\aqwa_env_body_load_profile_source.json",
+    "sha256": "293d6356a9a2b7e1fcb5bea218e874b101e23f8b95acfc37582e2beae5f44094"
+  },
+  "old_v3_ready_seal": "artifact_ref:local_artifacts\\x1_5400s_support_system_roll_enabled_main_case_current_v3_2026-07-19T144447\\ready_seal.json",
+  "old_v3_ready_seal_sha256": "c71d98150d7b9a0df753b69d65e3ce101fccba980e219127ce7feb776dc8ab88",
+  "parent_source_extension_audit_v3": {
+    "expected_sha256": "601562172c935b782af2f707ed844d4b90b46336d42e11e26049d4acb3f4484e",
+    "inherited_aqwa_prefix_and_time_axis_basis": {
+      "bridge": {
+        "long_time_axis": {
+          "dt_s": 0.2,
+          "end_time_s": 5400.0,
+          "pass": true,
+          "row_count": 27001,
+          "start_time_s": 0.0
+        },
+        "prefix_0_600s_max_abs_difference": 5.820766091346741e-11,
+        "prefix_acceptance_tolerance": 1e-08,
+        "prefix_below_1e_8": true,
+        "short_time_axis": {
+          "dt_s": 0.2,
+          "end_time_s": 600.0,
+          "pass": true,
+          "row_count": 3001,
+          "start_time_s": 0.0
+        }
+      },
+      "hull": {
+        "long_time_axis": {
+          "dt_s": 0.2,
+          "end_time_s": 5400.0,
+          "pass": true,
+          "row_count": 27001,
+          "start_time_s": 0.0
+        },
+        "prefix_0_600s_max_abs_difference": 2.3283064365386963e-10,
+        "prefix_acceptance_tolerance": 1e-08,
+        "prefix_below_1e_8": true,
+        "short_time_axis": {
+          "dt_s": 0.2,
+          "end_time_s": 600.0,
+          "pass": true,
+          "row_count": 3001,
+          "start_time_s": 0.0
+        }
+      },
+      "spud": {
+        "long_time_axis": {
+          "dt_s": 0.2,
+          "end_time_s": 5400.0,
+          "pass": true,
+          "row_count": 27001,
+          "start_time_s": 0.0
+        },
+        "prefix_0_600s_max_abs_difference": 1.1641532182693481e-10,
+        "prefix_acceptance_tolerance": 1e-08,
+        "prefix_below_1e_8": true,
+        "short_time_axis": {
+          "dt_s": 0.2,
+          "end_time_s": 600.0,
+          "pass": true,
+          "row_count": 3001,
+          "start_time_s": 0.0
+        }
+      }
+    },
+    "inherited_cutter_nine_repetition_and_endpoint_basis": {
+      "extension_method": "nine exact repetitions of the sealed periodic 600 s cutter-impact history",
+      "source_endpoint_abs_jumps": {
+        "Fx_local": 0.0,
+        "Fy_local": 0.0,
+        "Fz_local": 0.0
+      },
+      "source_time_axis": {
+        "dt_s": 0.01,
+        "end_time_s": 600.0,
+        "pass": true,
+        "row_count": 60001,
+        "start_time_s": 0.0
+      },
+      "target_time_axis": {
+        "dt_s": 0.01,
+        "end_time_s": 5400.0,
+        "pass": true,
+        "row_count": 540001,
+        "start_time_s": 0.0
+      }
+    },
+    "pass": true,
+    "path": "artifact_ref:local_v20\\parent_source_extension_audit_v3.json",
+    "sha256": "601562172c935b782af2f707ed844d4b90b46336d42e11e26049d4acb3f4484e"
+  },
+  "pass": true,
+  "schema": "support-system-contact-kinematics-rac-5400s-source-reuse/v20",
+  "source_policy": {
+    "aqwa": "continuous deterministic 0-5400 s histories from the sealed old-v3 package",
+    "cutter": "nine exact repetitions of the endpoint-continuous sealed 600 s history"
+  },
+  "sources": {
+    "aqwa_bridge_0_5400s.csv": {
+      "expected_sha256": "469b962775a7163d08b1756015cf5ff289346de79c028d8baeda3ab8db1f6b39",
+      "old_v3_source_sha256": "469b962775a7163d08b1756015cf5ff289346de79c028d8baeda3ab8db1f6b39",
+      "pass": true,
+      "path": "source_ref:source_data/aqwa_bridge_0_5400s.csv",
+      "sha256": "469b962775a7163d08b1756015cf5ff289346de79c028d8baeda3ab8db1f6b39",
+      "time_axis": {
+        "end_time_s": 5400.0,
+        "pass": true,
+        "row_count": 27001,
+        "start_time_s": 0.0
+      }
+    },
+    "aqwa_hull_0_5400s.csv": {
+      "expected_sha256": "4ceab1fb03e334db5d30cefe29e5a682153c392fdaf48d8cb42e4a8006c894c6",
+      "old_v3_source_sha256": "4ceab1fb03e334db5d30cefe29e5a682153c392fdaf48d8cb42e4a8006c894c6",
+      "pass": true,
+      "path": "source_ref:source_data/aqwa_hull_0_5400s.csv",
+      "sha256": "4ceab1fb03e334db5d30cefe29e5a682153c392fdaf48d8cb42e4a8006c894c6",
+      "time_axis": {
+        "end_time_s": 5400.0,
+        "pass": true,
+        "row_count": 27001,
+        "start_time_s": 0.0
+      }
+    },
+    "aqwa_spud_0_5400s.csv": {
+      "expected_sha256": "b2054de800f2013817417893474f4dce0622786600367ac404e5a4897d435ac0",
+      "old_v3_source_sha256": "b2054de800f2013817417893474f4dce0622786600367ac404e5a4897d435ac0",
+      "pass": true,
+      "path": "source_ref:source_data/aqwa_spud_0_5400s.csv",
+      "sha256": "b2054de800f2013817417893474f4dce0622786600367ac404e5a4897d435ac0",
+      "time_axis": {
+        "end_time_s": 5400.0,
+        "pass": true,
+        "row_count": 27001,
+        "start_time_s": 0.0
+      }
+    },
+    "cutter_projected_periodic_0_5400s.csv": {
+      "expected_sha256": "ae5b84aed7ab3c79ecd1263bc804ed81af1e8b6991713f4722bd9c95cb4a5219",
+      "old_v3_source_sha256": "ae5b84aed7ab3c79ecd1263bc804ed81af1e8b6991713f4722bd9c95cb4a5219",
+      "pass": true,
+      "path": "source_ref:source_data/cutter_projected_periodic_0_5400s.csv",
+      "sha256": "ae5b84aed7ab3c79ecd1263bc804ed81af1e8b6991713f4722bd9c95cb4a5219",
+      "time_axis": {
+        "end_time_s": 5400.0,
+        "pass": true,
+        "row_count": 540001,
+        "start_time_s": 0.0
+      }
+    }
+  }
+}

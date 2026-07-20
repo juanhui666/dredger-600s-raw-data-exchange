@@ -1,0 +1,10 @@
+{
+  "elapsed_wall_s": 4445.689996480942,
+  "pid": 10096,
+  "rss_GB": 1.2850990295410156,
+  "state": "complete",
+  "step": 54000,
+  "time_s": 5400.0,
+  "total_steps": 54000,
+  "updated_unix": 1784464061.2493834
+}

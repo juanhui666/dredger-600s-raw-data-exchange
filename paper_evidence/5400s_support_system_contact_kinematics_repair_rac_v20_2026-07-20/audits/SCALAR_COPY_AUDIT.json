@@ -1,0 +1,8 @@
+{
+  "byte_identical": true,
+  "bytes": 25439727,
+  "original_sha256": "fa1f074c3d5bf87a8d4e541d5b0e7cb70014982877b1150b43d98b62de465244",
+  "pass": true,
+  "schema": "5400s-rac-scalar-copy-audit/v20",
+  "shared_sha256": "fa1f074c3d5bf87a8d4e541d5b0e7cb70014982877b1150b43d98b62de465244"
+}

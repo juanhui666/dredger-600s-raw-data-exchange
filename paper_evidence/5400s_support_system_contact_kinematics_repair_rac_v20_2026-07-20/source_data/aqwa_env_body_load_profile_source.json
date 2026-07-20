@@ -1,0 +1,228 @@
+{
+  "body_loads": {
+    "bridge": {
+      "application_point": "center_of_gravity",
+      "csv_path": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\bridge_cog_env_body_load.csv",
+      "enabled": true,
+      "reference_mode": "initial"
+    },
+    "hull": {
+      "application_point": "center_of_gravity",
+      "csv_path": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\hull_cog_env_body_load.csv",
+      "enabled": true,
+      "reference_mode": "initial"
+    },
+    "spud": {
+      "application_point": "center_of_gravity",
+      "csv_path": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\spud_cog_env_body_load.csv",
+      "enabled": true,
+      "reference_mode": "initial"
+    }
+  },
+  "enabled": true,
+  "force_unit": "N",
+  "load_content": "excitation_only",
+  "moment_unit": "N*m",
+  "normalized_files": {
+    "bridge": {
+      "path": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\bridge_cog_env_body_load.csv",
+      "sample_count": 27001,
+      "sha256": "469b962775a7163d08b1756015cf5ff289346de79c028d8baeda3ab8db1f6b39",
+      "source_structure": 1,
+      "source_timeresponse_lis": "source_ref:local_aqwa\\JD9128m_full\\JD9128m_files\\dp0\\AQW-2\\AQW\\AQ\\Analysis\\TIMERESPONSE.LIS",
+      "source_timeresponse_sha256": "4dc4d4e2289bb6cc8193cdd603894cb9814c83761927db9570f0a8cc8ea624e9",
+      "time_range_s": [
+        0.0,
+        5400.0
+      ]
+    },
+    "hull": {
+      "path": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\hull_cog_env_body_load.csv",
+      "sample_count": 27001,
+      "sha256": "4ceab1fb03e334db5d30cefe29e5a682153c392fdaf48d8cb42e4a8006c894c6",
+      "source_structure": 2,
+      "source_timeresponse_lis": "source_ref:local_aqwa\\JD9128m_full\\JD9128m_files\\dp0\\AQW-2\\AQW\\AQ\\Analysis\\TIMERESPONSE.LIS",
+      "source_timeresponse_sha256": "4dc4d4e2289bb6cc8193cdd603894cb9814c83761927db9570f0a8cc8ea624e9",
+      "time_range_s": [
+        0.0,
+        5400.0
+      ]
+    },
+    "spud": {
+      "path": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\spud_cog_env_body_load.csv",
+      "sample_count": 27001,
+      "sha256": "b2054de800f2013817417893474f4dce0622786600367ac404e5a4897d435ac0",
+      "source_structure": 3,
+      "source_timeresponse_lis": "source_ref:local_aqwa\\JD9128m_full\\JD9128m_files\\dp0\\AQW-2\\AQW\\AQ\\Analysis\\TIMERESPONSE.LIS",
+      "source_timeresponse_sha256": "4dc4d4e2289bb6cc8193cdd603894cb9814c83761927db9570f0a8cc8ea624e9",
+      "time_range_s": [
+        0.0,
+        5400.0
+      ]
+    }
+  },
+  "reference_mode": "initial",
+  "sample_count": 27001,
+  "schema": "aqwa-body-load-source-package/v1",
+  "source_timeresponse_lis": "source_ref:local_aqwa\\JD9128m_full\\JD9128m_files\\dp0\\AQW-2\\AQW\\AQ\\Analysis\\TIMERESPONSE.LIS",
+  "source_timeresponse_sha256": "4dc4d4e2289bb6cc8193cdd603894cb9814c83761927db9570f0a8cc8ea624e9",
+  "stats": {
+    "bridge": {
+      "labels_excluded": [
+        "ERROR PER TIMESTEP",
+        "EXTERNAL FORCE",
+        "GRAVITY",
+        "HYDROSTATIC",
+        "LINEAR DAMPING",
+        "MANEUVERING FORCE",
+        "MOORING",
+        "RADIATION FORCE",
+        "ROLL DRAG FORCE",
+        "THRUSTER",
+        "TOTAL FORCE",
+        "TOTAL REACTION FORCE"
+      ],
+      "labels_excluded_seen": [
+        "ERROR PER TIMESTEP",
+        "EXTERNAL FORCE",
+        "GRAVITY",
+        "HYDROSTATIC",
+        "LINEAR DAMPING",
+        "MANEUVERING FORCE",
+        "MOORING",
+        "RADIATION FORCE",
+        "ROLL DRAG FORCE",
+        "THRUSTER",
+        "TOTAL FORCE",
+        "TOTAL REACTION FORCE"
+      ],
+      "labels_included": [
+        "CURRENT DRAG",
+        "DIFFRACTION",
+        "FLUID GYROSCOPIC FORCE",
+        "FLUID MOMENTUM",
+        "FROUDE KRYLOV",
+        "GYROSCOPIC",
+        "MORISON DRAG",
+        "SLAM",
+        "SLENDER BODY",
+        "WAVE INERTIA",
+        "WIND",
+        "YAW DRAG"
+      ],
+      "sample_count": 27001,
+      "source_structure": 1,
+      "time_range_s": [
+        0.0,
+        5400.0
+      ]
+    },
+    "hull": {
+      "labels_excluded": [
+        "ERROR PER TIMESTEP",
+        "EXTERNAL FORCE",
+        "GRAVITY",
+        "HYDROSTATIC",
+        "LINEAR DAMPING",
+        "MANEUVERING FORCE",
+        "MOORING",
+        "RADIATION FORCE",
+        "ROLL DRAG FORCE",
+        "THRUSTER",
+        "TOTAL FORCE",
+        "TOTAL REACTION FORCE"
+      ],
+      "labels_excluded_seen": [
+        "ERROR PER TIMESTEP",
+        "EXTERNAL FORCE",
+        "GRAVITY",
+        "HYDROSTATIC",
+        "LINEAR DAMPING",
+        "MANEUVERING FORCE",
+        "MOORING",
+        "RADIATION FORCE",
+        "ROLL DRAG FORCE",
+        "THRUSTER",
+        "TOTAL FORCE",
+        "TOTAL REACTION FORCE"
+      ],
+      "labels_included": [
+        "CURRENT DRAG",
+        "DIFFRACTION",
+        "FLUID GYROSCOPIC FORCE",
+        "FLUID MOMENTUM",
+        "FROUDE KRYLOV",
+        "GYROSCOPIC",
+        "MORISON DRAG",
+        "SLAM",
+        "SLENDER BODY",
+        "WAVE INERTIA",
+        "WIND",
+        "YAW DRAG"
+      ],
+      "sample_count": 27001,
+      "source_structure": 2,
+      "time_range_s": [
+        0.0,
+        5400.0
+      ]
+    },
+    "spud": {
+      "labels_excluded": [
+        "ERROR PER TIMESTEP",
+        "EXTERNAL FORCE",
+        "GRAVITY",
+        "HYDROSTATIC",
+        "LINEAR DAMPING",
+        "MANEUVERING FORCE",
+        "MOORING",
+        "RADIATION FORCE",
+        "ROLL DRAG FORCE",
+        "THRUSTER",
+        "TOTAL FORCE",
+        "TOTAL REACTION FORCE"
+      ],
+      "labels_excluded_seen": [
+        "ERROR PER TIMESTEP",
+        "EXTERNAL FORCE",
+        "GRAVITY",
+        "HYDROSTATIC",
+        "LINEAR DAMPING",
+        "MANEUVERING FORCE",
+        "MOORING",
+        "RADIATION FORCE",
+        "ROLL DRAG FORCE",
+        "THRUSTER",
+        "TOTAL FORCE",
+        "TOTAL REACTION FORCE"
+      ],
+      "labels_included": [
+        "CURRENT DRAG",
+        "DIFFRACTION",
+        "FLUID GYROSCOPIC FORCE",
+        "FLUID MOMENTUM",
+        "FROUDE KRYLOV",
+        "GYROSCOPIC",
+        "MORISON DRAG",
+        "SLAM",
+        "SLENDER BODY",
+        "WAVE INERTIA",
+        "WIND",
+        "YAW DRAG"
+      ],
+      "sample_count": 27001,
+      "source_structure": 3,
+      "time_range_s": [
+        0.0,
+        5400.0
+      ]
+    }
+  },
+  "time_range_s": [
+    0.0,
+    5400.0
+  ],
+  "time_unit": "s",
+  "window_end_s": 5400.0,
+  "window_start_s": 0.0
+}

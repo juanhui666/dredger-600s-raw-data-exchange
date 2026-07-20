@@ -1,0 +1,367 @@
+{
+  "all_numeric_values_unchanged": true,
+  "files": {
+    "inputs/RAC_5400s.json": {
+      "changes": [
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_5400s.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "aqwa_external.body_loads.bridge.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_5400s.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "aqwa_external.body_loads.hull.csv_path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_5400s.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "aqwa_external.body_loads.spud.csv_path"
+        },
+        {
+          "after": "source_ref:local_aqwa\\JD9128m_full\\JD9128m_files\\dp0\\AQW-2\\AQW\\AQ\\Analysis\\TimeResponse.dat",
+          "before": "local_string_containing_absolute_path",
+          "path": "aqwa_hydrodynamic_input.frequency_authority_path"
+        },
+        {
+          "after": "source_ref:local_aqwa\\JD9128m_full\\JD9128m_files\\dp0\\AQW\\AQW\\AQ\\Analysis\\ANALYSIS.LIS",
+          "before": "local_string_containing_absolute_path",
+          "path": "aqwa_hydrodynamic_input.source_path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_projected_periodic_0_5400s.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "cutter_load_input.history_csv_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "original_ref": "artifact_ref:local_v20/inputs/RAC_5400s.json",
+      "original_sha256": "e9558dd8bc88ef250e4b25c6e8ff4578de2ae8e7ab370c92ecd2ba4593ce5691",
+      "pass": true,
+      "shared_path": "inputs/RAC_5400s.json",
+      "shared_sha256": "360c553ada6ab65b56e7b8480ed205c82075fef4f6da1f85715c1320ce88ad27"
+    },
+    "metadata/input_diff_audit.json": {
+      "changes": [
+        {
+          "after": "artifact_ref:local_artifacts\\x1_600s_support_system_contact_kinematics_repair_rac_v19_2026-07-19T182010\\input_RAC.json",
+          "before": "local_string_containing_absolute_path",
+          "path": "parent_input"
+        },
+        {
+          "after": "artifact_ref:local_v20\\inputs\\RAC_5400s.json",
+          "before": "local_string_containing_absolute_path",
+          "path": "target_input"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "original_ref": "artifact_ref:local_v20/input_diff_audit.json",
+      "original_sha256": "2faa9e2a7a4f8abbd8c05cbb0d41d1c510d9152b6d518352efbbd26b9de7cfbd",
+      "pass": true,
+      "shared_path": "metadata/input_diff_audit.json",
+      "shared_sha256": "03792c97286ccec67d2d35cb14bccbeff4842b26d3feb868839b986c1d047ea2"
+    },
+    "metadata/manifest.json": {
+      "changes": [
+        {
+          "after": "repo_ref:authoritative_worktree",
+          "before": "local_string_containing_absolute_path",
+          "path": "code.workspace"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\x1_600s_support_system_contact_kinematics_repair_rac_v19_2026-07-19T182010",
+          "before": "local_string_containing_absolute_path",
+          "path": "parent_repaired_600s_package"
+        },
+        {
+          "after": "python \"artifact_ref:local_v20\\run_case.py\" --execute",
+          "before": "local_string_containing_absolute_path",
+          "path": "run_command"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\x1_5400s_support_system_roll_enabled_main_case_current_v3_2026-07-19T144447",
+          "before": "local_string_containing_absolute_path",
+          "path": "source_long_history_package"
+        },
+        {
+          "after": "artifact_ref:local_v20",
+          "before": "local_string_containing_absolute_path",
+          "path": "storage_uri"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "original_ref": "artifact_ref:local_v20/manifest.json",
+      "original_sha256": "df6379b1f4bff00d10e779fffd595f6fa6baf1cb9cebc0268ca3e360c69d64a8",
+      "pass": true,
+      "shared_path": "metadata/manifest.json",
+      "shared_sha256": "d0fe45c73a69d31a0a2244c57004fe6c6baf988e6db8a60a56f955bb467469da"
+    },
+    "metadata/parent_source_extension_audit_v3.json": {
+      "changes": [
+        {
+          "after": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\aqwa_env_body_load_profile.json",
+          "before": "local_string_containing_absolute_path",
+          "path": "aqwa_source_profile"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\bridge_cog_env_body_load.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "sources.aqwa_bridge.source_long_path"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\x1_600s_support_constraint_14case_reference_consistent_main_only_v13_2026-07-17T194458\\source_data\\aqwa_bridge_0_600s.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "sources.aqwa_bridge.source_short_path"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\x1_5400s_support_system_roll_enabled_main_case_current_v3_2026-07-19T144447\\source_data\\aqwa_bridge_0_5400s.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "sources.aqwa_bridge.target_path"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\hull_cog_env_body_load.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "sources.aqwa_hull.source_long_path"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\x1_600s_support_constraint_14case_reference_consistent_main_only_v13_2026-07-17T194458\\source_data\\aqwa_hull_0_600s.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "sources.aqwa_hull.source_short_path"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\x1_5400s_support_system_roll_enabled_main_case_current_v3_2026-07-19T144447\\source_data\\aqwa_hull_0_5400s.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "sources.aqwa_hull.target_path"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\spud_cog_env_body_load.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "sources.aqwa_spud.source_long_path"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\x1_600s_support_constraint_14case_reference_consistent_main_only_v13_2026-07-17T194458\\source_data\\aqwa_spud_0_600s.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "sources.aqwa_spud.source_short_path"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\x1_5400s_support_system_roll_enabled_main_case_current_v3_2026-07-19T144447\\source_data\\aqwa_spud_0_5400s.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "sources.aqwa_spud.target_path"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\x1_600s_support_constraint_14case_reference_consistent_main_only_v13_2026-07-17T194458\\source_data\\cutter_projected_0_600s.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "sources.cutter.source_path"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\x1_5400s_support_system_roll_enabled_main_case_current_v3_2026-07-19T144447\\source_data\\cutter_projected_periodic_0_5400s.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "sources.cutter.target_path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "original_ref": "artifact_ref:local_v20/parent_source_extension_audit_v3.json",
+      "original_sha256": "601562172c935b782af2f707ed844d4b90b46336d42e11e26049d4acb3f4484e",
+      "pass": true,
+      "shared_path": "metadata/parent_source_extension_audit_v3.json",
+      "shared_sha256": "8c5426c17c358fed65bc29c7f67f16c6115ee45cecf1a1c749bd1f28de74e882"
+    },
+    "metadata/preflight_report.json": {
+      "changes": [],
+      "numeric_values_unchanged": true,
+      "original_ref": "artifact_ref:local_v20/preflight_report.json",
+      "original_sha256": "38ad5104a6de1f0b9859ee540155845006bcc5716d28fefa2112e22fba0bf66c",
+      "pass": true,
+      "shared_path": "metadata/preflight_report.json",
+      "shared_sha256": "0b694ce5296ea60230a73322feaa46c9548317767bc5f395178f7f99009d4253"
+    },
+    "metadata/ready_seal.json": {
+      "changes": [],
+      "numeric_values_unchanged": true,
+      "original_ref": "artifact_ref:local_v20/ready_seal.json",
+      "original_sha256": "3cfdc99fb6f7fddae6dd82657eb9a5d9a84e8780b95e583a7018fdc3d7305f31",
+      "pass": true,
+      "shared_path": "metadata/ready_seal.json",
+      "shared_sha256": "73da4f90a65d8ef8b58131e1e27f7e749e2045d2fa80043bc560377c840662ae"
+    },
+    "metadata/source_extension_audit.json": {
+      "changes": [
+        {
+          "after": "artifact_ref:local_v20\\source_data\\aqwa_env_body_load_profile_source.json",
+          "before": "local_string_containing_absolute_path",
+          "path": "aqwa_source_profile.path"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\x1_5400s_support_system_roll_enabled_main_case_current_v3_2026-07-19T144447\\ready_seal.json",
+          "before": "local_string_containing_absolute_path",
+          "path": "old_v3_ready_seal"
+        },
+        {
+          "after": "artifact_ref:local_v20\\parent_source_extension_audit_v3.json",
+          "before": "local_string_containing_absolute_path",
+          "path": "parent_source_extension_audit_v3.path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_bridge_0_5400s.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "sources.aqwa_bridge_0_5400s.csv.path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_hull_0_5400s.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "sources.aqwa_hull_0_5400s.csv.path"
+        },
+        {
+          "after": "source_ref:source_data/aqwa_spud_0_5400s.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "sources.aqwa_spud_0_5400s.csv.path"
+        },
+        {
+          "after": "source_ref:source_data/cutter_projected_periodic_0_5400s.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "sources.cutter_projected_periodic_0_5400s.csv.path"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "original_ref": "artifact_ref:local_v20/source_extension_audit.json",
+      "original_sha256": "e4a4c5f5cdf7026d54aa7fc3e3d9e1f1d48bfeaa3e44a4af52887a23aa21b3c1",
+      "pass": true,
+      "shared_path": "metadata/source_extension_audit.json",
+      "shared_sha256": "4a1dd18a0a0cbe369a9e6f6e2ea16dbc6ebde201e8a1b78ba6480136e4d848c9"
+    },
+    "result/gate.json": {
+      "changes": [],
+      "numeric_values_unchanged": true,
+      "original_ref": "artifact_ref:local_v20/results/RAC_5400s/gate.json",
+      "original_sha256": "a0e846f66655bf6fba702db41ae7a1b1e413cc2e86f0c19f79a62ab2c599eb44",
+      "pass": true,
+      "shared_path": "result/gate.json",
+      "shared_sha256": "f8bf86d3454e7fc17e0c3e220e621bf8040f57f7b43511e24a8833bdf0b1f6f8"
+    },
+    "result/hashes.json": {
+      "changes": [],
+      "numeric_values_unchanged": true,
+      "original_ref": "artifact_ref:local_v20/results/RAC_5400s/hashes.json",
+      "original_sha256": "05fc84d6d59c8df883d50d5f6ca590cb3b628b0919773fe6a4a370a15dc2b5c8",
+      "pass": true,
+      "shared_path": "result/hashes.json",
+      "shared_sha256": "59b3498f3fe76f697e47b2c3b05da2950292e966ca0b5229f649de2816164d15"
+    },
+    "result/metrics.json": {
+      "changes": [],
+      "numeric_values_unchanged": true,
+      "original_ref": "artifact_ref:local_v20/results/RAC_5400s/metrics.json",
+      "original_sha256": "917f84a03d2d63f1bf979b2cfe5711895459ee53fffc565a3c6b8b4f1b62175d",
+      "pass": true,
+      "shared_path": "result/metrics.json",
+      "shared_sha256": "23719e192e88b6bb875e04c874c3acdf186334f945d9ed2875f9c5c7b4784690"
+    },
+    "result/progress.json": {
+      "changes": [],
+      "numeric_values_unchanged": true,
+      "original_ref": "artifact_ref:local_v20/results/RAC_5400s/progress.json",
+      "original_sha256": "72db6887460b17acdbba8aca0ab160333ae2693bb44c70a0957833bf123fc294",
+      "pass": true,
+      "shared_path": "result/progress.json",
+      "shared_sha256": "3fc803f48b2e1297e2be76818fc95a3e8517c34cf571f7306694085ea5eb2806"
+    },
+    "result/result_seal.json": {
+      "changes": [],
+      "numeric_values_unchanged": true,
+      "original_ref": "artifact_ref:local_v20/results/RAC_5400s/result_seal.json",
+      "original_sha256": "23886aba2dcb9736835daacec501bd4896f46e55e5b4fdfc9a7bcc88ea7b3c8f",
+      "pass": true,
+      "shared_path": "result/result_seal.json",
+      "shared_sha256": "f89597e37ae318375917b0c68cbae1171569bd17a98248d8caf64c752b7f9cc6"
+    },
+    "result/status.json": {
+      "changes": [],
+      "numeric_values_unchanged": true,
+      "original_ref": "artifact_ref:local_v20/results/RAC_5400s/status.json",
+      "original_sha256": "5ef31215e7565fec47be5dda8c9ed38c75b792eb773824e4d224e4446ba83763",
+      "pass": true,
+      "shared_path": "result/status.json",
+      "shared_sha256": "38f913d69f42bb6e6682e777f714d1ea1524991baf84e00567ce85ed17e18a75"
+    },
+    "reviews/post_run_stage_review.json": {
+      "changes": [],
+      "numeric_values_unchanged": true,
+      "original_ref": "artifact_ref:local_v20/post_run_stage_review.json",
+      "original_sha256": "ecc1d57bd6aeaebc932541b0785cf634e364044a05f9b4914695722eb87cc3dd",
+      "pass": true,
+      "shared_path": "reviews/post_run_stage_review.json",
+      "shared_sha256": "bdc71219eeff9f36de3c7371bcaff4582dd13f3dda1cc0f2991a378586b63784"
+    },
+    "reviews/post_run_stage_review_seal.json": {
+      "changes": [],
+      "numeric_values_unchanged": true,
+      "original_ref": "artifact_ref:local_v20/post_run_stage_review_seal.json",
+      "original_sha256": "4fde86b030ea35b0dd71033347b64eedddafbb7622d6a2c4ae934c11f506b7a8",
+      "pass": true,
+      "shared_path": "reviews/post_run_stage_review_seal.json",
+      "shared_sha256": "d057b46ab8f17160313f4d681417b59f9563845a8c3adcc30fa499f4fb3ca04f"
+    },
+    "source_data/aqwa_env_body_load_profile_source.json": {
+      "changes": [
+        {
+          "after": "source_ref:local_aqwa\\JD9128m_full\\JD9128m_files\\dp0\\AQW-2\\AQW\\AQ\\Analysis\\TIMERESPONSE.LIS",
+          "before": "local_string_containing_absolute_path",
+          "path": "source_timeresponse_lis"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\bridge_cog_env_body_load.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "body_loads.bridge.csv_path"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\hull_cog_env_body_load.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "body_loads.hull.csv_path"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\spud_cog_env_body_load.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "body_loads.spud.csv_path"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\bridge_cog_env_body_load.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "normalized_files.bridge.path"
+        },
+        {
+          "after": "source_ref:local_aqwa\\JD9128m_full\\JD9128m_files\\dp0\\AQW-2\\AQW\\AQ\\Analysis\\TIMERESPONSE.LIS",
+          "before": "local_string_containing_absolute_path",
+          "path": "normalized_files.bridge.source_timeresponse_lis"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\hull_cog_env_body_load.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "normalized_files.hull.path"
+        },
+        {
+          "after": "source_ref:local_aqwa\\JD9128m_full\\JD9128m_files\\dp0\\AQW-2\\AQW\\AQ\\Analysis\\TIMERESPONSE.LIS",
+          "before": "local_string_containing_absolute_path",
+          "path": "normalized_files.hull.source_timeresponse_lis"
+        },
+        {
+          "after": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\spud_cog_env_body_load.csv",
+          "before": "local_string_containing_absolute_path",
+          "path": "normalized_files.spud.path"
+        },
+        {
+          "after": "source_ref:local_aqwa\\JD9128m_full\\JD9128m_files\\dp0\\AQW-2\\AQW\\AQ\\Analysis\\TIMERESPONSE.LIS",
+          "before": "local_string_containing_absolute_path",
+          "path": "normalized_files.spud.source_timeresponse_lis"
+        }
+      ],
+      "numeric_values_unchanged": true,
+      "original_ref": "artifact_ref:local_v20/source_data/aqwa_env_body_load_profile_source.json",
+      "original_sha256": "293d6356a9a2b7e1fcb5bea218e874b101e23f8b95acfc37582e2beae5f44094",
+      "pass": true,
+      "shared_path": "source_data/aqwa_env_body_load_profile_source.json",
+      "shared_sha256": "f8b880a632fbf24edb8127909aa713d41ca40fc07985947181a726bed1b3f766"
+    }
+  },
+  "pass": true,
+  "schema": "5400s-rac-json-sanitization-audit/v20"
+}

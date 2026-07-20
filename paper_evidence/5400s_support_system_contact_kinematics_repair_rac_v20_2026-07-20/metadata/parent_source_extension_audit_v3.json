@@ -1,0 +1,143 @@
+{
+  "aqwa_source_profile": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\aqwa_env_body_load_profile.json",
+  "aqwa_source_profile_sha256": "293d6356a9a2b7e1fcb5bea218e874b101e23f8b95acfc37582e2beae5f44094",
+  "duration_s": 5400.0,
+  "pass": true,
+  "purpose": "continuous deterministic long-duration numerical replay on the current RAC baseline",
+  "schema": "support-system-5400s-current-source-extension/v2",
+  "source_timeresponse_sha256": "4dc4d4e2289bb6cc8193cdd603894cb9814c83761927db9570f0a8cc8ea624e9",
+  "sources": {
+    "aqwa_bridge": {
+      "body": "bridge",
+      "long_time_axis": {
+        "dt_s": 0.2,
+        "end_time_s": 5400.0,
+        "pass": true,
+        "row_count": 27001,
+        "start_time_s": 0.0
+      },
+      "pass": true,
+      "prefix_0_600s_channel_max_abs_difference": {
+        "Fx": 2.9103830456733704e-11,
+        "Fy": 1.1102230246251565e-16,
+        "Fz": 2.9103830456733704e-11,
+        "Mx": 3.552713678800501e-15,
+        "My": 5.820766091346741e-11,
+        "Mz": 3.552713678800501e-15
+      },
+      "prefix_0_600s_max_abs_difference": 5.820766091346741e-11,
+      "prefix_acceptance_tolerance": 1e-08,
+      "same_sealed_timeresponse_source": true,
+      "short_time_axis": {
+        "dt_s": 0.2,
+        "end_time_s": 600.0,
+        "pass": true,
+        "row_count": 3001,
+        "start_time_s": 0.0
+      },
+      "source_long_path": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\bridge_cog_env_body_load.csv",
+      "source_long_sha256": "469b962775a7163d08b1756015cf5ff289346de79c028d8baeda3ab8db1f6b39",
+      "source_short_path": "artifact_ref:local_artifacts\\x1_600s_support_constraint_14case_reference_consistent_main_only_v13_2026-07-17T194458\\source_data\\aqwa_bridge_0_600s.csv",
+      "source_short_sha256": "0664769ab579b44776f2826b28d11dadc71b0fd2811a8c9730c0d59a0baf2131",
+      "target_path": "artifact_ref:local_artifacts\\x1_5400s_support_system_roll_enabled_main_case_current_v3_2026-07-19T144447\\source_data\\aqwa_bridge_0_5400s.csv",
+      "target_sha256": "469b962775a7163d08b1756015cf5ff289346de79c028d8baeda3ab8db1f6b39"
+    },
+    "aqwa_hull": {
+      "body": "hull",
+      "long_time_axis": {
+        "dt_s": 0.2,
+        "end_time_s": 5400.0,
+        "pass": true,
+        "row_count": 27001,
+        "start_time_s": 0.0
+      },
+      "pass": true,
+      "prefix_0_600s_channel_max_abs_difference": {
+        "Fx": 5.820766091346741e-11,
+        "Fy": 3.637978807091713e-12,
+        "Fz": 0.0,
+        "Mx": 2.3283064365386963e-10,
+        "My": 0.0,
+        "Mz": 2.3283064365386963e-10
+      },
+      "prefix_0_600s_max_abs_difference": 2.3283064365386963e-10,
+      "prefix_acceptance_tolerance": 1e-08,
+      "same_sealed_timeresponse_source": true,
+      "short_time_axis": {
+        "dt_s": 0.2,
+        "end_time_s": 600.0,
+        "pass": true,
+        "row_count": 3001,
+        "start_time_s": 0.0
+      },
+      "source_long_path": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\hull_cog_env_body_load.csv",
+      "source_long_sha256": "4ceab1fb03e334db5d30cefe29e5a682153c392fdaf48d8cb42e4a8006c894c6",
+      "source_short_path": "artifact_ref:local_artifacts\\x1_600s_support_constraint_14case_reference_consistent_main_only_v13_2026-07-17T194458\\source_data\\aqwa_hull_0_600s.csv",
+      "source_short_sha256": "b62a8e9785b0715255b9b87bae0d9ecd9398d9964676e41c30a29abbc3ea3905",
+      "target_path": "artifact_ref:local_artifacts\\x1_5400s_support_system_roll_enabled_main_case_current_v3_2026-07-19T144447\\source_data\\aqwa_hull_0_5400s.csv",
+      "target_sha256": "4ceab1fb03e334db5d30cefe29e5a682153c392fdaf48d8cb42e4a8006c894c6"
+    },
+    "aqwa_spud": {
+      "body": "spud",
+      "long_time_axis": {
+        "dt_s": 0.2,
+        "end_time_s": 5400.0,
+        "pass": true,
+        "row_count": 27001,
+        "start_time_s": 0.0
+      },
+      "pass": true,
+      "prefix_0_600s_channel_max_abs_difference": {
+        "Fx": 2.9103830456733704e-11,
+        "Fy": 2.7755575615628914e-17,
+        "Fz": 5.820766091346741e-11,
+        "Mx": 4.440892098500626e-16,
+        "My": 1.1641532182693481e-10,
+        "Mz": 8.881784197001252e-16
+      },
+      "prefix_0_600s_max_abs_difference": 1.1641532182693481e-10,
+      "prefix_acceptance_tolerance": 1e-08,
+      "same_sealed_timeresponse_source": true,
+      "short_time_axis": {
+        "dt_s": 0.2,
+        "end_time_s": 600.0,
+        "pass": true,
+        "row_count": 3001,
+        "start_time_s": 0.0
+      },
+      "source_long_path": "artifact_ref:local_artifacts\\current_center_5400s_commit_10702a7d_2026-07-15\\aqwa_0_5400s_deterministic\\spud_cog_env_body_load.csv",
+      "source_long_sha256": "b2054de800f2013817417893474f4dce0622786600367ac404e5a4897d435ac0",
+      "source_short_path": "artifact_ref:local_artifacts\\x1_600s_support_constraint_14case_reference_consistent_main_only_v13_2026-07-17T194458\\source_data\\aqwa_spud_0_600s.csv",
+      "source_short_sha256": "23350675b6fee901d69dd882534ec1fe2b3b4a5f7b2d2480952bce591b709f17",
+      "target_path": "artifact_ref:local_artifacts\\x1_5400s_support_system_roll_enabled_main_case_current_v3_2026-07-19T144447\\source_data\\aqwa_spud_0_5400s.csv",
+      "target_sha256": "b2054de800f2013817417893474f4dce0622786600367ac404e5a4897d435ac0"
+    },
+    "cutter": {
+      "extension_method": "nine exact repetitions of the sealed periodic 600 s cutter-impact history",
+      "pass": true,
+      "source_endpoint_abs_jumps": {
+        "Fx_local": 0.0,
+        "Fy_local": 0.0,
+        "Fz_local": 0.0
+      },
+      "source_path": "artifact_ref:local_artifacts\\x1_600s_support_constraint_14case_reference_consistent_main_only_v13_2026-07-17T194458\\source_data\\cutter_projected_0_600s.csv",
+      "source_sha256": "a1bf708319e0a3fc4cafaa095bbe5146f06455e8490141e6a87b7106827382d1",
+      "source_time_axis": {
+        "dt_s": 0.01,
+        "end_time_s": 600.0,
+        "pass": true,
+        "row_count": 60001,
+        "start_time_s": 0.0
+      },
+      "target_path": "artifact_ref:local_artifacts\\x1_5400s_support_system_roll_enabled_main_case_current_v3_2026-07-19T144447\\source_data\\cutter_projected_periodic_0_5400s.csv",
+      "target_sha256": "ae5b84aed7ab3c79ecd1263bc804ed81af1e8b6991713f4722bd9c95cb4a5219",
+      "target_time_axis": {
+        "dt_s": 0.01,
+        "end_time_s": 5400.0,
+        "pass": true,
+        "row_count": 540001,
+        "start_time_s": 0.0
+      }
+    }
+  }
+}

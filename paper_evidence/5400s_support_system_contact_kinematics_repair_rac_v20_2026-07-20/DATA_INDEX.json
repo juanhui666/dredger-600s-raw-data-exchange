@@ -1,0 +1,34 @@
+{
+  "case_id": "RAC_5400s",
+  "chunk_index": "CHUNKS.json",
+  "duration_s": 5400.0,
+  "full_resolution_scalar": "result/full_resolution_metrics.csv.gz",
+  "metadata_files": [
+    "metadata/manifest.json",
+    "metadata/ready_seal.json",
+    "metadata/preflight_report.json",
+    "metadata/input_diff_audit.json",
+    "metadata/source_extension_audit.json",
+    "metadata/parent_source_extension_audit_v3.json"
+  ],
+  "result_json_files": [
+    "result/metrics.json",
+    "result/gate.json",
+    "result/status.json",
+    "result/progress.json",
+    "result/hashes.json",
+    "result/result_seal.json"
+  ],
+  "review_files": [
+    "reviews/post_run_stage_review.json",
+    "reviews/post_run_stage_review_seal.json"
+  ],
+  "schema": "5400s-support-system-contact-kinematics-repair-rac-data-index/v20",
+  "source_files": [
+    "source_data/aqwa_bridge_0_5400s.csv",
+    "source_data/aqwa_hull_0_5400s.csv",
+    "source_data/aqwa_spud_0_5400s.csv",
+    "source_data/cutter_projected_periodic_0_5400s.csv",
+    "source_data/aqwa_env_body_load_profile_source.json"
+  ]
+}

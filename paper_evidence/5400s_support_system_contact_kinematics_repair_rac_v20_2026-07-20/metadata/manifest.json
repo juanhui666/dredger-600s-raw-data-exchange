@@ -1,0 +1,45 @@
+{
+  "asset_id": "x1_5400s_support_system_contact_kinematics_repair_rac_v20_2026-07-19T185936",
+  "code": {
+    "clean_required": true,
+    "commit": "1965eabd7cd38a0d441f98c1503491ff8e3465fe",
+    "workspace": "repo_ref:authoritative_worktree"
+  },
+  "created_at": "2026-07-19T19:11:10+08:00",
+  "engineering_applicability": {
+    "soil_displacement": "not_evaluated_no_authoritative_project_limit",
+    "soil_force": "not_evaluated_no_authoritative_project_limit"
+  },
+  "evidence_status": "diagnostic_non_promotable_without_independent_stage_review",
+  "hard_gates": [
+    "complete fixed-Newmark main-corrector trace with no rescue or non-finite values",
+    "soil-X alias and translation-plus-rotation decomposition closure",
+    "buffer within design stroke for all frames with zero end-stop frames"
+  ],
+  "input_contract_checks": {
+    "buffer_enabled": true,
+    "distributed_soil": true,
+    "dt_0p1_s": true,
+    "fixed_newmark": true,
+    "formal_variant": true,
+    "geometry_reference": true,
+    "ladder_theta_zero": true,
+    "mode_rigid_multibody": true,
+    "pinned_longitudinal_buffer": true,
+    "roll_enabled": true,
+    "sim_total_5400_s": true,
+    "solve_total_5400_s": true
+  },
+  "output_retention": {
+    "full_resolution_scalar_dt_s": 0.1,
+    "heavy_object_dt_s": 1.0
+  },
+  "paper_evidence_promoted": false,
+  "parent_repaired_600s_package": "artifact_ref:local_artifacts\\x1_600s_support_system_contact_kinematics_repair_rac_v19_2026-07-19T182010",
+  "run_command": "python \"artifact_ref:local_v20\\run_case.py\" --execute",
+  "run_scope": "single RAC 5400 s only; no 14-case authorization",
+  "schema": "dredger-evidence-manifest/v2-run-local",
+  "source_long_history_package": "artifact_ref:local_artifacts\\x1_5400s_support_system_roll_enabled_main_case_current_v3_2026-07-19T144447",
+  "status": "prepared_not_run",
+  "storage_uri": "artifact_ref:local_v20"
+}

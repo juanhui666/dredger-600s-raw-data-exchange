@@ -1,0 +1,67 @@
+{
+  "accepted_step_count": 54000,
+  "all_full_resolution_scalar_values_finite": true,
+  "all_retained_result_values_finite": true,
+  "buffer_branch_1_stroke_m": {
+    "abs_peak": 0.6491035121808766,
+    "max": 0.6491035121808766,
+    "min": 0.04748339368937948
+  },
+  "buffer_branch_2_stroke_m": {
+    "abs_peak": 0.6622972222281351,
+    "max": -0.048211807540567975,
+    "min": -0.6622972222281351
+  },
+  "buffer_end_stop_frame_count": 0,
+  "buffer_first_end_stop_time_s": null,
+  "frame_count": 54001,
+  "main_corrector_converged_count": 54000,
+  "max_corrector_residual": 9.999291581460484e-07,
+  "max_iterations_used": 5,
+  "max_soil_x_alias_residual_m": 0.0,
+  "max_soil_x_decomposition_residual_m": 0.0,
+  "rescued_step_count": 0,
+  "schema": "support-system-contact-kinematics-rac-5400s-metrics/v20",
+  "soil_contact_x_m": {
+    "abs_peak": 0.036033704578493087,
+    "max": 0.036033704578493087,
+    "min": -0.021042927820673185
+  },
+  "soil_displacement_engineering_applicability_gate": "not_evaluated_no_authoritative_project_limit",
+  "soil_force_engineering_applicability_gate": "not_evaluated_no_authoritative_project_limit",
+  "soil_force_x_N": {
+    "abs_peak": 545559.84330487,
+    "max": 130990.0347102363,
+    "min": -545559.84330487
+  },
+  "soil_longitudinal_generalized_dof": [
+    "surge"
+  ],
+  "soil_longitudinal_state_semantics": [
+    "coupled_spud_contact_point_x"
+  ],
+  "soil_rotation_rad": {
+    "abs_peak": 0.01697819218868104,
+    "max": 0.005453608002373659,
+    "min": -0.01697819218868104
+  },
+  "soil_state_semantics": [
+    "composed_spud_contact_world_reference"
+  ],
+  "soil_x_rotation_contribution_m": {
+    "abs_peak": 0.5544000006775442,
+    "max": 0.5544000006775442,
+    "min": -0.3730953476356467
+  },
+  "soil_x_translation_contribution_m": {
+    "abs_peak": 0.5183928096789907,
+    "max": 0.35339534238988707,
+    "min": -0.5183928096789907
+  },
+  "spud_pin_O_reaction_x_N": {
+    "abs_peak": 524471.7752532121,
+    "max": 524471.7752532121,
+    "min": -434699.65174607054
+  },
+  "trace_time_axis_pass": true
+}

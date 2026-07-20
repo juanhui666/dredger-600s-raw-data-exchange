@@ -1,0 +1,76 @@
+{
+  "artifacts": {
+    "accepted_corrector_trace.ndjson": {
+      "chunk_size_limit_bytes": 50331648,
+      "original_bytes": 77671919,
+      "original_name": "accepted_corrector_trace.ndjson",
+      "original_sha256": "b869dcc0235b45efc89e3b7773676cae25622268fbc0a12150acb98c191715c7",
+      "part_count": 2,
+      "parts": [
+        {
+          "bytes": 50331648,
+          "order": 1,
+          "path": "chunks/accepted_corrector_trace/accepted_corrector_trace.ndjson.part001",
+          "sha256": "6fb527db6ba6dbf8685f812a34c63ad997f5118b678b36ca0cf2b3169aabcb37"
+        },
+        {
+          "bytes": 27340271,
+          "order": 2,
+          "path": "chunks/accepted_corrector_trace/accepted_corrector_trace.ndjson.part002",
+          "sha256": "5fe07b8ebb98a8f837a050be1e0d420934c9da880f8b7c0f675ac46ec16a083f"
+        }
+      ],
+      "reconstructed_sha256": "b869dcc0235b45efc89e3b7773676cae25622268fbc0a12150acb98c191715c7",
+      "reconstruction_verified": true
+    },
+    "raw_result_decimated_1s.json.gz": {
+      "chunk_size_limit_bytes": 50331648,
+      "original_bytes": 225683651,
+      "original_name": "raw_result_decimated_1s.json.gz",
+      "original_sha256": "86835ac35303d4c9b3bafe19de26dff77bae30c642f0dd356a94ee2155a264ba",
+      "part_count": 5,
+      "parts": [
+        {
+          "bytes": 50331648,
+          "order": 1,
+          "path": "chunks/raw_result_decimated_1s/raw_result_decimated_1s.json.gz.part001",
+          "sha256": "7fb4112b5c8b2db89faefd5ffbc5b32baec483ca7ef819dfef167ca29e39e1e8"
+        },
+        {
+          "bytes": 50331648,
+          "order": 2,
+          "path": "chunks/raw_result_decimated_1s/raw_result_decimated_1s.json.gz.part002",
+          "sha256": "98a9f3b20c419ebd40b66b705a6edf3a1ad9871a7caf8d40ceacc00602451193"
+        },
+        {
+          "bytes": 50331648,
+          "order": 3,
+          "path": "chunks/raw_result_decimated_1s/raw_result_decimated_1s.json.gz.part003",
+          "sha256": "b5c038a70aa9139992326bbdad236d936dab2ff9af12a1b4ed81a5152dbeaee1"
+        },
+        {
+          "bytes": 50331648,
+          "order": 4,
+          "path": "chunks/raw_result_decimated_1s/raw_result_decimated_1s.json.gz.part004",
+          "sha256": "b40e0d03c503a055e0c9987306705aab25189c6be883513718f2eab2ca8ed441"
+        },
+        {
+          "bytes": 24357059,
+          "order": 5,
+          "path": "chunks/raw_result_decimated_1s/raw_result_decimated_1s.json.gz.part005",
+          "sha256": "412b13168fb4be0625ed049b4e16860b0cd3684cf110f01b26c002b6801233e5"
+        }
+      ],
+      "reconstructed_sha256": "86835ac35303d4c9b3bafe19de26dff77bae30c642f0dd356a94ee2155a264ba",
+      "reconstruction_verified": true
+    }
+  },
+  "chunk_size_limit_bytes": 50331648,
+  "chunk_size_limit_mib": 48,
+  "reconstruction": {
+    "powershell": "$parts = Get-ChildItem -LiteralPath '<chunk-folder>' -File | Sort-Object Name; $out = [IO.File]::Create('<original-name>'); try { foreach ($part in $parts) { $bytes = [IO.File]::ReadAllBytes($part.FullName); $out.Write($bytes, 0, $bytes.Length) } } finally { $out.Dispose() }; (Get-FileHash -Algorithm SHA256 '<original-name>').Hash.ToLower()",
+    "python": "from pathlib import Path; import hashlib; folder=Path('<chunk-folder>'); out=Path('<original-name>'); h=hashlib.sha256(); f=out.open('wb'); [(lambda b: (f.write(b), h.update(b)))(p.read_bytes()) for p in sorted(folder.glob('*.part*'))]; f.close(); print(h.hexdigest())",
+    "verification": "Compare the reconstructed SHA-256 and byte count with artifacts.<name>.original_sha256 and original_bytes."
+  },
+  "schema": "5400s-rac-lossless-chunks/v20"
+}

@@ -1,0 +1,12 @@
+{
+  "case_id": "RAC_5400s",
+  "convergence_and_finite_pass": true,
+  "fourteen_case_matrix_authorized": false,
+  "output_alias_and_decomposition_closure_pass": true,
+  "paper_evidence_promoted": false,
+  "pass": true,
+  "schema": "support-system-contact-kinematics-rac-5400s-gate/v20",
+  "soil_displacement_engineering_applicability_gate": "not_evaluated_no_authoritative_project_limit",
+  "soil_force_engineering_applicability_gate": "not_evaluated_no_authoritative_project_limit",
+  "within_buffer_design_stroke_all_frames": true
+}

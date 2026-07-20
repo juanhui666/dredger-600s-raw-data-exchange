@@ -1,0 +1,39 @@
+{
+  "expected_semantic_differences": [
+    "aqwa_external.body_loads.bridge.csv_path",
+    "aqwa_external.body_loads.hull.csv_path",
+    "aqwa_external.body_loads.spud.csv_path",
+    "cutter_load_input.history_csv_path",
+    "sim.total_time",
+    "solve_options.total_time"
+  ],
+  "input_contract_checks": {
+    "buffer_enabled": true,
+    "distributed_soil": true,
+    "dt_0p1_s": true,
+    "fixed_newmark": true,
+    "formal_variant": true,
+    "geometry_reference": true,
+    "ladder_theta_zero": true,
+    "mode_rigid_multibody": true,
+    "pinned_longitudinal_buffer": true,
+    "roll_enabled": true,
+    "sim_total_5400_s": true,
+    "solve_total_5400_s": true
+  },
+  "only_four_history_paths_and_two_duration_fields_changed": true,
+  "parent_input": "artifact_ref:local_artifacts\\x1_600s_support_system_contact_kinematics_repair_rac_v19_2026-07-19T182010\\input_RAC.json",
+  "parent_input_sha256": "9ca6d87738663dae8f06d8677364cd944a0b8c70b0adefef2d9c6acdd51f589d",
+  "pass": true,
+  "schema": "support-system-contact-kinematics-rac-5400s-input-diff/v20",
+  "semantic_differences": [
+    "aqwa_external.body_loads.bridge.csv_path",
+    "aqwa_external.body_loads.hull.csv_path",
+    "aqwa_external.body_loads.spud.csv_path",
+    "cutter_load_input.history_csv_path",
+    "sim.total_time",
+    "solve_options.total_time"
+  ],
+  "target_input": "artifact_ref:local_v20\\inputs\\RAC_5400s.json",
+  "target_input_sha256": "e9558dd8bc88ef250e4b25c6e8ff4578de2ae8e7ab370c92ecd2ba4593ce5691"
+}

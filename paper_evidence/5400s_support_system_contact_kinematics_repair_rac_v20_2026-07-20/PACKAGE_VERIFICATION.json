@@ -1,0 +1,20 @@
+{
+  "absolute_windows_path_hits": [],
+  "boundary": "single RAC 5400 s diagnostic package; GO_DIAGNOSTIC_ONLY and no formal promotion remain authoritative facts",
+  "chunk_reconstruction_failures": [],
+  "full_resolution_scalar_copy_pass": true,
+  "gzip_integrity_failures": [],
+  "reconstructed_raw_gzip_integrity_pass": true,
+  "reconstructed_trace_ndjson_rows": 54000,
+  "reconstructed_trace_ndjson_validation_pass": true,
+  "json_numeric_values_unchanged": true,
+  "json_parse_failures": [],
+  "manifest_file_count": 35,
+  "manifest_mismatches": [],
+  "package_manifest_sha256": "e9640e6237c27f9e15329723ed4cfb55c154f29a10ede47fb905551f3ca927d8",
+  "pass": true,
+  "schema": "5400s-support-system-contact-kinematics-repair-rac-shared-package-verification/v20",
+  "source_copy_pass": true,
+  "structure_pass": true,
+  "utf8_failures": []
+}

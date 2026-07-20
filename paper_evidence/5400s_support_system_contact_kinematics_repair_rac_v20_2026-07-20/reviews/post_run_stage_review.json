@@ -1,0 +1,170 @@
+{
+  "decision": "GO_DIAGNOSTIC_ONLY",
+  "final_disposition": "accept as sealed single-RAC 5400 s diagnostic evidence only; retain fourteen-case authorization and paper promotion as false",
+  "instruction_rationale": {
+    "code_commit": "1965eabd7cd38a0d441f98c1503491ff8e3465fe",
+    "fourteen_case_matrix_authorized": false,
+    "old_v3_reuse_boundary": "only sealed external-load source data and its source-extension audit are reused; old-v3 numerical results and physical conclusions are not reused",
+    "paper_evidence_promoted": false,
+    "pass": true,
+    "scope": "single RAC fixed-Newmark 5400 s diagnostic using the repaired spud-soil contact-point kinematics"
+  },
+  "p0_findings": [],
+  "p1_findings": [],
+  "pass": true,
+  "process_correctness": {
+    "accepted_trace_independent_audit": {
+      "accepted_step_axis_1_to_54000_pass": true,
+      "actual_newmark_step_axis_1_to_54000_pass": true,
+      "attempted_count": 0,
+      "line_count": 54000,
+      "main_corrector_converged_count": 54000,
+      "max_corrector_residual": 9.999291581460484e-07,
+      "max_iterations_used": 5,
+      "nonfinite_numeric_count": 0,
+      "rescued_count": 0,
+      "time_axis_0_to_5400_dt_0p1_pass": true,
+      "triggered_count": 0
+    },
+    "execution_identity": {
+      "actual_code_commit": "1965eabd7cd38a0d441f98c1503491ff8e3465fe",
+      "actual_input_sha256": "e9558dd8bc88ef250e4b25c6e8ff4578de2ae8e7ab370c92ecd2ba4593ce5691",
+      "attempt_number": 1,
+      "code_workspace_clean_at_review": true,
+      "exception_file_absent": true,
+      "input_relative_to_v19_only_four_external_load_paths_and_two_total_time_fields_changed": true,
+      "no_retry_performed": true,
+      "status_state": "complete",
+      "wall_clock_s": 4445.689996480942
+    },
+    "full_resolution_scalar_independent_audit": {
+      "buffer_boundary_states": [
+        "within_limits"
+      ],
+      "buffer_end_stop_frame_count": 0,
+      "buffer_model_invalid_frame_count": 0,
+      "continuation_proxy_valid_frame_count": 0,
+      "design_stroke_exceeded_frame_count": 0,
+      "field_count": 93,
+      "frame_count": 54001,
+      "max_soil_x_alias_residual_m": 0.0,
+      "max_soil_x_decomposition_residual_m": 0.0,
+      "nonfinite_numeric_count": 0,
+      "soil_longitudinal_generalized_dof": [
+        "surge"
+      ],
+      "soil_longitudinal_state_semantics": [
+        "coupled_spud_contact_point_x"
+      ],
+      "soil_state_semantics": [
+        "composed_spud_contact_world_reference"
+      ],
+      "time_axis_0_to_5400_dt_0p1_pass": true
+    },
+    "hard_gate": {
+      "convergence_and_finite_pass": true,
+      "gate_pass": true,
+      "output_alias_and_decomposition_closure_pass": true,
+      "within_buffer_design_stroke_all_frames": true
+    },
+    "pass": true,
+    "retained_raw_result_independent_audit": {
+      "nonfinite_numeric_token_count": 0,
+      "numeric_token_count": 31882483,
+      "retained_load_frame_count": 5401,
+      "retained_motion_frame_count": 5401,
+      "retained_time_frame_count": 5401,
+      "soil_semantics_match_full_resolution_scalars": true,
+      "time_axis_0_to_5400_dt_1p0_pass": true
+    },
+    "sealed_ancestry": {
+      "all_ready_file_hashes_recomputed_match": true,
+      "all_result_file_hashes_recomputed_match": true,
+      "hashes_json_matches_result_seal_files": true,
+      "ready_seal_sha256": "3cfdc99fb6f7fddae6dd82657eb9a5d9a84e8780b95e583a7018fdc3d7305f31",
+      "ready_sealed_file_count": 15,
+      "result_hashes_json_sha256": "05fc84d6d59c8df883d50d5f6ca590cb3b628b0919773fe6a4a370a15dc2b5c8",
+      "result_ready_ancestry_matches": true,
+      "result_seal_sha256": "23886aba2dcb9736835daacec501bd4896f46e55e5b4fdfc9a7bcc88ea7b3c8f",
+      "result_sealed_file_count": 7
+    }
+  },
+  "result_reasonableness": {
+    "buffer_half_stroke_audit": {
+      "branch_1_minimum_remaining_margin_m": 0.10089648781912341,
+      "branch_1_peak_utilization_percent": 86.54713495745021,
+      "branch_1_range_m": {
+        "max": 0.6491035121808766,
+        "min": 0.04748339368937948
+      },
+      "branch_2_minimum_remaining_margin_m": 0.08770277777186486,
+      "branch_2_peak_utilization_percent": 88.30629629708469,
+      "branch_2_range_m": {
+        "max": -0.048211807540567975,
+        "min": -0.6622972222281351
+      },
+      "design_half_stroke_m": 0.75,
+      "end_stop_frame_count": 0
+    },
+    "comparison_to_v19_600s": {
+      "buffer_branch_1_abs_peak_m": {
+        "relative_change_percent": 8.902795749227831,
+        "v19_600s": 0.5960393465706586,
+        "v20_5400s": 0.6491035121808766,
+        "v20_abs_peak_time_s": 4060.8
+      },
+      "buffer_branch_2_abs_peak_m": {
+        "relative_change_percent": 8.951610297166713,
+        "v19_600s": 0.6078819949716321,
+        "v20_5400s": 0.6622972222281351,
+        "v20_abs_peak_time_s": 4060.8
+      },
+      "soil_contact_x_abs_peak_m": {
+        "relative_change_percent": 19.684470626398287,
+        "v19_600s": 0.03010725150046767,
+        "v20_5400s": 0.036033704578493087,
+        "v20_abs_peak_time_s": 814.4000000000001
+      },
+      "soil_force_x_abs_peak_N": {
+        "relative_change_percent": 1.3911938268051927e-08,
+        "v19_600s": 545559.843228972,
+        "v20_5400s": 545559.84330487,
+        "v20_abs_peak_time_s": 106.5
+      },
+      "soil_rotation_abs_peak_deg": {
+        "relative_change_percent": 15.541866365945388,
+        "v19_600s": 0.8419275079843443,
+        "v20_5400s": 0.9727787561734054,
+        "v20_abs_peak_time_s": 814.2
+      },
+      "spud_pin_O_reaction_x_abs_peak_N": {
+        "relative_change_percent": -3.804706549814796e-08,
+        "v19_600s": 524471.7754527582,
+        "v20_5400s": 524471.7752532121,
+        "v20_abs_peak_time_s": 123.4
+      }
+    },
+    "engineering_applicability": {
+      "soil_displacement": "not_evaluated_no_authoritative_project_limit",
+      "soil_force": "not_evaluated_no_authoritative_project_limit"
+    },
+    "long_duration_interpretation": "the 5400 s extension adds larger soil-contact displacement, soil rotation, and buffer-stroke peaks after 600 s; the absolute soil-force-X and spud-pin-O-reaction-X peaks remain effectively unchanged and occur within the first 600 s",
+    "pass": true,
+    "permitted_conclusions": [
+      "the exact sealed single-RAC 5400 s run completed deterministically with 54000 main-corrector steps, no rescue, no nonfinite values, and closed soil-X output semantics",
+      "the exact sealed run remained within the modeled buffer design stroke for all 54001 full-resolution frames",
+      "the long-duration run introduced larger kinematic and stroke peaks than the v19 600 s diagnostic while retaining positive modeled half-stroke margins"
+    ],
+    "prohibited_conclusions": [
+      "no structural, hydraulic, rope, equipment, impact, or operational safety conclusion",
+      "no universal conclusion beyond this exact single RAC input and repaired code commit",
+      "no soil displacement or force acceptability conclusion without an authoritative project limit or calibration",
+      "no fourteen-case trend, optimization, or paper-evidence promotion"
+    ]
+  },
+  "review_object": "sealed repaired-model single-RAC deterministic 5400 s diagnostic package",
+  "reviewed_at": "2026-07-19T22:34:41+08:00",
+  "reviewer_model": "gpt-5.6-sol/xhigh",
+  "reviewer_role": "independent_stage_review",
+  "schema": "support-system-contact-kinematics-rac-5400s-post-run-stage-review/v20"
+}

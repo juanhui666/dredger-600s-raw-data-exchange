@@ -1,0 +1,10 @@
+{
+  "attempt_number": 1,
+  "case_id": "RAC_5400s",
+  "finished_unix": 1784464061.2493834,
+  "gate_pass": true,
+  "no_retry_performed": true,
+  "started_unix": 1784459615.559387,
+  "state": "complete",
+  "wall_clock_s": 4445.689996480942
+}

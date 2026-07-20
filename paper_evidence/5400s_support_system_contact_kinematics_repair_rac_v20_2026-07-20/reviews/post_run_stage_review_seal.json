@@ -1,0 +1,16 @@
+{
+  "code_commit": "1965eabd7cd38a0d441f98c1503491ff8e3465fe",
+  "decision": "GO_DIAGNOSTIC_ONLY",
+  "fourteen_case_matrix_authorized": false,
+  "input_sha256": "e9558dd8bc88ef250e4b25c6e8ff4578de2ae8e7ab370c92ecd2ba4593ce5691",
+  "paper_evidence_promoted": false,
+  "pass": true,
+  "ready_seal_sha256": "3cfdc99fb6f7fddae6dd82657eb9a5d9a84e8780b95e583a7018fdc3d7305f31",
+  "result_hashes_json_sha256": "05fc84d6d59c8df883d50d5f6ca590cb3b628b0919773fe6a4a370a15dc2b5c8",
+  "result_seal_sha256": "23886aba2dcb9736835daacec501bd4896f46e55e5b4fdfc9a7bcc88ea7b3c8f",
+  "review_file": "post_run_stage_review.json",
+  "review_file_sha256": "ecc1d57bd6aeaebc932541b0785cf634e364044a05f9b4914695722eb87cc3dd",
+  "schema": "support-system-contact-kinematics-rac-5400s-post-run-stage-review-seal/v20",
+  "scope": "single sealed RAC 5400 s diagnostic only",
+  "sealed_at": "2026-07-19T22:36:08+08:00"
+}

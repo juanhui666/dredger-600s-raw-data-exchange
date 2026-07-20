@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-07-19T19:08:00+08:00",
+  "checks": {
+    "app_main_import": true,
+    "aqwa_body_loads_available_through_5400_s": true,
+    "cutter_history_available_through_5400_s": true,
+    "long_run_started": false,
+    "python_syntax_compile": true,
+    "runner_integrity_gate": true,
+    "simulate_input_model_validation": true
+  },
+  "code_commit": "1965eabd7cd38a0d441f98c1503491ff8e3465fe",
+  "code_workspace_clean": true,
+  "harness_status": {
+    "command_entries": 23,
+    "failures": 0,
+    "manifest_coverage": "43/43 (100.0%)",
+    "registry_entries": 23,
+    "warnings": 0
+  },
+  "pass": true,
+  "schema": "support-system-contact-kinematics-rac-5400s-preflight/v20",
+  "source_end_time_s": {
+    "aqwa_bridge": 5400.0,
+    "aqwa_hull": 5400.0,
+    "aqwa_spud": 5400.0,
+    "cutter": 5400.0
+  }
+}
